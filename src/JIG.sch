@@ -6869,6 +6869,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="F1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="FUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:4852859/2">
 <attribute name="DIGIKEY#" value="507-1754-2-ND"/>
+<attribute name="LCSC#" value="C12430"/>
 <attribute name="MANF" value="Bel Fuse Inc"/>
 <attribute name="MANF#" value="0ZCG0010FF2C"/>
 </part>
@@ -6946,6 +6947,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </part>
 <part name="C14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="4.7uF">
 <attribute name="DIGIKEY#" value="1276-2415-1-ND"/>
+<attribute name="LCSC#" value="C1779"/>
 </part>
 <part name="MODULE1" library="mito-pogo" library_urn="urn:adsk.eagle:library:6470471" deviceset="MITOHONDRIQUE_POGO" device="-POGO" package3d_urn="urn:adsk.eagle:package:4410646/6">
 <variant name="BASIC" populate="no"/>
@@ -7007,7 +7009,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C17673"/>
 </part>
 <part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
-<attribute name="DIGIKEY#" value="311-1.0KARCT-ND"/>
 <attribute name="LCSC#" value="C17513"/>
 </part>
 <part name="LED6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE">
@@ -7646,6 +7647,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" x="119.38" y="154.94" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="119.38" y="156.718" size="1.27" layer="95" align="center"/>
 <attribute name="PACKAGE" x="115.57" y="155.448" size="0.508" layer="95" align="center"/>
+<attribute name="LCSC#" x="119.38" y="154.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="137.16" y="134.62" smashed="yes">
 <attribute name="VALUE" x="137.16" y="132.588" size="1.016" layer="96" font="vector" ratio="15" align="center"/>

@@ -187,7 +187,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMTAxMTU3ODkyNjgx" f3durn="urn:adsk.wipprod:dm.lineage:rZvs3rPLT4yGcdPMkOqIYg" pcbguid="0c25ccca-e02c-4838-98c4-d347815c4e79" lastpulledtime="" lastsyncedchangeguid="3f82a339-f6f3-406f-272c-1b378849652b" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="f53a12a9-f817-c668-31d2-f6f756672293" lastpushedtime="2020-12-28T12:43:33Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYWE4ZDY4" projecturn="a.cGVyc29uYWw6dWUyYWE4ZDY4IzIwMTgxMTAxMTU3ODkyNjgx" f3durn="urn:adsk.wipprod:dm.lineage:rZvs3rPLT4yGcdPMkOqIYg" pcbguid="0c25ccca-e02c-4838-98c4-d347815c4e79" lastpulledtime="" lastsyncedchangeguid="3f82a339-f6f3-406f-272c-1b378849652b" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="dd2097ad-dae7-5b81-c197-8b7d43c80812" lastpushedtime="2020-12-28T14:33:54Z" linktopcb3d="false"/>
 <plain>
 <wire x1="-18" y1="29.25" x2="18" y2="29.25" width="0.01" layer="21" locked="yes"/>
 <wire x1="18" y1="29.25" x2="19.5" y2="27.75" width="0.01" layer="21" curve="-90" locked="yes"/>
@@ -10734,6 +10734,7 @@
 </element>
 <element name="F1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="F1812" package3d_urn="urn:adsk.eagle:package:4852859/2" value="FUSE-1812" x="44" y="2.65" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="507-1754-2-ND" x="44" y="-3.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="LCSC#" value="C12430" x="44" y="2.65" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Bel Fuse Inc" x="44" y="-3.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="0ZCG0010FF2C" x="44" y="-3.15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="44" y="2.65" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
@@ -10920,7 +10921,7 @@
 <element name="C14" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="4.7uF" x="-24.75" y="-9.95" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="" x="-24.75" y="-9.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="1276-2415-1-ND" x="-24.75" y="-9.95" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="" x="-24.75" y="-9.95" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C1779" x="-24.75" y="-9.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="" x="-24.75" y="-9.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="" x="-24.75" y="-9.95" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-24.75" y="-9.95" size="0.635" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
@@ -11099,7 +11100,7 @@
 </element>
 <element name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="1K" x="-27.4" y="7.3" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGIKEY#" value="311-1.0KARCT-ND" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY#" value="" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LCSC#" value="C17513" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -11231,11 +11232,8 @@
 <signal name="PWREN_IN">
 <contactref element="MODULE1" pad="21"/>
 <contactref element="CON4" pad="1"/>
-<wire x1="10" y1="-18.4" x2="8.85" y2="-17.25" width="0.3" layer="1"/>
-<wire x1="8.85" y1="-17.25" x2="6.25" y2="-17.25" width="0.3" layer="1"/>
-<wire x1="3" y1="-14" x2="6.25" y2="-17.25" width="0.3" layer="1"/>
-<wire x1="10" y1="-26.3" x2="11.7" y2="-28" width="0.3" layer="1"/>
-<wire x1="10" y1="-18.4" x2="10" y2="-26.3" width="0.3" layer="1"/>
+<wire x1="11.7" y1="-28" x2="3" y2="-19.3" width="0.3" layer="1"/>
+<wire x1="3" y1="-19.3" x2="3" y2="-14" width="0.3" layer="1"/>
 <wire x1="17.7" y1="-28" x2="18" y2="-27.7" width="0.3" layer="1"/>
 <wire x1="11.7" y1="-28" x2="17.7" y2="-28" width="0.3" layer="1"/>
 </signal>
@@ -12518,16 +12516,16 @@
 <contactref element="IC2" pad="7"/>
 <contactref element="CON12" pad="2"/>
 <contactref element="D7" pad="1"/>
-<wire x1="54.1" y1="-25.52" x2="54.015" y2="-25.435" width="0.2" layer="1"/>
-<wire x1="54.015" y1="-25.435" x2="53.78" y2="-25.2" width="0.2" layer="1"/>
+<wire x1="54.1" y1="-25.52" x2="53.78" y2="-25.2" width="0.2" layer="1"/>
 <wire x1="53.78" y1="-25.2" x2="51.6" y2="-25.2" width="0.2" layer="1"/>
-<wire x1="46.7" y1="-23.615" x2="47.515" y2="-23.615" width="0.2" layer="1"/>
+<wire x1="47.715" y1="-23.815" x2="46.9" y2="-23.815" width="0.2" layer="1"/>
+<wire x1="46.7" y1="-23.615" x2="46.9" y2="-23.815" width="0.2" layer="1"/>
 <wire x1="48.25" y1="-24.35" x2="48.25" y2="-25.05" width="0.2" layer="1"/>
 <wire x1="48.25" y1="-25.05" x2="48.75" y2="-25.55" width="0.2" layer="1"/>
 <wire x1="51.65" y1="-25.4" x2="51.5" y2="-25.55" width="0.2" layer="1"/>
 <wire x1="51.65" y1="-25.4" x2="51.6" y2="-25.2" width="0.2" layer="1"/>
 <wire x1="51.5" y1="-25.55" x2="48.75" y2="-25.55" width="0.2" layer="1"/>
-<wire x1="47.515" y1="-23.615" x2="48.25" y2="-24.35" width="0.2" layer="1"/>
+<wire x1="47.715" y1="-23.815" x2="48.25" y2="-24.35" width="0.2" layer="1"/>
 <contactref element="CON14" pad="2"/>
 <wire x1="57.09" y1="-25.625" x2="54.205" y2="-25.625" width="0.2" layer="1"/>
 <wire x1="54.205" y1="-25.625" x2="54.1" y2="-25.52" width="0.2" layer="1"/>
@@ -12789,11 +12787,12 @@
 <wire x1="54.1" y1="-7.52" x2="51.92" y2="-7.52" width="0.2" layer="1"/>
 <wire x1="51.92" y1="-7.52" x2="51.85" y2="-7.45" width="0.2" layer="1"/>
 <wire x1="51.85" y1="-7.45" x2="51.6" y2="-7.2" width="0.2" layer="1"/>
-<wire x1="46.7" y1="-5.615" x2="47.465" y2="-5.615" width="0.2" layer="1"/>
+<wire x1="46.7" y1="-5.615" x2="46.9" y2="-5.815" width="0.2" layer="1"/>
+<wire x1="47.665" y1="-5.815" x2="46.9" y2="-5.815" width="0.2" layer="1"/>
 <wire x1="48.3" y1="-6.45" x2="48.3" y2="-7" width="0.2" layer="1"/>
 <wire x1="48.3" y1="-7" x2="48.75" y2="-7.45" width="0.2" layer="1"/>
 <wire x1="48.75" y1="-7.45" x2="51.85" y2="-7.45" width="0.2" layer="1"/>
-<wire x1="47.465" y1="-5.615" x2="48.3" y2="-6.45" width="0.2" layer="1"/>
+<wire x1="47.665" y1="-5.815" x2="48.3" y2="-6.45" width="0.2" layer="1"/>
 <wire x1="54.1" y1="-7.52" x2="55.45" y2="-8.87" width="0.2" layer="1"/>
 <wire x1="55.45" y1="-8.87" x2="55.45" y2="-13.75" width="0.2" layer="1"/>
 <contactref element="CON11" pad="2"/>
