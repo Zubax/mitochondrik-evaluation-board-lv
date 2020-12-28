@@ -4717,32 +4717,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="zubax_orel_20">
-<packages>
-</packages>
-<symbols>
-<symbol name="GND">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="0" y="-1.27" size="1.27" layer="96" font="vector" ratio="15" align="center">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" prefix="GND">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rc" urn="urn:adsk.eagle:library:2539423">
 <packages>
 <package name="R0805" urn="urn:adsk.eagle:footprint:2539435/1" library_version="19" library_locally_modified="yes">
@@ -6741,7 +6715,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="IC1" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="TJA1051" device="-SO8" package3d_urn="urn:adsk.eagle:package:4771007/5"/>
 <part name="GND18" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="GND12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND12" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND22" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="C18" library="mitohondrique" library_urn="urn:adsk.eagle:library:4410638" deviceset="CPOL" device="-10X22-RA" package3d_urn="urn:adsk.eagle:package:4410644/3" value="220uF 63V">
@@ -6752,8 +6726,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="GND39" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="+P21" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="CON5" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-6P" device="-SM06B" package3d_urn="urn:adsk.eagle:package:1041174/4"/>
-<part name="GND4" library="zubax_orel_20" deviceset="GND" device=""/>
-<part name="GND3" library="zubax_orel_20" deviceset="GND" device=""/>
+<part name="GND4" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="GND3" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="Q6" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="NCE4009S" device="-SO8" package3d_urn="urn:adsk.eagle:package:6257549/2"/>
 <part name="Q5" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="NCE4009S" device="-SO8" package3d_urn="urn:adsk.eagle:package:6257549/2"/>
 <part name="PAD10" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2" package3d_urn="urn:adsk.eagle:package:4854323/2" value="PAD-HOLE_2">
@@ -6763,9 +6737,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C76247"/>
 </part>
 <part name="IC5" library="myxa_masterlib" library_urn="urn:adsk.eagle:library:1040030" deviceset="MCP9700" device="" package3d_urn="urn:adsk.eagle:package:1040193/2"/>
-<part name="GND40" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="GND38" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="GND36" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND40" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="GND38" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="GND36" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="Q4" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="NCE4009S" device="-SO8" package3d_urn="urn:adsk.eagle:package:6257549/2"/>
 <part name="Q3" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="NCE4009S" device="-SO8" package3d_urn="urn:adsk.eagle:package:6257549/2"/>
 <part name="PAD2" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2" package3d_urn="urn:adsk.eagle:package:4854323/2" value="PAD-HOLE_2">
@@ -6821,7 +6795,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="+P16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="+P19" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="GND28" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND28" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="R16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="4R3">
 <attribute name="DIGIKEY#" value="311-4.3ARTR-ND"/>
 <attribute name="LCSC#" value="C17669"/>
@@ -6872,7 +6846,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="IC2" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="TJA1051" device="-SO8" package3d_urn="urn:adsk.eagle:package:4771007/5"/>
 <part name="GND19" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
-<part name="GND13" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND13" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P12" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -6892,20 +6866,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="GND32" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
-<part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="F1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="FUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:4852859/2">
 <attribute name="DIGIKEY#" value="507-1754-2-ND"/>
 <attribute name="MANF" value="Bel Fuse Inc"/>
 <attribute name="MANF#" value="0ZCG0010FF2C"/>
 </part>
-<part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="D3" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAV99DW" device="" package3d_urn="urn:adsk.eagle:package:1040203/3"/>
-<part name="GND9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND9" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="GND29" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND29" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="4R3">
 <attribute name="LCSC#" value="C17669"/>
 <variant name="BASIC" populate="no"/>
@@ -6929,20 +6903,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="LED5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED_RGB" device="-2020" package3d_urn="urn:adsk.eagle:package:24467158/3"/>
 <part name="LED4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="GREEN">
 <attribute name="COLOR" value="GREEN"/>
-<attribute name="DIGIKEY#" value="160-1423-1-ND"/>
+<attribute name="LCSC#" value="C72043"/>
 </part>
 <part name="+P7" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="LED3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="GREEN">
 <attribute name="COLOR" value="GREEN"/>
-<attribute name="DIGIKEY#" value="160-1423-1-ND"/>
+<attribute name="LCSC#" value="C72043"/>
 </part>
 <part name="+P5" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="+P9" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE">
 <attribute name="COLOR" value="ORANGE"/>
-<attribute name="DIGIKEY#" value="160-1413-1-ND"/>
+<attribute name="LCSC#" value="C375450"/>
 </part>
-<part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R">
 <attribute name="LCSC#" value="C17540"/>
 </part>
@@ -6991,7 +6965,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE">
 <attribute name="COLOR" value="ORANGE"/>
-<attribute name="DIGIKEY#" value="160-1413-1-ND"/>
+<attribute name="LCSC#" value="C375450"/>
 </part>
 <part name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
 <attribute name="LCSC#" value="C17414"/>
@@ -7021,7 +6995,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </part>
 <part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:2640533/9"/>
 <part name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
-<attribute name="DIGIKEY#" value="311-1.0KARCT-ND"/>
 <attribute name="LCSC#" value="C17414"/>
 </part>
 <part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="SQJ459EP-T1_GE3" device="" package3d_urn="urn:adsk.eagle:package:10182380/2">
@@ -7039,9 +7012,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </part>
 <part name="LED6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE">
 <attribute name="COLOR" value="ORANGE"/>
-<attribute name="DIGIKEY#" value="160-1413-1-ND"/>
+<attribute name="LCSC#" value="C375450"/>
 </part>
-<part name="GND49" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND49" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="R30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
 <attribute name="LCSC#" value="C17513"/>
 </part>
@@ -7051,13 +7024,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C13967"/>
 </part>
 <part name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="ESDA6V1L" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
-<part name="GND14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND14" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="D6" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="ESDA6V1L" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
-<part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND15" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="D7" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SM712" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
-<part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="D8" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SM712" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
-<part name="GND17" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
+<part name="GND17" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="CON6" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15321847/2"/>
 <part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-PBS3" package3d_urn="urn:adsk.eagle:package:25449734/2" value="PINHEAD_1X03-PBS3"/>
 <part name="CON16" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-PBS3" package3d_urn="urn:adsk.eagle:package:25449734/2" value="PINHEAD_1X03-PBS3"/>
@@ -7074,9 +7047,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>
 <part name="CON11" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>
 <part name="CON14" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>
-<part name="J1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CONNECTION" device="-SMD" package3d_urn="urn:adsk.eagle:package:7439847/1"/>
+<part name="J1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="CONNECTION" device="-SMD" package3d_urn="urn:adsk.eagle:package:7439847/1">
+<variant name="BASIC" populate="no"/>
+</part>
 <part name="GND11" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
-<part name="GND20" library="zubax_orel_20" deviceset="GND" device=""/>
+<part name="GND20" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -7555,24 +7530,24 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <sheet>
 <description>Interfaces</description>
 <plain>
-<wire x1="162.56" y1="170.18" x2="162.56" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="170.18" x2="162.56" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="5.08" size="3.81" layer="97">Interfaces and connectors</text>
 <wire x1="162.56" y1="170.18" x2="254" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="254" y1="170.18" x2="254" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="162.56" y1="99.06" x2="162.56" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="162.56" y1="99.06" x2="254" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="254" y1="99.06" x2="254" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="254" y1="170.18" x2="254" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="101.6" x2="162.56" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="101.6" x2="254" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="254" y1="101.6" x2="254" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="254" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <text x="170.18" y="160.02" size="2.54" layer="97" font="vector">UAVCAN</text>
 <text x="106.68" y="165.1" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
-<wire x1="91.44" y1="170.18" x2="91.44" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="91.44" y1="132.08" x2="160.02" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="160.02" y1="132.08" x2="160.02" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="91.44" y1="170.18" x2="91.44" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="91.44" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="160.02" y1="129.54" x2="160.02" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="160.02" y1="170.18" x2="91.44" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="155.702" y1="26.67" x2="155.702" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="116.84" y1="26.67" x2="155.702" y2="26.67" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="155.702" y1="83.82" x2="116.84" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="116.84" y1="83.82" x2="116.84" y2="26.67" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="114.3" y1="26.67" x2="155.702" y2="26.67" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="155.702" y1="83.82" x2="114.3" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="114.3" y1="83.82" x2="114.3" y2="26.67" width="0.1524" layer="97" style="shortdash"/>
 <text x="116.84" y="86.36" size="2.54" layer="97" font="vector" align="center-left">INDICATION</text>
 </plain>
 <instances>
@@ -7584,7 +7559,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="VALUE" x="191.77" y="144.78" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
 <instance part="GND12" gate="1" x="167.64" y="129.54" smashed="yes">
-<attribute name="VALUE" x="167.64" y="128.27" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="167.64" y="127.508" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND22" gate="1" x="228.6" y="134.62" smashed="yes">
 <attribute name="VALUE" x="228.6" y="133.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -7596,13 +7571,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="63.5" y="54.356" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND4" gate="1" x="63.5" y="25.4" smashed="yes">
-<attribute name="VALUE" x="63.5" y="24.13" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="63.5" y="23.368" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND3" gate="1" x="55.88" y="25.4" smashed="yes">
-<attribute name="VALUE" x="55.88" y="24.13" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="55.88" y="23.368" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND28" gate="1" x="248.92" y="127" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="248.92" y="125.73" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="VALUE" x="248.92" y="124.968" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="R2" gate="G$1" x="38.1" y="48.26" smashed="yes">
 <attribute name="DIGIKEY#" x="38.1" y="48.26" size="2.54" layer="96" font="vector" display="off"/>
@@ -7622,8 +7597,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" x="34.29" y="46.228" size="0.508" layer="95" font="vector" align="center"/>
 <attribute name="TOLERANCE" x="38.354" y="43.688" size="0.762" layer="96" font="vector"/>
 </instance>
-<instance part="GND2" gate="1" x="55.88" y="134.62" smashed="yes">
-<attribute name="VALUE" x="55.88" y="133.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND2" gate="1" x="55.88" y="137.16" smashed="yes">
+<attribute name="VALUE" x="55.88" y="135.128" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="D2" gate="G$1" x="38.1" y="152.4" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.56" y="152.4" size="1.27" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
@@ -7638,24 +7613,24 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="D1" gate="G$1" x="22.86" y="119.38" smashed="yes">
 <attribute name="NAME" x="21.336" y="127" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="GND1" gate="1" x="33.02" y="111.76" smashed="yes">
-<attribute name="VALUE" x="33.02" y="110.49" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND1" gate="1" x="33.02" y="114.3" smashed="yes">
+<attribute name="VALUE" x="33.02" y="112.268" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="IC2" gate="G$1" x="200.66" y="55.88" smashed="yes">
-<attribute name="NAME" x="209.55" y="69.596" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
-<attribute name="MANF#" x="209.55" y="54.864" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<instance part="IC2" gate="G$1" x="200.66" y="60.96" smashed="yes">
+<attribute name="NAME" x="209.55" y="74.676" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="MANF#" x="209.55" y="59.944" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND19" gate="1" x="193.04" y="63.5" smashed="yes" rot="R270">
-<attribute name="VALUE" x="191.77" y="63.5" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
+<instance part="GND19" gate="1" x="193.04" y="68.58" smashed="yes" rot="R270">
+<attribute name="VALUE" x="191.77" y="68.58" size="1.27" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
 </instance>
-<instance part="GND13" gate="1" x="167.64" y="48.26" smashed="yes">
-<attribute name="VALUE" x="167.64" y="46.99" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND13" gate="1" x="167.64" y="53.34" smashed="yes">
+<attribute name="VALUE" x="167.64" y="51.308" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND24" gate="1" x="228.6" y="53.34" smashed="yes">
-<attribute name="VALUE" x="228.6" y="52.07" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND24" gate="1" x="228.6" y="58.42" smashed="yes">
+<attribute name="VALUE" x="228.6" y="57.15" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P12" gate="G$1" x="167.64" y="63.5" smashed="yes">
-<attribute name="VALUE" x="167.64" y="67.056" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P12" gate="G$1" x="167.64" y="68.58" smashed="yes">
+<attribute name="VALUE" x="167.64" y="72.136" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="217.17" y="15.24" size="2.54" layer="94"/>
@@ -7663,7 +7638,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="SHEET" x="230.505" y="5.08" size="2.54" layer="94"/>
 </instance>
 <instance part="GND7" gate="1" x="114.3" y="134.62" smashed="yes">
-<attribute name="VALUE" x="114.3" y="133.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="114.3" y="132.588" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="F1" gate="G$1" x="119.38" y="154.94" smashed="yes">
 <attribute name="DIGIKEY#" x="119.38" y="154.94" size="1.778" layer="96" display="off"/>
@@ -7673,7 +7648,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" x="115.57" y="155.448" size="0.508" layer="95" align="center"/>
 </instance>
 <instance part="GND10" gate="1" x="137.16" y="134.62" smashed="yes">
-<attribute name="VALUE" x="137.16" y="133.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="137.16" y="132.588" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="+P10" gate="G$1" x="152.4" y="142.24" smashed="yes">
 <attribute name="VALUE" x="152.4" y="145.796" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
@@ -7687,19 +7662,19 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" x="127" y="137.922" size="0.762" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="GND9" gate="1" x="119.38" y="134.62" smashed="yes">
-<attribute name="VALUE" x="119.38" y="133.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="119.38" y="132.588" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="+P8" gate="G$1" x="134.62" y="142.24" smashed="yes">
 <attribute name="VALUE" x="134.62" y="145.796" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND5" gate="1" x="96.52" y="134.62" smashed="yes">
-<attribute name="VALUE" x="96.52" y="133.35" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND5" gate="1" x="96.52" y="137.16" smashed="yes">
+<attribute name="VALUE" x="96.52" y="135.128" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="+P6" gate="G$1" x="127" y="157.48" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="127" y="161.036" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="GND29" gate="1" x="248.92" y="45.72" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="248.92" y="44.45" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="GND29" gate="1" x="248.92" y="50.8" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="248.92" y="48.768" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="R1" gate="G$1" x="22.86" y="149.86" smashed="yes" rot="R90">
 <attribute name="NAME" x="22.86" y="149.86" size="1.27" layer="95" rot="R90" align="center"/>
@@ -7716,8 +7691,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="CON9" gate="G$1" x="66.04" y="167.64" smashed="yes" rot="R180">
 <attribute name="NAME" x="63.5" y="153.67" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="CON12" gate="G$1" x="251.46" y="86.36" smashed="yes" rot="R180">
-<attribute name="NAME" x="248.92" y="72.39" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="CON12" gate="G$1" x="251.46" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="248.92" y="77.47" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="C1" gate="G$1" x="167.64" y="137.16" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" x="167.64" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
@@ -7726,12 +7701,12 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" x="168.148" y="135.128" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="167.132" y="138.176" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="167.64" y="55.88" smashed="yes" rot="R90">
-<attribute name="DIGIKEY#" x="167.64" y="55.88" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="168.529" y="57.15" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
-<attribute name="VALUE" x="167.386" y="54.61" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
-<attribute name="PACKAGE" x="168.148" y="53.848" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
-<attribute name="VOLTAGE" x="167.132" y="56.896" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<instance part="C2" gate="G$1" x="167.64" y="60.96" smashed="yes" rot="R90">
+<attribute name="DIGIKEY#" x="167.64" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="168.529" y="62.23" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
+<attribute name="VALUE" x="167.386" y="59.69" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
+<attribute name="PACKAGE" x="168.148" y="58.928" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
+<attribute name="VOLTAGE" x="167.132" y="61.976" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
 </instance>
 <instance part="LED5" gate="G$1" x="134.62" y="73.66" smashed="yes" rot="R270">
 <attribute name="NAME" x="150.876" y="68.58" size="1.27" layer="95" font="vector" ratio="15" rot="R270" align="center"/>
@@ -7761,7 +7736,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="COLOR" x="109.728" y="52.578" size="0.635" layer="96" font="vector" rot="R270" align="center"/>
 </instance>
 <instance part="GND6" gate="1" x="109.22" y="40.64" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="109.22" y="39.37" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="VALUE" x="109.22" y="38.608" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="R7" gate="G$1" x="119.38" y="149.86" smashed="yes">
 <attribute name="NAME" x="119.38" y="149.86" size="1.27" layer="95" align="center"/>
@@ -7826,7 +7801,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="COLOR" x="94.488" y="52.578" size="0.635" layer="96" font="vector" rot="R270" align="center"/>
 </instance>
 <instance part="GND49" gate="1" x="93.98" y="40.64" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="93.98" y="39.37" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="VALUE" x="93.98" y="38.608" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="R30" gate="G$1" x="93.98" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="93.98" y="60.96" size="1.27" layer="95" rot="R90" align="center"/>
@@ -7835,31 +7810,31 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="TOLERANCE" x="96.012" y="61.214" size="0.762" layer="96" rot="R90"/>
 <attribute name="DIGIKEY#" x="93.98" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="D5" gate="G$1" x="190.5" y="40.64" smashed="yes">
-<attribute name="NAME" x="185.42" y="44.45" size="1.27" layer="97" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="D5" gate="G$1" x="190.5" y="45.72" smashed="yes">
+<attribute name="NAME" x="185.42" y="49.53" size="1.27" layer="97" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="GND14" gate="1" x="190.5" y="33.02" smashed="yes">
-<attribute name="VALUE" x="190.5" y="31.75" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND14" gate="1" x="190.5" y="38.1" smashed="yes">
+<attribute name="VALUE" x="190.5" y="36.068" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="D6" gate="G$1" x="190.5" y="121.92" smashed="yes">
 <attribute name="NAME" x="185.42" y="125.73" size="1.27" layer="97" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
 <instance part="GND15" gate="1" x="190.5" y="114.3" smashed="yes">
-<attribute name="VALUE" x="190.5" y="113.03" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="190.5" y="112.268" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="D7" gate="G$1" x="241.3" y="35.56" smashed="yes" rot="MR0">
-<attribute name="NAME" x="236.22" y="49.022" size="1.27" layer="95" font="vector" rot="MR0" align="center"/>
-<attribute name="MANF#" x="235.966" y="34.544" size="1.27" layer="95" font="vector" rot="MR0" align="center-left"/>
+<instance part="D7" gate="G$1" x="241.3" y="40.64" smashed="yes" rot="MR0">
+<attribute name="NAME" x="236.22" y="54.102" size="1.27" layer="95" font="vector" rot="MR0" align="center"/>
+<attribute name="MANF#" x="235.966" y="39.624" size="1.27" layer="95" font="vector" rot="MR0" align="center-left"/>
 </instance>
-<instance part="GND16" gate="1" x="236.22" y="27.94" smashed="yes">
-<attribute name="VALUE" x="236.22" y="26.67" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND16" gate="1" x="236.22" y="33.02" smashed="yes">
+<attribute name="VALUE" x="236.22" y="30.988" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="D8" gate="G$1" x="241.3" y="116.84" smashed="yes" rot="MR0">
 <attribute name="NAME" x="236.22" y="130.302" size="1.27" layer="95" font="vector" rot="MR0" align="center"/>
 <attribute name="MANF#" x="235.966" y="115.824" size="1.27" layer="95" font="vector" rot="MR0" align="center-left"/>
 </instance>
 <instance part="GND17" gate="1" x="236.22" y="109.22" smashed="yes">
-<attribute name="VALUE" x="236.22" y="107.95" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="236.22" y="107.188" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="CON6" gate="G$1" x="68.58" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="66.04" y="57.15" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
@@ -7867,16 +7842,16 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="CON7" gate="G$1" x="220.98" y="154.94" smashed="yes" rot="MR0">
 <attribute name="NAME" x="218.44" y="166.37" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="CON16" gate="G$1" x="218.44" y="73.66" smashed="yes" rot="MR0">
-<attribute name="NAME" x="215.9" y="85.09" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON16" gate="G$1" x="218.44" y="78.74" smashed="yes" rot="MR0">
+<attribute name="NAME" x="215.9" y="90.17" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="D9" gate="G$1" x="208.28" y="162.56" smashed="yes" rot="R180">
 <attribute name="NAME" x="208.28" y="160.02" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="MANF#" x="208.28" y="165.1" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="D10" gate="G$1" x="205.74" y="81.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="205.74" y="78.74" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="MANF#" x="205.74" y="83.82" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="D10" gate="G$1" x="205.74" y="86.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="205.74" y="83.82" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="MANF#" x="205.74" y="88.9" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="CON10" gate="G$1" x="99.06" y="157.48" smashed="yes" rot="MR270">
 <attribute name="NAME" x="92.71" y="151.13" size="1.778" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
@@ -7884,15 +7859,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="CON11" gate="G$1" x="246.38" y="149.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="252.73" y="143.51" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="CON14" gate="G$1" x="246.38" y="68.58" smashed="yes" rot="R270">
-<attribute name="NAME" x="252.73" y="62.23" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="CON14" gate="G$1" x="246.38" y="73.66" smashed="yes" rot="R270">
+<attribute name="NAME" x="252.73" y="67.31" size="1.778" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
 <instance part="J1" gate="G$1" x="93.98" y="20.32" smashed="yes"/>
 <instance part="GND11" gate="G$1" x="88.9" y="15.24" smashed="yes">
 <attribute name="VALUE" x="88.9" y="13.97" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="GND20" gate="1" x="99.06" y="15.24" smashed="yes">
-<attribute name="VALUE" x="99.06" y="13.97" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<attribute name="VALUE" x="99.06" y="13.208" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -7906,7 +7881,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="167.64" y1="132.08" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="129.54" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -7916,7 +7891,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="228.6" y1="147.32" x2="228.6" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="63.5" y1="27.94" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="25.4" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="33.02" x2="63.5" y2="30.48" width="0.1524" layer="91"/>
 <junction x="63.5" y="30.48"/>
@@ -7928,7 +7903,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <segment>
 <pinref part="CON5" gate="G$1" pin="6"/>
 <wire x1="58.42" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="38.1" x2="55.88" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="38.1" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="CON6" gate="G$1" pin="6"/>
 <wire x1="60.96" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
@@ -7938,7 +7913,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="55.88" y1="139.7" x2="58.42" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="139.7" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="139.7" x2="55.88" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="CON8" gate="G$1" pin="GND"/>
 <pinref part="CON9" gate="G$1" pin="4"/>
 <wire x1="58.42" y1="157.48" x2="55.88" y2="157.48" width="0.1524" layer="91"/>
@@ -7947,45 +7922,45 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="33.02" y1="111.76" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="114.3" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="198.12" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="167.64" y1="50.8" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="53.34" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="S"/>
-<wire x1="223.52" y1="66.04" x2="228.6" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="71.12" x2="228.6" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="228.6" y1="66.04" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="71.12" x2="228.6" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <pinref part="D3" gate="D1" pin="A"/>
-<wire x1="137.16" y1="137.16" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="134.62" x2="137.16" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="139.7" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D3" gate="D2" pin="A"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<wire x1="119.38" y1="137.16" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="134.62" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="139.7" x2="121.92" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="114.3" y1="147.32" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="147.32" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="147.32" x2="101.6" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="CON10" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="248.92" y1="129.54" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="127" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="248.92" y1="132.08" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="139.7" x2="241.3" y2="139.7" width="0.1524" layer="91"/>
@@ -8001,48 +7976,48 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </segment>
 <segment>
 <pinref part="GND29" gate="1" pin="GND"/>
-<wire x1="248.92" y1="48.26" x2="248.92" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="50.8" x2="248.92" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="58.42" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="58.42" x2="241.3" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="50.8" x2="248.92" y2="50.8" width="0.1524" layer="91"/>
-<junction x="248.92" y="50.8"/>
+<wire x1="248.92" y1="50.8" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="248.92" y1="55.88" x2="248.92" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="63.5" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="63.5" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="55.88" x2="248.92" y2="55.88" width="0.1524" layer="91"/>
+<junction x="248.92" y="55.88"/>
 <pinref part="CON12" gate="G$1" pin="4"/>
-<wire x1="243.84" y1="76.2" x2="241.3" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="76.2" x2="241.3" y2="58.42" width="0.1524" layer="91"/>
-<junction x="241.3" y="58.42"/>
+<wire x1="243.84" y1="81.28" x2="241.3" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="81.28" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
+<junction x="241.3" y="63.5"/>
 <pinref part="CON14" gate="G$1" pin="4"/>
 <pinref part="CON14" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="109.22" y1="45.72" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="45.72" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND49" gate="1" pin="GND"/>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="93.98" y1="45.72" x2="93.98" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="45.72" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="190.5" y1="38.1" x2="190.5" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="43.18" x2="190.5" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="190.5" y1="116.84" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="114.3" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="D7" gate="G$1" pin="P$1"/>
-<wire x1="236.22" y1="30.48" x2="236.22" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="33.02" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <pinref part="D8" gate="G$1" pin="P$1"/>
-<wire x1="236.22" y1="111.76" x2="236.22" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="109.22" x2="236.22" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON10" gate="G$1" pin="GND"/>
@@ -8051,7 +8026,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="99.06" y1="17.78" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="15.24" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$2"/>
 <wire x1="96.52" y1="20.32" x2="99.06" y2="20.32" width="0.1524" layer="91"/>
 </segment>
@@ -8102,19 +8077,19 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="VCC"/>
-<wire x1="198.12" y1="60.96" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="60.96" x2="167.64" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="60.96" x2="167.64" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="60.96" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
-<junction x="167.64" y="60.96"/>
+<wire x1="198.12" y1="66.04" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="66.04" x2="167.64" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="66.04" x2="167.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="66.04" x2="167.64" y2="68.58" width="0.1524" layer="91"/>
+<junction x="167.64" y="66.04"/>
 <pinref part="+P12" gate="G$1" pin="VDD_5V"/>
 <pinref part="IC2" gate="G$1" pin="VIO"/>
-<wire x1="226.06" y1="50.8" x2="172.72" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="50.8" x2="172.72" y2="60.96" width="0.1524" layer="91"/>
-<junction x="172.72" y="60.96"/>
+<wire x1="226.06" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="55.88" x2="172.72" y2="66.04" width="0.1524" layer="91"/>
+<junction x="172.72" y="66.04"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="226.06" y1="50.8" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="55.88" x2="226.06" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="63.5" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+P10" gate="G$1" pin="VDD_5V"/>
@@ -8165,15 +8140,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <net name="CAN2L" class="0">
 <segment>
 <pinref part="CON12" gate="G$1" pin="3"/>
-<wire x1="243.84" y1="60.96" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="CANL"/>
-<label x="231.14" y="60.96" size="1.27" layer="95" font="vector"/>
+<label x="231.14" y="66.04" size="1.27" layer="95" font="vector"/>
 <pinref part="D7" gate="G$1" pin="C2"/>
-<wire x1="238.76" y1="60.96" x2="223.52" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="50.8" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
-<junction x="238.76" y="60.96"/>
-<wire x1="243.84" y1="78.74" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="78.74" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="55.88" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<junction x="238.76" y="66.04"/>
+<wire x1="243.84" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="83.82" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="CON14" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -8191,15 +8166,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <net name="CAN2H" class="0">
 <segment>
 <pinref part="CON12" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="68.58" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="CANH"/>
-<label x="231.14" y="63.5" size="1.27" layer="95" font="vector"/>
+<label x="231.14" y="68.58" size="1.27" layer="95" font="vector"/>
 <pinref part="D7" gate="G$1" pin="C3"/>
-<wire x1="233.68" y1="63.5" x2="243.84" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="50.8" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
-<junction x="233.68" y="63.5"/>
-<wire x1="243.84" y1="81.28" x2="233.68" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="81.28" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="68.58" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="55.88" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
+<junction x="233.68" y="68.58"/>
+<wire x1="243.84" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="86.36" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="CON14" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -8256,9 +8231,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <net name="CAN2_VDD" class="0">
 <segment>
 <pinref part="CON12" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="66.04" x2="231.14" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="66.04" x2="231.14" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="83.82" x2="243.84" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="71.12" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="88.9" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="CON14" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -8355,23 +8330,23 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <net name="CAN2_TX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="TXD"/>
-<label x="185.42" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
-<wire x1="198.12" y1="66.04" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="66.04" x2="185.42" y2="66.04" width="0.1524" layer="91"/>
+<label x="185.42" y="71.12" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="71.12" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="187.96" y1="48.26" x2="187.96" y2="66.04" width="0.1524" layer="91"/>
-<junction x="187.96" y="66.04"/>
+<wire x1="187.96" y1="53.34" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
+<junction x="187.96" y="71.12"/>
 </segment>
 </net>
 <net name="CAN2_RX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="RXD"/>
-<wire x1="198.12" y1="58.42" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<label x="185.42" y="58.42" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="198.12" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<label x="185.42" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="D5" gate="G$1" pin="C1"/>
-<wire x1="193.04" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="48.26" x2="193.04" y2="58.42" width="0.1524" layer="91"/>
-<junction x="193.04" y="58.42"/>
+<wire x1="193.04" y1="63.5" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="53.34" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<junction x="193.04" y="63.5"/>
 </segment>
 </net>
 <net name="GPIO2" class="0">
@@ -8528,8 +8503,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <net name="CAN_VDD" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
-<wire x1="203.2" y1="81.28" x2="200.66" y2="81.28" width="0.1524" layer="91"/>
-<label x="200.66" y="81.28" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="203.2" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
+<label x="200.66" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D9" gate="G$1" pin="C"/>
@@ -8548,7 +8523,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <segment>
 <pinref part="CON16" gate="G$1" pin="3"/>
 <pinref part="D10" gate="G$1" pin="A"/>
-<wire x1="210.82" y1="81.28" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PGND" class="0">
@@ -8624,13 +8599,13 @@ which then turns on Q11 allowing VDC to power the device</text>
 <attribute name="MANF#" x="168.91" y="141.986" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="GND40" gate="1" x="160.02" y="134.62" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="160.02" y="133.35" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="VALUE" x="160.02" y="132.588" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="GND38" gate="1" x="154.94" y="134.62" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="154.94" y="133.35" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="VALUE" x="154.94" y="132.588" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="GND36" gate="1" x="149.86" y="134.62" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="149.86" y="133.35" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<attribute name="VALUE" x="149.86" y="132.588" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="Q4" gate="G$1" x="50.8" y="121.92" smashed="yes">
 <attribute name="NAME" x="50.8" y="125.73" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center-left"/>
@@ -8961,16 +8936,16 @@ which then turns on Q11 allowing VDC to power the device</text>
 <pinref part="IC5" gate="G$1" pin="GND"/>
 <wire x1="162.56" y1="144.78" x2="160.02" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="GND40" gate="1" pin="GND"/>
-<wire x1="160.02" y1="144.78" x2="160.02" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="144.78" x2="160.02" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND38" gate="1" pin="GND"/>
-<wire x1="154.94" y1="137.16" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="134.62" x2="154.94" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="GND36" gate="1" pin="GND"/>
-<wire x1="149.86" y1="137.16" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="134.62" x2="149.86" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 </segment>
 </net>
