@@ -7073,6 +7073,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
 <part name="R35" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
 <part name="SJ2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
+<part name="D11" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="PRTR5V0U2X" device="" package3d_urn="urn:adsk.eagle:package:3333649/6"/>
+<part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7938,6 +7941,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="SJ2" gate="G$1" x="210.82" y="83.82" smashed="yes">
 <attribute name="NAME" x="210.82" y="83.82" size="1.524" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="D11" gate="G$1" x="91.44" y="104.14" smashed="yes">
+<attribute name="NAME" x="89.916" y="111.76" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+</instance>
+<instance part="GND21" gate="1" x="101.6" y="99.06" smashed="yes">
+<attribute name="VALUE" x="101.6" y="97.028" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="+P3" gate="G$1" x="106.68" y="124.46" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="106.68" y="128.016" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8108,6 +8120,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <junction x="68.58" y="88.9"/>
 <pinref part="C5" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="GND21" gate="1" pin="GND"/>
+<pinref part="D11" gate="G$1" pin="C"/>
+<wire x1="101.6" y1="99.06" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN1_TX" class="0">
 <segment>
@@ -8220,6 +8237,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pinref part="+P25" gate="G$1" pin="VDD_5V"/>
 <wire x1="48.26" y1="109.22" x2="48.26" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R34" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="D11" gate="G$1" pin="A"/>
+<pinref part="+P3" gate="G$1" pin="VDD_5V"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BEC_ENABLE_OUT" class="0">

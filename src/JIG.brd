@@ -11240,6 +11240,13 @@
 <element name="SJ2" library="misc" library_urn="urn:adsk.eagle:library:5347860" package="RES_0" package3d_urn="urn:adsk.eagle:package:20998874/1" value="" x="50" y="-27.5" smashed="yes">
 <attribute name="NAME" x="50" y="-26" size="1" layer="25" font="vector" ratio="15" align="center"/>
 </element>
+<element name="D11" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" package="SOT143B" package3d_urn="urn:adsk.eagle:package:3333649/6" value="PRTR5V0U2X" x="-1.7" y="22.1" smashed="yes" rot="R270">
+<attribute name="DIGIKEY#" value="568-4140-2-ND" x="-1.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C12333" x="-1.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="NXP USA Inc" x="-1.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="PRTR5V0U2X,215" x="-1.7" y="22.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-1.7" y="22.1" size="0.7" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="PWREN_IN">
@@ -11466,6 +11473,7 @@
 <contactref element="C5" pad="1"/>
 <via x="29.975" y="18.6" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="27.475" y="18.8" extent="1-16" drill="0.3" diameter="0.6"/>
+<contactref element="D11" pad="1"/>
 </signal>
 <signal name="VDC" class="1">
 <contactref element="C18" pad="+"/>
@@ -12134,13 +12142,11 @@
 <wire x1="41.725" y1="-21" x2="41.725" y2="-19" width="0.4" layer="1"/>
 <wire x1="42.6" y1="-17.925" x2="41.725" y2="-18.8" width="0.4" layer="1"/>
 <wire x1="41.725" y1="-19" x2="41.725" y2="-18.8" width="0.4" layer="1"/>
-<wire x1="20.65" y1="29.25" x2="27.05" y2="22.85" width="0.5" layer="1"/>
+<wire x1="27.05" y1="22.85" x2="20.65" y2="29.25" width="0.5" layer="1"/>
 <wire x1="-16.54" y1="6.76" x2="-16.54" y2="21.16" width="0.3" layer="16"/>
 <wire x1="51.7" y1="21.9" x2="51.3" y2="21.9" width="0.5" layer="1"/>
 <wire x1="54.2" y1="19.4" x2="60.1" y2="19.4" width="0.5" layer="1"/>
 <wire x1="54.2" y1="19.4" x2="51.7" y2="21.9" width="0.5" layer="1"/>
-<wire x1="7.5201" y1="29.25" x2="-2.03284375" y2="19.69705625" width="0.5" layer="1"/>
-<wire x1="20.65" y1="29.25" x2="7.5201" y2="29.25" width="0.5" layer="1"/>
 <wire x1="40.2" y1="0.4" x2="39" y2="1.6" width="0.4" layer="1"/>
 <wire x1="39" y1="1.6" x2="39" y2="2.65" width="0.4" layer="1"/>
 <wire x1="39" y1="2.65" x2="38.3" y2="3.35" width="0.5" layer="1"/>
@@ -12189,6 +12195,12 @@
 <wire x1="49.5" y1="21.9" x2="47" y2="19.4" width="0.5" layer="1"/>
 <wire x1="47" y1="19.4" x2="38.3" y2="19.4" width="0.5" layer="1"/>
 <wire x1="38.3" y1="3.35" x2="38.3" y2="19.4" width="0.5" layer="1"/>
+<contactref element="D11" pad="4"/>
+<wire x1="7.4" y1="29.25" x2="-0.7" y2="21.15" width="0.5" layer="1"/>
+<wire x1="20.65" y1="29.25" x2="7.4" y2="29.25" width="0.5" layer="1"/>
+<wire x1="-0.7" y1="21.15" x2="-0.7" y2="21.1299" width="0.5" layer="1"/>
+<wire x1="-0.7" y1="21.1299" x2="-2.03284375" y2="19.79705625" width="0.5" layer="1"/>
+<wire x1="-2.03284375" y1="19.79705625" x2="-2.03284375" y2="19.69705625" width="0.5" layer="1"/>
 </signal>
 <signal name="CAN1_LED">
 <contactref element="R9" pad="1"/>
