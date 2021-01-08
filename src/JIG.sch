@@ -6611,6 +6611,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <rectangle x1="-1.35" y1="-1.5" x2="-0.55" y2="-0.7" layer="21"/>
 <rectangle x1="0.55" y1="-1.5" x2="1.35" y2="-0.7" layer="21"/>
 </package>
+<package name="RES_0" urn="urn:adsk.eagle:footprint:20998873/1" library_version="159">
+<smd name="1" x="-0.85" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.5" dy="1.5" layer="1"/>
+<text x="0" y="1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-1.75" y1="0.9" x2="1.75" y2="0.9" width="0.1" layer="21"/>
+<wire x1="1.75" y1="0.9" x2="1.75" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-0.9" x2="-1.75" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-0.9" x2="-1.75" y2="0.9" width="0.1" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CONNECTION" urn="urn:adsk.eagle:package:7439847/1" type="box" library_version="159">
@@ -6634,6 +6643,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="SOT23B-3"/>
 </packageinstances>
 </package3d>
+<package3d name="RES_0" urn="urn:adsk.eagle:package:20998874/1" type="box" library_version="159">
+<packageinstances>
+<packageinstance name="RES_0"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CONNECTION" urn="urn:adsk.eagle:symbol:7439846/1" library_version="159">
@@ -6650,6 +6664,16 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
 <text x="5.08" y="16.51" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="5.08" y="-1.27" size="1.27" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
+</symbol>
+<symbol name="RES_0" urn="urn:adsk.eagle:symbol:20998872/1" library_version="159">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.524" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0.254" y="-1.524" size="0.508" layer="97" font="vector" ratio="15" align="center">solder joint</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6721,6 +6745,25 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="11LC040T-E/TT" constant="no"/>
 <attribute name="OPERATING_TEMP" value="-40°C ~ 125°C (TA)" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER_JOINT" urn="urn:adsk.eagle:component:20998875/2" prefix="SJ" uservalue="yes" library_version="159">
+<gates>
+<gate name="G$1" symbol="RES_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RES_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20998874/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6930,8 +6973,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C375450"/>
 </part>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R"/>
-<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R"/>
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
+<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
 <part name="R21" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R"/>
 <part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
 <part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
@@ -7026,6 +7069,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="+P25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF"/>
 <part name="R34" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K5"/>
+<part name="R33" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
+<part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
+<part name="R35" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
+<part name="SJ2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -7504,15 +7551,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <sheet>
 <description>Interfaces</description>
 <plain>
-<wire x1="162.56" y1="170.18" x2="162.56" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="172.72" x2="162.56" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
 <text x="5.08" y="5.08" size="3.81" layer="97">Interfaces and connectors</text>
-<wire x1="162.56" y1="170.18" x2="254" y2="170.18" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="254" y1="170.18" x2="254" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="162.56" y1="172.72" x2="254" y2="172.72" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="254" y1="172.72" x2="254" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="101.6" x2="162.56" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="101.6" x2="254" y2="101.6" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="254" y1="101.6" x2="254" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="254" y1="25.4" x2="162.56" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
-<text x="170.18" y="160.02" size="2.54" layer="97" font="vector">UAVCAN</text>
+<text x="165.1" y="104.14" size="2.54" layer="97" font="vector">UAVCAN</text>
 <text x="106.68" y="165.1" size="2.54" layer="97" font="vector" ratio="15" align="center">AUX</text>
 <wire x1="91.44" y1="170.18" x2="91.44" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="91.44" y1="129.54" x2="160.02" y2="129.54" width="0.1524" layer="97" style="shortdash"/>
@@ -7814,19 +7861,19 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="CON6" gate="G$1" x="68.58" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="66.04" y="57.15" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="CON7" gate="G$1" x="220.98" y="154.94" smashed="yes" rot="MR0">
-<attribute name="NAME" x="218.44" y="166.37" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON7" gate="G$1" x="195.58" y="154.94" smashed="yes" rot="MR0">
+<attribute name="NAME" x="193.04" y="166.37" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="CON16" gate="G$1" x="218.44" y="78.74" smashed="yes" rot="MR0">
-<attribute name="NAME" x="215.9" y="90.17" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON16" gate="G$1" x="195.58" y="86.36" smashed="yes" rot="MR0">
+<attribute name="NAME" x="193.04" y="97.79" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="D9" gate="G$1" x="208.28" y="162.56" smashed="yes" rot="R180">
-<attribute name="NAME" x="208.28" y="160.02" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="MANF#" x="208.28" y="165.1" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="D9" gate="G$1" x="182.88" y="162.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="182.88" y="160.02" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="MANF#" x="182.88" y="165.1" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
-<instance part="D10" gate="G$1" x="205.74" y="86.36" smashed="yes" rot="R180">
-<attribute name="NAME" x="205.74" y="83.82" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
-<attribute name="MANF#" x="205.74" y="88.9" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<instance part="D10" gate="G$1" x="182.88" y="93.98" smashed="yes" rot="R180">
+<attribute name="NAME" x="182.88" y="91.44" size="1.27" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="MANF#" x="182.88" y="96.52" size="1.016" layer="95" font="vector" ratio="15" rot="R180" align="center"/>
 </instance>
 <instance part="CON10" gate="G$1" x="99.06" y="157.48" smashed="yes" rot="MR270">
 <attribute name="NAME" x="92.71" y="151.13" size="1.778" layer="95" font="vector" ratio="15" rot="MR90" align="center"/>
@@ -7870,6 +7917,26 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" x="47.752" y="97.79" size="0.508" layer="95" rot="R90" align="center"/>
 <attribute name="TOLERANCE" x="50.292" y="101.854" size="0.762" layer="96" rot="R90"/>
 <attribute name="DIGIKEY#" x="48.26" y="101.6" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R33" gate="G$1" x="223.52" y="160.02" smashed="yes">
+<attribute name="NAME" x="223.52" y="160.02" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="223.266" y="157.988" size="0.762" layer="96" align="bottom-right"/>
+<attribute name="PACKAGE" x="219.71" y="160.528" size="0.508" layer="95" align="center"/>
+<attribute name="TOLERANCE" x="223.774" y="157.988" size="0.762" layer="96"/>
+<attribute name="DIGIKEY#" x="223.52" y="160.02" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ1" gate="G$1" x="210.82" y="160.02" smashed="yes">
+<attribute name="NAME" x="210.82" y="160.02" size="1.524" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R35" gate="G$1" x="223.52" y="83.82" smashed="yes">
+<attribute name="NAME" x="223.52" y="83.82" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="223.266" y="81.788" size="0.762" layer="96" align="bottom-right"/>
+<attribute name="PACKAGE" x="219.71" y="84.328" size="0.508" layer="95" align="center"/>
+<attribute name="TOLERANCE" x="223.774" y="81.788" size="0.762" layer="96"/>
+<attribute name="DIGIKEY#" x="223.52" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SJ2" gate="G$1" x="210.82" y="83.82" smashed="yes">
+<attribute name="NAME" x="210.82" y="83.82" size="1.524" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -8162,21 +8229,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pinref part="R30" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="CAN2L" class="0">
-<segment>
-<pinref part="CON12" gate="G$1" pin="3"/>
-<wire x1="243.84" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="CANL"/>
-<label x="231.14" y="66.04" size="1.27" layer="95" font="vector"/>
-<pinref part="D7" gate="G$1" pin="C2"/>
-<wire x1="238.76" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="55.88" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-<junction x="238.76" y="66.04"/>
-<wire x1="243.84" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="83.82" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="CON14" gate="G$1" pin="3"/>
-</segment>
-</net>
 <net name="GPIO1" class="0">
 <segment>
 <wire x1="124.46" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
@@ -8201,6 +8253,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="243.84" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="86.36" x2="233.68" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="CON14" gate="G$1" pin="2"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="83.82" x2="203.2" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="86.36" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
+<junction x="233.68" y="86.36"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
@@ -8326,6 +8383,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="243.84" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="162.56" x2="233.68" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="CON11" gate="G$1" pin="2"/>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="160.02" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
+<junction x="233.68" y="162.56"/>
 </segment>
 </net>
 <net name="CAN1_VDD" class="0">
@@ -8350,6 +8412,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="243.84" y1="160.02" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="160.02" x2="238.76" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="CON11" gate="G$1" pin="3"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="160.02" x2="238.76" y2="160.02" width="0.1524" layer="91"/>
+<junction x="238.76" y="160.02"/>
 </segment>
 </net>
 <net name="CAN2_TX" class="0">
@@ -8537,27 +8602,27 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <net name="CAN_VDD" class="0">
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
-<wire x1="203.2" y1="86.36" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
-<label x="200.66" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
+<label x="177.8" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="D9" gate="G$1" pin="C"/>
-<wire x1="205.74" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
-<label x="203.2" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
+<label x="177.8" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="D9" gate="G$1" pin="A"/>
 <pinref part="CON7" gate="G$1" pin="3"/>
-<wire x1="210.82" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="162.56" x2="187.96" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="CON16" gate="G$1" pin="3"/>
 <pinref part="D10" gate="G$1" pin="A"/>
-<wire x1="210.82" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="93.98" x2="185.42" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PGND" class="0">
@@ -8566,6 +8631,38 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="88.9" y1="17.78" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="P$1"/>
 <wire x1="88.9" y1="20.32" x2="91.44" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R33" gate="G$1" pin="1"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="R35" gate="G$1" pin="1"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="83.82" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CAN2L" class="0">
+<segment>
+<pinref part="CON12" gate="G$1" pin="3"/>
+<wire x1="243.84" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="CANL"/>
+<label x="231.14" y="66.04" size="1.27" layer="95" font="vector"/>
+<pinref part="D7" gate="G$1" pin="C2"/>
+<wire x1="238.76" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="55.88" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<junction x="238.76" y="66.04"/>
+<wire x1="243.84" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="83.82" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="CON14" gate="G$1" pin="3"/>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="228.6" y1="83.82" x2="238.76" y2="83.82" width="0.1524" layer="91"/>
+<junction x="238.76" y="83.82"/>
 </segment>
 </net>
 </nets>
