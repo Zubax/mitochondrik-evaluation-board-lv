@@ -1,44 +1,41 @@
-# Требования для устройства MyDuck-LV
+# Requirements for MyDuck-LV
 
-## Назначение
+## Device purpose
 
-MyDuck-LV предназначен для производственного тестирования модулей Mitochondrik LV и должен представлять собой удобную оснастку,
-позволяющую прошить модуль и протестировать всего функции.
-Также должна быть предусмотрена возможность использовать MyDuck-LV в качестве оценочной платы для Mitochondrik LV. 
-MyDuck-LV с установленным в него модулем Mitochondrik LV представляет собой полноценный контроллер бесколлекторных моторов. 
+MyDuck-LV is a device designed for the production of Mitochondrik LV module.
+It can be considered as a specialized jig, that allows easy flashing and excessive testing of all functions of Mitochondrik LV module.
+A possibility to use MyDuck-LV as an evaluation board for Mitochondrik LV should also be considered. MyDuck-LV combined with Mitochondrik LV   makes for a complete BLDC motor controller.
 
-## Технические требования
+## Technical requirements
 
-* Возможность прошивки Mitochondrik LV.
-* Возможность установки Mitochondrik LV без пайки и без установки каких либо дополнительных компонентов на сам модуль.
-* Возможность протестировать все функции модуля Mitochondrik LV.
-* Возможность установки на MyDuck-LV устройства Babel-Babel без использования промежуточной платы.
-* Механическая защита от некорректной установки модуля Mitochondrik LV.
-* Наличие электронной схемы управления питанием силовой части (вход этой схемы подключается к сигналу PA4 Babel-Babel).
-* Легкий доступ ко всем электрическим сигналам Mitochondrik LV при использовании устройства в качестве оценочной платы.
+* Mitochondrik LV flashing capability.
+* Mitochondrik LV mounting should be possible without adding any components to the module in any way.
+* Capability to test all the functions of Mitochondrik LV.  
+* The mechanical key, that prevents installing Mitochondrik LV incorrectly
+* The electronic key that prevents powering the device if  Mitochondrik LV is not installed or installed incorrectly. 
+* The ease of access to all the Mitochondrik LV external signals when the device is used as an evaluation board.
 
-## Требования к силовой части
+## Power stage requirements
 
-* Диапазон напряжения звена постоянного тока -- 13 -- 33.6 В (4 --8S).
-* Максимальный продолжительный/пиковый ток ЗПТ -- не менее 5/8 А.
-* Ремонтопригодность.
-* Обеспечение закрытого состояния всех силовых ключей при не установленном или не прошитом модуле Mitochondrik LV.
-* Возможность простой установки радиатора охлаждения. 
+* Supply voltage range -- 13 -- 33.6 V.
+* Max continuous current/peak current -- 5/8 A.
+* Repairability.
+* Some means for easy heat sink mounting should be considered.
 
-## Требования к логической части
+## Logic part requirements
 
-* Ремонтопригодность.
-* Микросхемы CAN интерфейса должны быть защищены TVS диодами (как со стороны физического интерфейса, так и с другой стороны).
-* Наличие TVS диода на линии питания 5 вольт.
+* Repairability.
+* CAN interface ICs should be protected with TVS diodes.
+* 5V supply line should be protected with TVS diode.
 
-## Конструктивные требования при использовании устройства в качестве производственной оснастки
+## Design requirements for using the device as a production jig
 
-В связи с низкой надежность подпружиненных контактов Mitochondrik LV должен устанавливаться на отдельную плату-адаптер с контактами, которая затем устанавливается на основную плату MyDuck-LV. Это позволит избежать замены самой платы в случае выхода из строя одного контакта, ограничившись заменой только платы-адаптера. Плата-адаптер (и детали, закрепленные на ней) также должна обеспечивать надежное, быстрое и повторяемое позиционирование и фиксацию модуля в корректном положении. Также следует предусмотреть способ корректного монтажа подпружиненных контактов с соблюдением строгой перпендикулярности контакта поверхности платы а также высоты контакта.
+Due to the low reliability of pogo pins, Mitochondrik LV should be installed on a separate adapter PCB which in turn should be installed on the main MyDuck-LV PCB. This allows for replacement of only the adapter PCB in case of a single pogo pin failure. The adapter PCB (and all the parts fastened to it) should allow for easy, reliable and repeatable positioning and fixing Mitochondrik LV in place. Also, some means of correct pogo pins mounting (perpendicularity to the PCB surface and correct height above PCB surface are critical) should be introduced.
 
-## Условия эксплуатации
+## Environmental conditions
 
-* Применение внутри помещений.
-* Температурный диапазон окружающей среды -- 0...+40С.
-* Влажность -- до 100%.
+* Indoor use
+* Operating temperature range -- 0...+40С.
+* Humidity -- up to 100%
 
-Допускается использование не AEC-Q grade компонентов и отступление от политики разработки изделий.
+Using non-AEC-Q grade components as well as deviations from the hardware development policies is allowed.
