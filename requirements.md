@@ -17,8 +17,8 @@ A possibility to use MyDuck-LV as an evaluation board for Mitochondrik LV should
 
 ## Power stage requirements
 
-* Supply voltage range -- 13 -- 33.6 V.
-* Max continuous current/peak current -- 5/8 A.
+* Supply voltage range - 13 - 33.6 V.
+* Max continuous current/peak current - 5/8 A.
 * Repairability.
 * Some means for easy heat sink mounting should be considered.
 
@@ -35,7 +35,7 @@ Due to the low reliability of pogo pins, Mitochondrik LV should be installed on 
 ## Environmental conditions
 
 * Indoor use
-* Operating temperature range -- 0...+40С.
-* Humidity -- up to 100%
+* Operating temperature range - 0...+40С.
+* Humidity - up to 100%
 
 Using non-AEC-Q grade components as well as deviations from the hardware development policies is allowed.
