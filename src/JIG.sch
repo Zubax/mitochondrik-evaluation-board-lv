@@ -305,36 +305,7 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 </package>
-<package name="1X11-PTH-2.54-FEMALE" urn="urn:adsk.eagle:footprint:6470391/3" library_version="18">
-<pad name="1" x="-12.7" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="2" x="-10.16" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="3" x="-7.62" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="4" x="-5.08" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="5" x="-2.54" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="6" x="0" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="7" x="2.54" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="8" x="5.08" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="9" x="7.62" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="10" x="10.16" y="0" drill="1" diameter="1.7" rot="R90"/>
-<pad name="11" x="12.7" y="0" drill="1" diameter="1.7" rot="R90"/>
-<text x="0" y="2.54" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51"/>
-<rectangle x1="-10.414" y1="-0.254" x2="-9.906" y2="0.254" layer="51"/>
-<rectangle x1="-12.954" y1="-0.254" x2="-12.446" y2="0.254" layer="51"/>
-<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
-<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
-<wire x1="-13.97" y1="1.27" x2="-13.97" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-13.97" y1="-1.27" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="13.97" y1="-1.27" x2="13.97" y2="1.27" width="0.127" layer="21"/>
-<wire x1="13.97" y1="1.27" x2="-13.97" y2="1.27" width="0.127" layer="21"/>
-</package>
-<package name="1X11-PTH-2.54" urn="urn:adsk.eagle:footprint:6470392/2" library_version="5">
+<package name="1X11-PTH-2.54" urn="urn:adsk.eagle:footprint:6470392/3" library_version="105">
 <wire x1="-8.89" y1="0.635" x2="-8.255" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-8.255" y1="1.27" x2="-6.985" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-6.985" y1="-1.27" x2="-8.255" y2="-1.27" width="0.2032" layer="21"/>
@@ -403,17 +374,17 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="13.335" y1="-1.27" x2="12.065" y2="-1.27" width="0.2032" layer="21"/>
 <wire x1="12.065" y1="-1.27" x2="11.43" y2="-0.635" width="0.2032" layer="21"/>
 <wire x1="13.97" y1="0.635" x2="13.97" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="-12.7" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="2" x="-10.16" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="3" x="-7.62" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="4" x="-5.08" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="5" x="-2.54" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="6" x="0" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="7" x="2.54" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="8" x="5.08" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="9" x="7.62" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="10" x="10.16" y="0" drill="1" diameter="1.8796" rot="R90"/>
-<pad name="11" x="12.7" y="0" drill="1" diameter="1.8796" rot="R90"/>
+<pad name="1" x="-12.7" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="2" x="-10.16" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="3" x="-7.62" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="4" x="-5.08" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="5" x="-2.54" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="6" x="0" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="7" x="2.54" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="8" x="5.08" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="9" x="7.62" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="10" x="10.16" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="11" x="12.7" y="0" drill="1.016" diameter="1.7" rot="R90"/>
 <text x="0" y="2.54" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51"/>
 <rectangle x1="-10.414" y1="-0.254" x2="-9.906" y2="0.254" layer="51"/>
@@ -811,6 +782,128 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-4.064" y1="-0.254" x2="-3.556" y2="0.254" layer="51"/>
 <rectangle x1="3.556" y1="-0.254" x2="4.064" y2="0.254" layer="51"/>
 </package>
+<package name="1X02-PTH-2.54" urn="urn:adsk.eagle:footprint:2540357/1" library_version="104">
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.7" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" diameter="1.7" rot="R90"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="37"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="37"/>
+</package>
+<package name="1X02-PTH-2" urn="urn:adsk.eagle:footprint:6503390/2" library_version="104">
+<pad name="1" x="-1" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="1" y="0" drill="0.8" diameter="1.4"/>
+<wire x1="-1.5" y1="1" x2="-0.5" y2="1" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="1" x2="0" y2="0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="-0.5" x2="-0.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-1" x2="-1.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-1" x2="-2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-0.5" x2="-2" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="0.5" x2="-1.5" y2="1" width="0.15" layer="21"/>
+<wire x1="0.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21"/>
+<wire x1="1.5" y1="1" x2="2" y2="0.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-0.5" x2="1.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-1" x2="0.5" y2="-1" width="0.15" layer="21"/>
+<wire x1="0.5" y1="-1" x2="0" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="0" y1="0.5" x2="0.5" y2="1" width="0.15" layer="21"/>
+<wire x1="2" y1="-0.5" x2="2" y2="0.5" width="0.15" layer="21"/>
+<text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1X02-PTH-2-FEMALE" urn="urn:adsk.eagle:footprint:6503391/1" library_version="104">
+<pad name="1" x="-1" y="0" drill="0.8" diameter="1.4"/>
+<pad name="2" x="1" y="0" drill="0.8" diameter="1.4"/>
+<wire x1="-0.5" y1="-1" x2="-2" y2="-1" width="0.15" layer="25"/>
+<wire x1="-2" y1="-1" x2="-2" y2="0.5" width="0.15" layer="25"/>
+<wire x1="-2" y1="0.5" x2="-2" y2="1" width="0.15" layer="21"/>
+<wire x1="-2" y1="1" x2="2" y2="1" width="0.15" layer="21"/>
+<wire x1="2" y1="1" x2="2" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-0.5" x2="2" y2="-1" width="0.15" layer="21"/>
+<wire x1="2" y1="-1" x2="-0.5" y2="-1" width="0.15" layer="21"/>
+<text x="0" y="1.6" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1X02-PTH-2.54-RA" urn="urn:adsk.eagle:footprint:20405372/2" library_version="104">
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="6.52" x2="0" y2="6.52" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="4.02" x2="0" y2="4.02" width="0.1" layer="51"/>
+<wire x1="-2.54" y1="6.52" x2="-2.54" y2="4.02" width="0.1" layer="51"/>
+<wire x1="0" y1="4.02" x2="0" y2="6.52" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="6.52" x2="-0.95" y2="12.2" width="0.1" layer="51"/>
+<wire x1="-1.59" y1="12.2" x2="-1.59" y2="6.52" width="0.1" layer="51"/>
+<wire x1="-1.59" y1="6.52" x2="-0.95" y2="6.52" width="0.1" layer="51"/>
+<wire x1="-1.43" y1="12.36" x2="-1.59" y2="12.2" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="12.2" x2="-1.11" y2="12.36" width="0.1" layer="51"/>
+<wire x1="-1.11" y1="12.36" x2="-1.43" y2="12.36" width="0.1" layer="51"/>
+<wire x1="0" y1="6.52" x2="2.54" y2="6.52" width="0.1" layer="51"/>
+<wire x1="0" y1="4.02" x2="2.54" y2="4.02" width="0.1" layer="51"/>
+<wire x1="0" y1="6.52" x2="0" y2="4.02" width="0.1" layer="51"/>
+<wire x1="2.54" y1="4.02" x2="2.54" y2="6.52" width="0.1" layer="51"/>
+<wire x1="1.59" y1="6.52" x2="1.59" y2="12.2" width="0.1" layer="51"/>
+<wire x1="0.95" y1="12.2" x2="0.95" y2="6.52" width="0.1" layer="51"/>
+<wire x1="0.95" y1="6.52" x2="1.59" y2="6.52" width="0.1" layer="51"/>
+<wire x1="1.11" y1="12.36" x2="0.95" y2="12.2" width="0.1" layer="51"/>
+<wire x1="1.59" y1="12.2" x2="1.43" y2="12.36" width="0.1" layer="51"/>
+<wire x1="1.43" y1="12.36" x2="1.11" y2="12.36" width="0.1" layer="51"/>
+<pad name="1" x="-1.27" y="0" drill="1" diameter="1.7" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1" diameter="1.7" rot="R90"/>
+<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="37"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="37"/>
+</package>
+<package name="1X11-PTH-2.54-FEMALE" urn="urn:adsk.eagle:footprint:6470391/4" library_version="105">
+<pad name="1" x="-12.7" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="2" x="-10.16" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="3" x="-7.62" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="4" x="-5.08" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="5" x="-2.54" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="6" x="0" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="7" x="2.54" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="8" x="5.08" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="9" x="7.62" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="10" x="10.16" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<pad name="11" x="12.7" y="0" drill="1.016" diameter="1.7" rot="R90"/>
+<text x="0" y="2.54" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-7.874" y1="-0.254" x2="-7.366" y2="0.254" layer="51"/>
+<rectangle x1="-10.414" y1="-0.254" x2="-9.906" y2="0.254" layer="51"/>
+<rectangle x1="-12.954" y1="-0.254" x2="-12.446" y2="0.254" layer="51"/>
+<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
+<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<rectangle x1="7.366" y1="-0.254" x2="7.874" y2="0.254" layer="51"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
+<rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
+<wire x1="-13.97" y1="1.27" x2="-13.97" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-13.97" y1="-1.27" x2="13.97" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="13.97" y1="-1.27" x2="13.97" y2="1.27" width="0.127" layer="21"/>
+<wire x1="13.97" y1="1.27" x2="-13.97" y2="1.27" width="0.127" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X04-PTH-2.54" urn="urn:adsk.eagle:package:2540383/2" type="model" library_version="3" library_locally_modified="yes">
@@ -818,12 +911,7 @@ DIN A4, landscape with location and doc. field</description>
 <packageinstance name="1X04-PTH-2.54"/>
 </packageinstances>
 </package3d>
-<package3d name="1X11-PTH-2.54-FEMALE" urn="urn:adsk.eagle:package:6470393/4" type="model" library_version="18">
-<packageinstances>
-<packageinstance name="1X11-PTH-2.54-FEMALE"/>
-</packageinstances>
-</package3d>
-<package3d name="1X11-PTH-2.54" urn="urn:adsk.eagle:package:6470394/3" type="model" library_version="5">
+<package3d name="1X11-PTH-2.54" urn="urn:adsk.eagle:package:6470394/4" type="model" library_version="105">
 <packageinstances>
 <packageinstance name="1X11-PTH-2.54"/>
 </packageinstances>
@@ -902,6 +990,31 @@ DIN A4, landscape with location and doc. field</description>
 <package3d name="PBS4" urn="urn:adsk.eagle:package:25449733/2" type="model" library_version="104">
 <packageinstances>
 <packageinstance name="PBS4"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02-PTH-2.54" urn="urn:adsk.eagle:package:2540385/2" type="model" library_version="104">
+<packageinstances>
+<packageinstance name="1X02-PTH-2.54"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02-PTH-2" urn="urn:adsk.eagle:package:6503394/4" type="model" library_version="104">
+<packageinstances>
+<packageinstance name="1X02-PTH-2"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02-PTH-2-FEMALE" urn="urn:adsk.eagle:package:6503395/3" type="model" library_version="104">
+<packageinstances>
+<packageinstance name="1X02-PTH-2-FEMALE"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02-PTH-2.54-RA" urn="urn:adsk.eagle:package:20405374/3" type="model" library_version="104">
+<packageinstances>
+<packageinstance name="1X02-PTH-2.54-RA"/>
+</packageinstances>
+</package3d>
+<package3d name="1X11-PTH-2.54-FEMALE" urn="urn:adsk.eagle:package:6470393/5" type="model" library_version="105">
+<packageinstances>
+<packageinstance name="1X11-PTH-2.54-FEMALE"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -987,6 +1100,17 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="1" x="7.62" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="2" x="7.62" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="3" x="7.62" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="M02" urn="urn:adsk.eagle:symbol:2540349/1" library_version="104">
+<wire x1="6.35" y1="0" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.81" y1="5.08" x2="5.08" y2="5.08" width="0.6096" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.4064" layer="94"/>
+<wire x1="6.35" y1="0" x2="6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="0" y1="7.62" x2="6.35" y2="7.62" width="0.4064" layer="94"/>
+<text x="2.54" y="8.89" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<pin name="1" x="7.62" y="2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="7.62" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1081,7 +1205,7 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHEAD_1X11" urn="urn:adsk.eagle:component:6470395/3" prefix="CON" library_version="18">
+<deviceset name="PINHEAD_1X11" urn="urn:adsk.eagle:component:6470395/4" prefix="CON" library_version="105">
 <gates>
 <gate name="G$1" symbol="M11" x="0" y="0"/>
 </gates>
@@ -1101,7 +1225,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6470393/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6470393/5"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1122,7 +1246,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="9" pad="9"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6470394/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6470394/4"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -1293,6 +1417,62 @@ DIN A4, landscape with location and doc. field</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:25449734/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PINHEAD_1X02" urn="urn:adsk.eagle:component:2540406/10" prefix="CON" library_version="104">
+<description>pinheader 2P</description>
+<gates>
+<gate name="G$1" symbol="M02" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="-2.54" package="1X02-PTH-2.54">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:2540385/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2" package="1X02-PTH-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6503394/4"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2-FEMALE" package="1X02-PTH-2-FEMALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6503395/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-2.54-RA" package="1X02-PTH-2.54-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20405374/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -4141,36 +4321,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <rectangle x1="0.55" y1="2.2" x2="0.75" y2="3.2" layer="51"/>
 <rectangle x1="1.2" y1="2.2" x2="1.4" y2="3.2" layer="51"/>
 </package>
-<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/3" library_version="95">
-<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
-<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
-<wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0.01" layer="20" curve="-180"/>
-<wire x1="-2.45" y1="-0.25" x2="-2.45" y2="0.25" width="0.01" layer="20" curve="180"/>
-<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0.01" layer="20"/>
-<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.01" layer="20"/>
-<wire x1="-0.55" y1="-2.4" x2="-0.55" y2="-1.9" width="0.01" layer="20" curve="-180"/>
-<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0.01" layer="20" curve="180"/>
-<wire x1="2.45" y1="0.25" x2="3.15" y2="0.25" width="0.01" layer="20"/>
-<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0.01" layer="20"/>
-<wire x1="2.45" y1="-0.25" x2="2.45" y2="0.25" width="0.01" layer="20" curve="-180"/>
-<wire x1="3.15" y1="-0.25" x2="3.15" y2="0.25" width="0.01" layer="20" curve="180"/>
-<wire x1="-3.7" y1="0.6" x2="3.7" y2="0.6" width="0.1" layer="21"/>
-<wire x1="3.7" y1="0.6" x2="3.7" y2="-2.75" width="0.1" layer="21"/>
-<wire x1="3.7" y1="-2.75" x2="-3.7" y2="-2.75" width="0.1" layer="21"/>
-<wire x1="-3.7" y1="-2.75" x2="-3.7" y2="0.6" width="0.1" layer="21"/>
-<smd name="3" x="0" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
-<smd name="P$4" x="-2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$3" x="2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$1" x="0" y="-2.15" dx="2" dy="0.9" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="-2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="P$5" x="2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<smd name="P$6" x="0" y="-2.15" dx="2" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
-<text x="0" y="-0.8" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:footprint:9941914/1" library_version="95">
 <wire x1="-4.3" y1="-0.21" x2="-4.3" y2="1.59" width="0.254" layer="21"/>
 <wire x1="-4.3" y1="1.59" x2="-1.8" y2="1.59" width="0.254" layer="21"/>
@@ -4189,6 +4339,39 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <smd name="ID" x="0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
 <smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
 <text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/4" library_version="99">
+<wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
+<wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
+<wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0.01" layer="20" curve="-180"/>
+<wire x1="-2.45" y1="-0.25" x2="-2.45" y2="0.25" width="0.01" layer="20" curve="180"/>
+<wire x1="-0.55" y1="-1.9" x2="0.55" y2="-1.9" width="0.01" layer="20"/>
+<wire x1="-0.55" y1="-2.4" x2="0.55" y2="-2.4" width="0.01" layer="20"/>
+<wire x1="-0.55" y1="-2.4" x2="-0.55" y2="-1.9" width="0.01" layer="20" curve="-180"/>
+<wire x1="0.55" y1="-2.4" x2="0.55" y2="-1.9" width="0.01" layer="20" curve="180"/>
+<wire x1="2.45" y1="0.25" x2="3.15" y2="0.25" width="0.01" layer="20"/>
+<wire x1="2.45" y1="-0.25" x2="3.15" y2="-0.25" width="0.01" layer="20"/>
+<wire x1="2.45" y1="-0.25" x2="2.45" y2="0.25" width="0.01" layer="20" curve="-180"/>
+<wire x1="3.15" y1="-0.25" x2="3.15" y2="0.25" width="0.01" layer="20" curve="180"/>
+<wire x1="-3.7" y1="0.6" x2="3.7" y2="0.6" width="0.1" layer="21"/>
+<wire x1="3.7" y1="0.6" x2="3.7" y2="-2.75" width="0.1" layer="21"/>
+<wire x1="3.7" y1="-2.75" x2="-3.7" y2="-2.75" width="0.1" layer="21"/>
+<wire x1="-3.7" y1="-2.75" x2="-3.7" y2="0.6" width="0.1" layer="21"/>
+<wire x1="-0.55" y1="-2.15" x2="0.55" y2="-2.15" width="0.5" layer="46"/>
+<wire x1="-3.15" y1="0" x2="-2.45" y2="0" width="0.5" layer="46"/>
+<wire x1="2.45" y1="0" x2="3.15" y2="0" width="0.5" layer="46"/>
+<smd name="3" x="0" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="2" x="-0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="1" x="-1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="5" x="1.3" y="-0.25" dx="1.5" dy="0.45" layer="1" rot="R90"/>
+<smd name="P$4" x="-2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
+<smd name="P$3" x="2.8" y="0" dx="1.7" dy="0.9" layer="1" roundness="100" cream="no"/>
+<smd name="P$1" x="0" y="-2.15" dx="2" dy="0.9" layer="1" roundness="100" cream="no"/>
+<smd name="P$2" x="-2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="P$5" x="2.8" y="0" dx="1.7" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
+<smd name="P$6" x="0" y="-2.15" dx="2" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
+<text x="0" y="-0.8" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
@@ -4227,14 +4410,14 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="MICRO_USB_PEGS"/>
 </packageinstances>
 </package3d>
-<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/4" type="model" library_version="95">
-<packageinstances>
-<packageinstance name="1051330011"/>
-</packageinstances>
-</package3d>
 <package3d name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:package:9941917/1" type="box" library_version="95">
 <packageinstances>
 <packageinstance name="MICRO_USB_WITHOUT_PEGS_MODIFIED"/>
+</packageinstances>
+</package3d>
+<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/5" type="model" library_version="99">
+<packageinstances>
+<packageinstance name="1051330011"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4347,7 +4530,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/15" prefix="CON" library_version="95">
+<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/16" prefix="CON" library_version="99">
 <description>Connector Receptacle USB - micro B 2.0 5 Position</description>
 <gates>
 <gate name="G$1" symbol="USB" x="0" y="0"/>
@@ -4397,7 +4580,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/4"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/5"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -5343,7 +5526,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R" urn="urn:adsk.eagle:component:2539478/10" prefix="R" uservalue="yes" library_version="52">
+<deviceset name="R" urn="urn:adsk.eagle:component:2539478/12" prefix="R" uservalue="yes" library_version="69">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -5360,16 +5543,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="-1%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="-5%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -5387,16 +5574,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="-1%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="-5%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -5414,16 +5605,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="-1%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="-5%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -5441,16 +5636,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="-1%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="-5%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -5468,16 +5667,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="-1%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="TOLERANCE" value="1%" constant="no"/>
 </technology>
 <technology name="-5%">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
@@ -5586,7 +5789,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" urn="urn:adsk.eagle:component:2539479/19" prefix="C" uservalue="yes" library_version="52">
+<deviceset name="C" urn="urn:adsk.eagle:component:2539479/22" prefix="C" uservalue="yes" library_version="69">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -5603,8 +5806,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5622,8 +5827,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5641,8 +5848,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5658,7 +5867,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
 <attribute name="OPERATING_TEMP" value="" constant="no"/>
@@ -5679,8 +5890,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
+<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5724,9 +5937,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
+<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0201" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -6988,18 +7203,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="MODULE1" library="mito-pogo" library_urn="urn:adsk.eagle:library:6470471" deviceset="MITOHONDRIQUE_POGO" device="-POGO" package3d_urn="urn:adsk.eagle:package:4410646/6">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/4">
-<attribute name="DIGIKEY#" value="S7009-ND"/>
-</part>
-<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/4">
-<attribute name="DIGIKEY#" value="S7009-ND"/>
-</part>
-<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/4">
-<attribute name="DIGIKEY#" value="S7009-ND"/>
-</part>
-<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/4">
-<attribute name="DIGIKEY#" value="S7009-ND"/>
-</part>
+<part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
+<part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
+<part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
+<part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
 <part name="+P4" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE">
 <attribute name="COLOR" value="ORANGE"/>
@@ -7076,6 +7283,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="D11" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="PRTR5V0U2X" device="" package3d_urn="urn:adsk.eagle:package:3333649/6"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
+<part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
+<part name="CON17" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
+<part name="GND23" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -7097,19 +7307,24 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </instance>
 <instance part="CON1" gate="G$1" x="17.78" y="76.2" smashed="yes">
 <attribute name="NAME" x="20.32" y="107.95" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
-<attribute name="DIGIKEY#" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CON2" gate="G$1" x="17.78" y="43.18" smashed="yes">
 <attribute name="NAME" x="20.32" y="74.93" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
-<attribute name="DIGIKEY#" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CON3" gate="G$1" x="165.1" y="71.12" smashed="yes" rot="MR0">
 <attribute name="NAME" x="162.56" y="102.87" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
-<attribute name="DIGIKEY#" x="165.1" y="71.12" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="CON4" gate="G$1" x="165.1" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="162.56" y="69.85" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
-<attribute name="DIGIKEY#" x="165.1" y="38.1" size="1.778" layer="96" rot="MR0" display="off"/>
+</instance>
+<instance part="CON15" gate="G$1" x="17.78" y="27.94" smashed="yes">
+<attribute name="NAME" x="20.32" y="36.83" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="CON17" gate="G$1" x="17.78" y="15.24" smashed="yes">
+<attribute name="NAME" x="20.32" y="24.13" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="GND23" gate="1" x="27.94" y="12.7" smashed="yes">
+<attribute name="VALUE" x="27.94" y="10.668" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -7152,6 +7367,24 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pinref part="MODULE1" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="8"/>
+</segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<wire x1="27.94" y1="12.7" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="CON15" gate="G$1" pin="2"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="20.32" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="30.48" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="CON15" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="30.48" x2="27.94" y2="30.48" width="0.1524" layer="91"/>
+<junction x="27.94" y="30.48"/>
+<pinref part="CON17" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="20.32" x2="27.94" y2="20.32" width="0.1524" layer="91"/>
+<junction x="27.94" y="20.32"/>
+<pinref part="CON17" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<junction x="27.94" y="17.78"/>
 </segment>
 </net>
 <net name="PHASE_A_GND" class="0">
