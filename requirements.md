@@ -1,11 +1,11 @@
-# Requirements for MyDuck-LV
+# Requirements for MyDuck LV
 
 ## Device purpose
 
-MyDuck-LV is a device designed for the production of [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv) module.
+MyDuck LV is a device designed for the production of [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv) module.
 It can be considered as a specialized jig, that allows easy flashing and excessive testing of all functions of Mitochondrik LV module.
-A possibility to use MyDuck-LV as an evaluation board for Mitochondrik LV should also be considered.
-MyDuck-LV combined with Mitochondrik LVmakes for a complete BLDC motor controller.
+A possibility to use MyDuck LV as an evaluation board for Mitochondrik LV should also be considered.
+MyDuck LV combined with Mitochondrik LVmakes for a complete BLDC motor controller.
 
 ## Technical requirements
 
@@ -32,7 +32,7 @@ MyDuck-LV combined with Mitochondrik LVmakes for a complete BLDC motor controlle
 ## Design requirements for using the device as a production jig
 
 Due to the low reliability of pogo pins, Mitochondrik LV should be installed on a separate adapter PCB
-which in turn should be installed on the main MyDuck-LV PCB.
+which in turn should be installed on the main MyDuck LV PCB.
 This allows for replacement of only the adapter PCB in case of a single pogo pin failure.
 The adapter PCB (and all the parts fastened to it) should allow for easy,
 reliable and repeatable positioning and fixing Mitochondrik LV in place.
