@@ -1,6 +1,6 @@
 Myduck LV is a dual-purpose device:
 
-1) It can be used as a development board for Mitochondrik LV. 
+1) It can be used as a development board for [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv). 
 In this scenario, Mitochondrik LV is soldered directly to the PCB and turning Myduck LV into a debug-friendly development board/BLDC motor controller.
 
 ![](figures/Myduck-LV-standalone.png)
@@ -8,7 +8,7 @@ In this scenario, Mitochondrik LV is soldered directly to the PCB and turning My
 2) It can serve as a tool for production flashing and testing Mitochondrik LV. 
 In this scenario, Mitochondrik LV is mounted on the intermediate PCB using pogo pins. This PCB is then installed into Myduck LV.
 Mitochondrik LV can be aligned in place using 3D printed parts (red parts in the picture below). It then can be fixed either using a strip of aluminium (as suggested in the model)
-or with a generic toggle clamp. Myduck LV is designed to accept Babel-Babel debugging tool directly. 
+or with a generic toggle clamp. Myduck LV is designed to accept [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly. 
 
 ![](figures/Myduck-LV-jig.png)
 
