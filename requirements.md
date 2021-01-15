@@ -37,6 +37,7 @@ This allows for replacement of only the adapter PCB in case of a single pogo pin
 The adapter PCB (and all the parts fastened to it) should allow for easy,
 reliable and repeatable positioning and fixing Mitochondrik LV in place.
 Also, some means of correct pogo pins mounting (perpendicularity to the PCB surface and correct height above PCB surface are critical) should be introduced.
+
 It should be possible to install [Babel-Babel production tool](https://zubax.com/products/mitochondrik-lv) directly to the MyDuck LV PCB
 without the need for an external adapter PCB.
 
