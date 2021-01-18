@@ -21,6 +21,8 @@ In both scenarios following interfaces are available:
 
 Interfaces essential for production are also available on pin headers for direct Babel-Babel connection. 
 
+For more details on the device's specifications please check the [design requirements](https://github.com/Zubax/MyDuck-LV/blob/master/requirements.md).
+
 To perform flashing and testing the following steps should be taken:
 
 1) Connect any PMSM motor to the phase connectors of MyDuck LV.
