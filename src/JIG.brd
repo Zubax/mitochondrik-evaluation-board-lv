@@ -11643,6 +11643,15 @@
 <contactref element="CON15" pad="1"/>
 <contactref element="CON17" pad="2"/>
 <contactref element="CON17" pad="1"/>
+<via x="22.625" y="-0.55" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.625" y="3.45" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.625" y="5.85" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.425" y="11.35" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.425" y="15.55" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.625" y="19.55" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="26.825" y="15.65" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="36.425" y="18.35" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="22.525" y="8.25" extent="1-16" drill="0.3" diameter="0.6"/>
 </signal>
 <signal name="VDC" class="1">
 <contactref element="C17" pad="2"/>
