@@ -12,6 +12,15 @@ or with a generic toggle clamp. MyDuck LV is designed to accept [Babel-Babel deb
 
 ![](figures/Myduck-LV-jig.png)
 
+In both scenarios following interfaces are available:
+
+* USB
+* Dronecode debug port 
+* Two CAN interfaces
+* AUX port 
+
+Interfaces essential for production are also available on pin headers for direct Babel-Babel connection. 
+
 To perform flashing and testing the following steps should be taken:
 
 1) Connect any PMSM motor to the phase connectors of MyDuck LV.
