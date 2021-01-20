@@ -1,3 +1,4 @@
+# MyDuck LV
 MyDuck LV is a dual-purpose device:
 
 1) It can be used as a development board for [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv). 
