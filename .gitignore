@@ -49,3 +49,4 @@ eagle.epf
 
 # SketchUp garbage
 *.skb
+*.backup
