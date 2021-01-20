@@ -2735,44 +2735,6 @@ DIN A4, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="macaroni_masterlib">
-<packages>
-<package name="CURRENT_SHUNT_SENSE">
-<smd name="IN" x="0" y="0" dx="0.1" dy="0.1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
-<pad name="SHELL" x="0" y="0" drill="0.3" diameter="0.55" stop="no" thermals="no"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SENSE">
-<pin name="SHELLL" x="-5.08" y="2.54" visible="off" length="short"/>
-<pin name="IN" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
-<wire x1="0" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="0.508" y2="0.508" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SENSE" prefix="S">
-<gates>
-<gate name="G$1" symbol="SENSE" x="-5.08" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="CURRENT_SHUNT_SENSE">
-<connects>
-<connect gate="G$1" pin="IN" pad="IN"/>
-<connect gate="G$1" pin="SHELLL" pad="SHELL"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply_symbols" urn="urn:adsk.eagle:library:5017758">
 <packages>
 </packages>
@@ -3482,77 +3444,6 @@ DIN A4, landscape with location and doc. field</description>
 </package3dinstances>
 <technologies>
 <technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="myxa_masterlib" urn="urn:adsk.eagle:library:1040030">
-<packages>
-<package name="SOT23B-3" urn="urn:adsk.eagle:footprint:1040090/1" library_version="1">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.5" width="0.15" layer="51"/>
-<wire x1="1.4" y1="-0.5" x2="-1.4" y2="-0.5" width="0.15" layer="51"/>
-<wire x1="-1.4" y1="-0.5" x2="-1.4" y2="0.5" width="0.15" layer="51"/>
-<wire x1="-1.4" y1="0.5" x2="1.4" y2="0.5" width="0.15" layer="51"/>
-<wire x1="-1.4" y1="0.5" x2="-0.7" y2="0.5" width="0.15" layer="21"/>
-<wire x1="0.7" y1="0.5" x2="1.4" y2="0.5" width="0.15" layer="21"/>
-<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.4" width="0.15" layer="21"/>
-<wire x1="0.25" y1="-0.5" x2="-0.25" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="-1.4" y1="-0.4" x2="-1.4" y2="0.5" width="0.15" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1" layer="1"/>
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-0.4" y1="0.7" x2="0.4" y2="1.5" layer="21"/>
-<rectangle x1="-1.35" y1="-1.5" x2="-0.55" y2="-0.7" layer="21"/>
-<rectangle x1="0.55" y1="-1.5" x2="1.35" y2="-0.7" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOT23B-3" urn="urn:adsk.eagle:package:1040193/2" type="model" library_version="14" library_locally_modified="yes">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT23B-3"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MCP9700" urn="urn:adsk.eagle:symbol:1040099/2" library_version="15" library_locally_modified="yes">
-<pin name="VCC" x="-2.54" y="7.62" length="short"/>
-<pin name="OUT" x="-2.54" y="5.08" length="short"/>
-<pin name="GND" x="-2.54" y="2.54" length="short"/>
-<wire x1="0" y1="10.16" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
-<text x="3.81" y="10.414" size="1.778" layer="95" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="3.81" y="-0.254" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;MANF#</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MCP9700" urn="urn:adsk.eagle:component:1040233/7" prefix="IC" library_version="15" library_locally_modified="yes">
-<description>SENSOR TEMP ANLG VOLT SOT-23-3</description>
-<gates>
-<gate name="G$1" symbol="MCP9700" x="-5.08" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="SOT23B-3">
-<connects>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="OUT" pad="2"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1040193/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="MCP9700T-E/TTTR-ND" constant="no"/>
-<attribute name="MANF" value="Microchip Technology" constant="no"/>
-<attribute name="MANF#" value="MCP9700T-E/TT" constant="no"/>
-</technology>
 </technologies>
 </device>
 </devices>
@@ -6126,9 +6017,323 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="mito-pogo" urn="urn:adsk.eagle:library:6470471">
+<library name="misc" urn="urn:adsk.eagle:library:5347860">
 <packages>
-<package name="MITOHONDRIQUE-POGO" urn="urn:adsk.eagle:footprint:4410641/2" library_version="1" library_locally_modified="yes">
+<package name="CONNECTION" urn="urn:adsk.eagle:footprint:7439843/1" library_version="159">
+<smd name="P$1" x="-0.35" y="0" dx="0.7" dy="0.7" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="P$2" x="0.35" y="0" dx="0.7" dy="0.7" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="CONNECTION1" urn="urn:adsk.eagle:footprint:14300908/2" library_version="159">
+<pad name="1" x="0" y="0" drill="0.25" diameter="0.55" stop="no" thermals="no"/>
+<pad name="2" x="0" y="0" drill="0.25" diameter="0.55" stop="no" thermals="no"/>
+</package>
+<package name="CONNECTION2" urn="urn:adsk.eagle:footprint:15321808/1" library_version="159">
+<smd name="1" x="0" y="0" dx="0.55" dy="0.55" layer="1" roundness="100"/>
+<smd name="3" x="0" y="0" dx="0.55" dy="0.55" layer="16" roundness="100" rot="R180"/>
+<pad name="2" x="0" y="0" drill="0.1" diameter="0.15" stop="no" thermals="no"/>
+</package>
+<package name="SOT23B-3" urn="urn:adsk.eagle:footprint:1040090/1" library_version="74">
+<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
+<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.5" width="0.15" layer="51"/>
+<wire x1="1.4" y1="-0.5" x2="-1.4" y2="-0.5" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="-0.5" x2="-1.4" y2="0.5" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="0.5" x2="1.4" y2="0.5" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="0.5" x2="-0.7" y2="0.5" width="0.15" layer="21"/>
+<wire x1="0.7" y1="0.5" x2="1.4" y2="0.5" width="0.15" layer="21"/>
+<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.4" width="0.15" layer="21"/>
+<wire x1="0.25" y1="-0.5" x2="-0.25" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-1.4" y1="-0.4" x2="-1.4" y2="0.5" width="0.15" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1" layer="1"/>
+<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<rectangle x1="-0.4" y1="0.7" x2="0.4" y2="1.5" layer="21"/>
+<rectangle x1="-1.35" y1="-1.5" x2="-0.55" y2="-0.7" layer="21"/>
+<rectangle x1="0.55" y1="-1.5" x2="1.35" y2="-0.7" layer="21"/>
+</package>
+<package name="RES_0" urn="urn:adsk.eagle:footprint:20998873/1" library_version="159">
+<smd name="1" x="-0.85" y="0" dx="1.5" dy="1.5" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.5" dy="1.5" layer="1"/>
+<text x="0" y="1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-1.75" y1="0.9" x2="1.75" y2="0.9" width="0.1" layer="21"/>
+<wire x1="1.75" y1="0.9" x2="1.75" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-0.9" x2="-1.75" y2="-0.9" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="-0.9" x2="-1.75" y2="0.9" width="0.1" layer="21"/>
+</package>
+<package name="SC70-5" urn="urn:adsk.eagle:footprint:7365865/3" library_version="159">
+<smd name="4" x="1" y="-0.65" dx="0.45" dy="0.75" layer="1" rot="R90"/>
+<smd name="2" x="-1" y="0" dx="0.45" dy="0.75" layer="1" rot="R90"/>
+<smd name="1" x="-1" y="0.65" dx="0.45" dy="0.75" layer="1" rot="R90"/>
+<smd name="3" x="-1" y="-0.65" dx="0.45" dy="0.75" layer="1" rot="R90"/>
+<smd name="5" x="1" y="0.65" dx="0.45" dy="0.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R90" align="center">&gt;NAME</text>
+<wire x1="0.45" y1="-1" x2="0.45" y2="1" width="0.15" layer="21"/>
+<wire x1="0.45" y1="1" x2="-0.45" y2="1" width="0.15" layer="21"/>
+<wire x1="-0.45" y1="1" x2="-0.45" y2="-1" width="0.15" layer="21"/>
+<wire x1="-0.45" y1="-1" x2="0.45" y2="-1" width="0.15" layer="21"/>
+<circle x="-0.6" y="1.2" radius="0.1" width="0.1" layer="21"/>
+<rectangle x1="-1.3" y1="0.5" x2="-0.65" y2="0.8" layer="51"/>
+<rectangle x1="-1.3" y1="-0.15" x2="-0.65" y2="0.15" layer="51"/>
+<rectangle x1="-1.3" y1="-0.8" x2="-0.65" y2="-0.5" layer="51"/>
+<rectangle x1="0.65" y1="-0.8" x2="1.3" y2="-0.5" layer="51"/>
+<rectangle x1="0.65" y1="0.5" x2="1.3" y2="0.8" layer="51"/>
+</package>
+<package name="SENSE-0.6" urn="urn:adsk.eagle:footprint:7365866/1" library_version="159">
+<smd name="IN" x="0" y="0" dx="0.1" dy="0.1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+<pad name="SHELL" x="0" y="0" drill="0.3" diameter="0.6" stop="no" thermals="no"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="CONNECTION" urn="urn:adsk.eagle:package:7439847/1" type="box" library_version="159">
+<packageinstances>
+<packageinstance name="CONNECTION"/>
+</packageinstances>
+</package3d>
+<package3d name="CONNECTION1" urn="urn:adsk.eagle:package:14300909/2" type="box" library_version="159">
+<packageinstances>
+<packageinstance name="CONNECTION1"/>
+</packageinstances>
+</package3d>
+<package3d name="CONNECTION2" urn="urn:adsk.eagle:package:15321810/1" type="box" library_version="159">
+<packageinstances>
+<packageinstance name="CONNECTION2"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT23B-3" urn="urn:adsk.eagle:package:1040193/4" type="model" library_version="74">
+<description>Small Outline Transistor</description>
+<packageinstances>
+<packageinstance name="SOT23B-3"/>
+</packageinstances>
+</package3d>
+<package3d name="RES_0" urn="urn:adsk.eagle:package:20998874/1" type="box" library_version="159">
+<packageinstances>
+<packageinstance name="RES_0"/>
+</packageinstances>
+</package3d>
+<package3d name="SC70-5" urn="urn:adsk.eagle:package:7365869/4" type="model" library_version="159">
+<packageinstances>
+<packageinstance name="SC70-5"/>
+</packageinstances>
+</package3d>
+<package3d name="SENSE-0.6" urn="urn:adsk.eagle:package:7365871/1" type="box" library_version="159">
+<packageinstances>
+<packageinstance name="SENSE-0.6"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CONNECTION" urn="urn:adsk.eagle:symbol:7439846/1" library_version="159">
+<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="P$2" x="2.54" y="0" visible="off" length="short" rot="R180"/>
+</symbol>
+<symbol name="11LC040" urn="urn:adsk.eagle:symbol:19972065/2" library_version="78">
+<pin name="VCC" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="SCIO" x="-2.54" y="7.62" length="short"/>
+<pin name="VSS" x="12.7" y="2.54" length="short" rot="R180"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<text x="5.08" y="16.51" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="5.08" y="-1.27" size="1.27" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
+</symbol>
+<symbol name="RES_0" urn="urn:adsk.eagle:symbol:20998872/1" library_version="159">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<text x="0" y="0" size="1.524" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0.254" y="-1.524" size="0.508" layer="97" font="vector" ratio="15" align="center">solder joint</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="MCP9700" urn="urn:adsk.eagle:symbol:7365867/1" library_version="159">
+<pin name="VCC" x="-2.54" y="7.62" length="short"/>
+<pin name="OUT" x="-2.54" y="5.08" length="short"/>
+<pin name="GND" x="-2.54" y="2.54" length="short"/>
+<wire x1="0" y1="10.16" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
+<text x="3.81" y="10.414" size="1.778" layer="95" font="vector" ratio="15" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="-0.254" size="0.762" layer="95" font="vector" ratio="15" rot="R180" align="bottom-center">&gt;MANF#</text>
+</symbol>
+<symbol name="SENSE" urn="urn:adsk.eagle:symbol:7365868/2" library_version="159">
+<wire x1="0" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="0.508" y2="0.508" width="0.254" layer="94"/>
+<pin name="IN" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
+<pin name="SHELLL" x="-5.08" y="2.54" visible="off" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CONNECTION" urn="urn:adsk.eagle:component:7439849/4" prefix="J" library_version="159">
+<gates>
+<gate name="G$1" symbol="CONNECTION" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD" package="CONNECTION">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7439847/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-TH" package="CONNECTION1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14300909/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="CONNECTION2">
+<connects>
+<connect gate="G$1" pin="P$1" pad="1"/>
+<connect gate="G$1" pin="P$2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15321810/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="11LC040T-E/TT" urn="urn:adsk.eagle:component:19972066/2" prefix="IC" library_version="78">
+<description>EEPROM Memory IC 4Kb (512 x 8) Single Wire 100kHz SOT-23-3</description>
+<gates>
+<gate name="G$1" symbol="11LC040" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23B-3">
+<connects>
+<connect gate="G$1" pin="SCIO" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040193/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AEC-Q" value="---" constant="no"/>
+<attribute name="DIGIKEY#" value="11LC040T-E/TTCT-ND" constant="no"/>
+<attribute name="MANF" value="Microchip Technology" constant="no"/>
+<attribute name="MANF#" value="11LC040T-E/TT" constant="no"/>
+<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C (TA)" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SOLDER_JOINT" urn="urn:adsk.eagle:component:20998875/2" prefix="SJ" uservalue="yes" library_version="159">
+<gates>
+<gate name="G$1" symbol="RES_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RES_0">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20998874/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP9700" urn="urn:adsk.eagle:component:7365872/6" prefix="IC" library_version="159">
+<description>Temperature Sensor Analog, Local -40°C ~ 125°C 10mV/°C</description>
+<gates>
+<gate name="G$1" symbol="MCP9700" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="-SOT23" package="SOT23B-3">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1040193/4"/>
+</package3dinstances>
+<technologies>
+<technology name="AT-E/TTVAO">
+<attribute name="AEC-Q" value="AEC-Q100" constant="no"/>
+<attribute name="DIGIKEY#" value="MCP9700AT-E/TTVAOTR-ND" constant="no"/>
+<attribute name="MANF" value="Microchip Technology" constant="no"/>
+<attribute name="MANF#" value="MCP9700AT-E/TTVAO" constant="no"/>
+</technology>
+<technology name="T-E/TT">
+<attribute name="AEC-Q" value="---" constant="no"/>
+<attribute name="DIGIKEY#" value="MCP9700T-E/TTTR-ND" constant="no"/>
+<attribute name="MANF" value="Microchip Technology" constant="no"/>
+<attribute name="MANF#" value="MCP9700T-E/TT" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-SC70-5" package="SC70-5">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365869/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="MCP9700T-E/LTCT-ND" constant="no"/>
+<attribute name="MANF" value="Microchip Technology" constant="no"/>
+<attribute name="MANF#" value="MCP9700T-E/LT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SENSE" urn="urn:adsk.eagle:component:7365873/2" prefix="S" library_version="159">
+<gates>
+<gate name="G$1" symbol="SENSE" x="-5.08" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SENSE-0.6">
+<connects>
+<connect gate="G$1" pin="IN" pad="IN"/>
+<connect gate="G$1" pin="SHELLL" pad="SHELL"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:7365871/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="mitochondrik" urn="urn:adsk.eagle:library:26226632">
+<packages>
+<package name="MITOCHONDRIK" urn="urn:adsk.eagle:footprint:4410641/8" library_version="1">
 <wire x1="-10.95" y1="14.95" x2="10.95" y2="14.95" width="0.01" layer="21"/>
 <wire x1="10.95" y1="14.95" x2="12.45" y2="13.45" width="0.01" layer="21" curve="-90"/>
 <wire x1="12.45" y1="13.45" x2="12.45" y2="-13.45" width="0.01" layer="21"/>
@@ -6156,6 +6361,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-4.5" y1="13" x2="-5.5" y2="13" width="0.15" layer="21"/>
 <wire x1="-5.5" y1="13" x2="-6" y2="13.5" width="0.15" layer="21"/>
 <wire x1="-6" y1="14.5" x2="-5.5" y2="15" width="0.15" layer="21"/>
+<wire x1="-4" y1="13.5" x2="-4" y2="14.5" width="0.15" layer="21"/>
 <wire x1="-10.5" y1="13.5" x2="-10.5" y2="12.5" width="0.15" layer="21"/>
 <wire x1="-10.5" y1="12.5" x2="-11" y2="12" width="0.15" layer="21"/>
 <wire x1="-11" y1="12" x2="-10.5" y2="11.5" width="0.15" layer="21"/>
@@ -6400,78 +6606,63 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="8.5" y1="-15" x2="8" y2="-14.5" width="0.15" layer="21"/>
 <wire x1="8" y1="-13.5" x2="8.5" y2="-13" width="0.15" layer="21"/>
 <wire x1="10" y1="-14.5" x2="10" y2="-13.5" width="0.15" layer="21"/>
-<wire x1="-3.5" y1="15" x2="-2.5" y2="15" width="0.15" layer="21"/>
-<wire x1="-2.5" y1="15" x2="-2" y2="14.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="13.5" x2="-2.5" y2="13" width="0.15" layer="21"/>
-<wire x1="-2.5" y1="13" x2="-3.5" y2="13" width="0.15" layer="21"/>
-<wire x1="-3.5" y1="13" x2="-4" y2="13.5" width="0.15" layer="21"/>
-<wire x1="-4" y1="14.5" x2="-3.5" y2="15" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="15" x2="-0.5" y2="15" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="15" x2="0" y2="14.5" width="0.15" layer="21"/>
-<wire x1="0" y1="13.5" x2="-0.5" y2="13" width="0.15" layer="21"/>
-<wire x1="-0.5" y1="13" x2="-1.5" y2="13" width="0.15" layer="21"/>
-<wire x1="-1.5" y1="13" x2="-2" y2="13.5" width="0.15" layer="21"/>
-<wire x1="-2" y1="14.5" x2="-1.5" y2="15" width="0.15" layer="21"/>
-<wire x1="0" y1="13.5" x2="0" y2="14.5" width="0.15" layer="21"/>
-<pad name="3" x="-9" y="14" drill="1.1" diameter="1.7"/>
-<pad name="2" x="-7" y="14" drill="1.1" diameter="1.7"/>
-<pad name="1" x="-5" y="14" drill="1.1" diameter="1.7"/>
-<pad name="7" x="-11.5" y="7" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="6" x="-11.5" y="9" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="5" x="-11.5" y="11" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="4" x="-11.5" y="13" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="8" x="-11.5" y="5" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="9" x="-11.5" y="3" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="10" x="-11.5" y="1" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="11" x="-11.5" y="-1" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="12" x="-11.5" y="-3" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="13" x="-11.5" y="-5" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="14" x="-11.5" y="-7" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="15" x="-11.5" y="-9" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="16" x="-11.5" y="-11" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="17" x="-11.5" y="-13" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="18" x="-9" y="-14" drill="1.1" diameter="1.7"/>
-<pad name="19" x="-7" y="-14" drill="1.1" diameter="1.7"/>
-<pad name="20" x="-5" y="-14" drill="1.1" diameter="1.7"/>
-<pad name="21" x="3" y="-14" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="22" x="5" y="-14" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="23" x="7" y="-14" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="24" x="9" y="-14" drill="1.1" diameter="1.7" rot="R270"/>
-<pad name="25" x="11.5" y="-13" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="26" x="11.5" y="-11" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="27" x="11.5" y="-9" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="28" x="11.5" y="-7" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="29" x="11.5" y="-5" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="30" x="11.5" y="-3" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="31" x="11.5" y="-1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="32" x="11.5" y="1" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="33" x="11.5" y="3" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="34" x="11.5" y="5" drill="1.1" diameter="1.7" rot="R90"/>
-<pad name="35" x="11.5" y="7" drill="1.1" diameter="1.7"/>
-<pad name="36" x="11.5" y="9" drill="1.1" diameter="1.7"/>
-<pad name="37" x="11.5" y="11" drill="1.1" diameter="1.7"/>
-<pad name="38" x="11.5" y="13" drill="1.1" diameter="1.7"/>
-<pad name="39" x="9" y="14" drill="1.1" diameter="1.7"/>
-<pad name="40" x="7" y="14" drill="1.1" diameter="1.7"/>
-<pad name="41" x="5" y="14" drill="1.1" diameter="1.7"/>
-<pad name="42" x="3" y="14" drill="1.1" diameter="1.7"/>
-<pad name="SWCLK" x="-3" y="14" drill="1.1" diameter="1.7"/>
-<pad name="SWDIO" x="-1" y="14" drill="1.1" diameter="1.7"/>
+<pad name="3" x="-9" y="14" drill="0.8" diameter="1.35"/>
+<pad name="2" x="-7" y="14" drill="0.8" diameter="1.35"/>
+<pad name="1" x="-5" y="14" drill="0.8" diameter="1.35"/>
+<pad name="7" x="-11.5" y="7" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="6" x="-11.5" y="9" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="5" x="-11.5" y="11" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="4" x="-11.5" y="13" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="8" x="-11.5" y="5" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="9" x="-11.5" y="3" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="10" x="-11.5" y="1" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="11" x="-11.5" y="-1" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="12" x="-11.5" y="-3" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="13" x="-11.5" y="-5" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="14" x="-11.5" y="-7" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="15" x="-11.5" y="-9" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="16" x="-11.5" y="-11" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="17" x="-11.5" y="-13" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="18" x="-9" y="-14" drill="0.8" diameter="1.35"/>
+<pad name="19" x="-7" y="-14" drill="0.8" diameter="1.35"/>
+<pad name="20" x="-5" y="-14" drill="0.8" diameter="1.35"/>
+<pad name="21" x="3" y="-14" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="22" x="5" y="-14" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="23" x="7" y="-14" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="24" x="9" y="-14" drill="0.8" diameter="1.35" rot="R270"/>
+<pad name="25" x="11.5" y="-13" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="26" x="11.5" y="-11" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="27" x="11.5" y="-9" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="28" x="11.5" y="-7" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="29" x="11.5" y="-5" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="30" x="11.5" y="-3" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="31" x="11.5" y="-1" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="32" x="11.5" y="1" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="33" x="11.5" y="3" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="34" x="11.5" y="5" drill="0.8" diameter="1.35" rot="R90"/>
+<pad name="35" x="11.5" y="7" drill="0.8" diameter="1.35"/>
+<pad name="36" x="11.5" y="9" drill="0.8" diameter="1.35"/>
+<pad name="37" x="11.5" y="11" drill="0.8" diameter="1.35"/>
+<pad name="38" x="11.5" y="13" drill="0.8" diameter="1.35"/>
+<pad name="39" x="9" y="14" drill="0.8" diameter="1.35"/>
+<pad name="40" x="7" y="14" drill="0.8" diameter="1.35"/>
+<pad name="41" x="5" y="14" drill="0.8" diameter="1.35"/>
+<pad name="42" x="3" y="14" drill="0.8" diameter="1.35"/>
 <text x="0" y="0" size="1.5" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/6" type="model" library_version="1" library_locally_modified="yes">
+<package3d name="MITOHONDRIQUE" urn="urn:adsk.eagle:package:4410646/17" type="model" library_version="1">
 <packageinstances>
-<packageinstance name="MITOHONDRIQUE-POGO"/>
+<packageinstance name="MITOCHONDRIK"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="MITOHONDRIQUE" urn="urn:adsk.eagle:symbol:6470477/2" library_version="3" library_locally_modified="yes">
-<pin name="5V_OUT" x="-2.54" y="63.5" length="short" direction="pwr"/>
-<pin name="GND" x="-2.54" y="60.96" length="short" direction="pwr"/>
-<pin name="VDC" x="-2.54" y="58.42" length="short" direction="pwr"/>
+<symbol name="MITOHONDRIQUE" urn="urn:adsk.eagle:symbol:26226633/1" library_version="1">
+<pin name="5V_OUT" x="-2.54" y="68.58" length="short" direction="pwr"/>
+<pin name="GND" x="-2.54" y="66.04" length="short" direction="pwr"/>
+<pin name="VDC" x="-2.54" y="63.5" length="short" direction="pwr"/>
 <pin name="PHASE_A_GATE_HIGH" x="-2.54" y="53.34" length="short" direction="out"/>
 <pin name="PHASE_A" x="-2.54" y="50.8" length="short" direction="in"/>
 <pin name="PHASE_A_GATE_LOW" x="-2.54" y="48.26" length="short" direction="out"/>
@@ -6511,8 +6702,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pin name="CAN2_TX" x="63.5" y="63.5" length="short" direction="out" rot="R180"/>
 <pin name="CAN1_RX" x="63.5" y="66.04" length="short" direction="in" rot="R180"/>
 <pin name="CAN1_TX" x="63.5" y="68.58" length="short" direction="out" rot="R180"/>
-<pin name="SWDIO" x="-2.54" y="68.58" visible="pin" length="short" direction="pwr"/>
-<pin name="SWCLK" x="-2.54" y="66.04" visible="pin" length="short" direction="pwr"/>
 <wire x1="0" y1="0" x2="0" y2="71.12" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="60.96" y2="0" width="0.254" layer="94"/>
 <wire x1="60.96" y1="0" x2="60.96" y2="71.12" width="0.254" layer="94"/>
@@ -6522,12 +6711,12 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MITOHONDRIQUE_POGO" urn="urn:adsk.eagle:component:6470483/2" prefix="MODULE" library_version="3" library_locally_modified="yes">
+<deviceset name="MITOCHONDRIK" urn="urn:adsk.eagle:component:26226634/2" prefix="MODULE" library_version="2">
 <gates>
 <gate name="G$1" symbol="MITOHONDRIQUE" x="-22.86" y="-27.94"/>
 </gates>
 <devices>
-<device name="-POGO" package="MITOHONDRIQUE-POGO">
+<device name="" package="MITOCHONDRIK">
 <connects>
 <connect gate="G$1" pin="5V_OUT" pad="1"/>
 <connect gate="G$1" pin="BEC_ENABLE_OUT" pad="24"/>
@@ -6540,8 +6729,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <connect gate="G$1" pin="GAIN_OUT" pad="25"/>
 <connect gate="G$1" pin="GATE_ENABLE_OUT" pad="26"/>
 <connect gate="G$1" pin="GND" pad="2"/>
-<connect gate="G$1" pin="GPIO1" pad="27"/>
-<connect gate="G$1" pin="GPIO2" pad="28"/>
+<connect gate="G$1" pin="GPIO1" pad="28"/>
+<connect gate="G$1" pin="GPIO2" pad="27"/>
 <connect gate="G$1" pin="NC" pad="38"/>
 <connect gate="G$1" pin="OVERCURRENT_PROTECT_ADJ" pad="29"/>
 <connect gate="G$1" pin="PHASE_A" pad="5"/>
@@ -6564,8 +6753,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <connect gate="G$1" pin="RGB_LED_B" pad="32"/>
 <connect gate="G$1" pin="RGB_LED_G" pad="31"/>
 <connect gate="G$1" pin="RGB_LED_R" pad="30"/>
-<connect gate="G$1" pin="SWCLK" pad="SWCLK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
 <connect gate="G$1" pin="TEMPERATURE_SENSOR" pad="20"/>
 <connect gate="G$1" pin="UART_RX" pad="23"/>
 <connect gate="G$1" pin="UART_TX" pad="22"/>
@@ -6575,206 +6762,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <connect gate="G$1" pin="VDC" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410646/6"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410646/17"/>
 </package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="MANF" value="Zubax Robotics" constant="no"/>
 <attribute name="MANF#" value="Mitochondrik" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="misc" urn="urn:adsk.eagle:library:5347860">
-<packages>
-<package name="CONNECTION" urn="urn:adsk.eagle:footprint:7439843/1" library_version="159">
-<smd name="P$1" x="-0.35" y="0" dx="0.7" dy="0.7" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-<smd name="P$2" x="0.35" y="0" dx="0.7" dy="0.7" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
-</package>
-<package name="CONNECTION1" urn="urn:adsk.eagle:footprint:14300908/2" library_version="159">
-<pad name="1" x="0" y="0" drill="0.25" diameter="0.55" stop="no" thermals="no"/>
-<pad name="2" x="0" y="0" drill="0.25" diameter="0.55" stop="no" thermals="no"/>
-</package>
-<package name="CONNECTION2" urn="urn:adsk.eagle:footprint:15321808/1" library_version="159">
-<smd name="1" x="0" y="0" dx="0.55" dy="0.55" layer="1" roundness="100"/>
-<smd name="3" x="0" y="0" dx="0.55" dy="0.55" layer="16" roundness="100" rot="R180"/>
-<pad name="2" x="0" y="0" drill="0.1" diameter="0.15" stop="no" thermals="no"/>
-</package>
-<package name="SOT23B-3" urn="urn:adsk.eagle:footprint:1040090/1" library_version="74">
-<description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
-<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.5" width="0.15" layer="51"/>
-<wire x1="1.4" y1="-0.5" x2="-1.4" y2="-0.5" width="0.15" layer="51"/>
-<wire x1="-1.4" y1="-0.5" x2="-1.4" y2="0.5" width="0.15" layer="51"/>
-<wire x1="-1.4" y1="0.5" x2="1.4" y2="0.5" width="0.15" layer="51"/>
-<wire x1="-1.4" y1="0.5" x2="-0.7" y2="0.5" width="0.15" layer="21"/>
-<wire x1="0.7" y1="0.5" x2="1.4" y2="0.5" width="0.15" layer="21"/>
-<wire x1="1.4" y1="0.5" x2="1.4" y2="-0.4" width="0.15" layer="21"/>
-<wire x1="0.25" y1="-0.5" x2="-0.25" y2="-0.5" width="0.15" layer="21"/>
-<wire x1="-1.4" y1="-0.4" x2="-1.4" y2="0.5" width="0.15" layer="21"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1" layer="1"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1" layer="1"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1" layer="1"/>
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<rectangle x1="-0.4" y1="0.7" x2="0.4" y2="1.5" layer="21"/>
-<rectangle x1="-1.35" y1="-1.5" x2="-0.55" y2="-0.7" layer="21"/>
-<rectangle x1="0.55" y1="-1.5" x2="1.35" y2="-0.7" layer="21"/>
-</package>
-<package name="RES_0" urn="urn:adsk.eagle:footprint:20998873/1" library_version="159">
-<smd name="1" x="-0.85" y="0" dx="1.5" dy="1.5" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.5" dy="1.5" layer="1"/>
-<text x="0" y="1.5" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-1.75" y1="0.9" x2="1.75" y2="0.9" width="0.1" layer="21"/>
-<wire x1="1.75" y1="0.9" x2="1.75" y2="-0.9" width="0.1" layer="21"/>
-<wire x1="1.75" y1="-0.9" x2="-1.75" y2="-0.9" width="0.1" layer="21"/>
-<wire x1="-1.75" y1="-0.9" x2="-1.75" y2="0.9" width="0.1" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="CONNECTION" urn="urn:adsk.eagle:package:7439847/1" type="box" library_version="159">
-<packageinstances>
-<packageinstance name="CONNECTION"/>
-</packageinstances>
-</package3d>
-<package3d name="CONNECTION1" urn="urn:adsk.eagle:package:14300909/2" type="box" library_version="159">
-<packageinstances>
-<packageinstance name="CONNECTION1"/>
-</packageinstances>
-</package3d>
-<package3d name="CONNECTION2" urn="urn:adsk.eagle:package:15321810/1" type="box" library_version="159">
-<packageinstances>
-<packageinstance name="CONNECTION2"/>
-</packageinstances>
-</package3d>
-<package3d name="SOT23B-3" urn="urn:adsk.eagle:package:1040193/4" type="model" library_version="74">
-<description>Small Outline Transistor</description>
-<packageinstances>
-<packageinstance name="SOT23B-3"/>
-</packageinstances>
-</package3d>
-<package3d name="RES_0" urn="urn:adsk.eagle:package:20998874/1" type="box" library_version="159">
-<packageinstances>
-<packageinstance name="RES_0"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="CONNECTION" urn="urn:adsk.eagle:symbol:7439846/1" library_version="159">
-<pin name="P$1" x="-2.54" y="0" visible="off" length="short"/>
-<pin name="P$2" x="2.54" y="0" visible="off" length="short" rot="R180"/>
-</symbol>
-<symbol name="11LC040" urn="urn:adsk.eagle:symbol:19972065/2" library_version="78">
-<pin name="VCC" x="12.7" y="12.7" length="short" rot="R180"/>
-<pin name="SCIO" x="-2.54" y="7.62" length="short"/>
-<pin name="VSS" x="12.7" y="2.54" length="short" rot="R180"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="0" x2="10.16" y2="15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<text x="5.08" y="16.51" size="1.778" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="5.08" y="-1.27" size="1.27" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
-</symbol>
-<symbol name="RES_0" urn="urn:adsk.eagle:symbol:20998872/1" library_version="159">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<text x="0" y="0" size="1.524" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0.254" y="-1.524" size="0.508" layer="97" font="vector" ratio="15" align="center">solder joint</text>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CONNECTION" urn="urn:adsk.eagle:component:7439849/4" prefix="J" library_version="159">
-<gates>
-<gate name="G$1" symbol="CONNECTION" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-SMD" package="CONNECTION">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$1"/>
-<connect gate="G$1" pin="P$2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7439847/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="BOM" value="EXCLUDE" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-TH" package="CONNECTION1">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14300909/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="CONNECTION2">
-<connects>
-<connect gate="G$1" pin="P$1" pad="1"/>
-<connect gate="G$1" pin="P$2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15321810/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="11LC040T-E/TT" urn="urn:adsk.eagle:component:19972066/2" prefix="IC" library_version="78">
-<description>EEPROM Memory IC 4Kb (512 x 8) Single Wire 100kHz SOT-23-3</description>
-<gates>
-<gate name="G$1" symbol="11LC040" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23B-3">
-<connects>
-<connect gate="G$1" pin="SCIO" pad="1"/>
-<connect gate="G$1" pin="VCC" pad="2"/>
-<connect gate="G$1" pin="VSS" pad="3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1040193/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AEC-Q" value="---" constant="no"/>
-<attribute name="DIGIKEY#" value="11LC040T-E/TTCT-ND" constant="no"/>
-<attribute name="MANF" value="Microchip Technology" constant="no"/>
-<attribute name="MANF#" value="11LC040T-E/TT" constant="no"/>
-<attribute name="OPERATING_TEMP" value="-40°C ~ 125°C (TA)" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SOLDER_JOINT" urn="urn:adsk.eagle:component:20998875/2" prefix="SJ" uservalue="yes" library_version="159">
-<gates>
-<gate name="G$1" symbol="RES_0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="RES_0">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:20998874/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6814,7 +6808,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="R20" library="SHUNT_RESISTORS" library_urn="urn:adsk.eagle:library:2644450" deviceset="CURRENT_SHUNT_KELVIN" device="-2512-KELVIN" package3d_urn="urn:adsk.eagle:package:3560627/3" technology="-0.003R" value="3 mOhms">
 <attribute name="LCSC#" value="C76247"/>
 </part>
-<part name="IC5" library="myxa_masterlib" library_urn="urn:adsk.eagle:library:1040030" deviceset="MCP9700" device="" package3d_urn="urn:adsk.eagle:package:1040193/2"/>
+<part name="IC5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="MCP9700" device="-SOT23" package3d_urn="urn:adsk.eagle:package:1040193/4" technology="T-E/TT" value="MCP9700T-E/TT-SOT23"/>
 <part name="GND40" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND38" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="GND36" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
@@ -6836,7 +6830,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="PAD1" library="PADS" library_urn="urn:adsk.eagle:library:3188696" deviceset="PAD" device="-HOLE_2" package3d_urn="urn:adsk.eagle:package:4854323/2" value="PAD-HOLE_2">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="S1" library="macaroni_masterlib" deviceset="SENSE" device="">
+<part name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SENSE" device="" package3d_urn="urn:adsk.eagle:package:7365871/1">
 <variant name="BASIC" populate="no"/>
 </part>
 <part name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
@@ -6989,9 +6983,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="C14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="4.7uF">
 <attribute name="DIGIKEY#" value="1276-2415-1-ND"/>
 </part>
-<part name="MODULE1" library="mito-pogo" library_urn="urn:adsk.eagle:library:6470471" deviceset="MITOHONDRIQUE_POGO" device="-POGO" package3d_urn="urn:adsk.eagle:package:4410646/6">
-<variant name="BASIC" populate="no"/>
-</part>
 <part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
 <part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_MALE" package3d_urn="urn:adsk.eagle:package:6470394/4" value="PINHEAD_1X11-2.54_STRAIGHT_MALE"/>
@@ -7079,6 +7070,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="CON19" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
 <part name="+P13" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="GND25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
+<part name="MODULE2" library="mitochondrik" library_urn="urn:adsk.eagle:library:26226632" deviceset="MITOCHONDRIK" device="" package3d_urn="urn:adsk.eagle:package:4410646/17"/>
 </parts>
 <sheets>
 <sheet>
@@ -7093,10 +7085,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </instance>
 <instance part="+P1" gate="G$1" x="50.8" y="114.3" smashed="yes">
 <attribute name="VALUE" x="50.8" y="117.856" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
-</instance>
-<instance part="MODULE1" gate="G$1" x="60.96" y="38.1" smashed="yes">
-<attribute name="NAME" x="91.44" y="110.744" size="2.54" layer="97" font="vector" ratio="15" align="center"/>
-<attribute name="MANF#" x="91.44" y="36.576" size="2.54" layer="97" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="CON1" gate="G$1" x="17.78" y="76.2" smashed="yes">
 <attribute name="NAME" x="20.32" y="107.95" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
@@ -7119,17 +7107,20 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="GND23" gate="1" x="27.94" y="12.7" smashed="yes">
 <attribute name="VALUE" x="27.94" y="10.668" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
+<instance part="MODULE2" gate="G$1" x="60.96" y="38.1" smashed="yes">
+<attribute name="NAME" x="91.44" y="110.744" size="2.54" layer="97" font="vector" ratio="15" align="center"/>
+<attribute name="MANF#" x="91.44" y="36.576" size="2.54" layer="97" font="vector" ratio="15" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="PWREN_IN" class="0">
 <segment>
-<wire x1="124.46" y1="40.64" x2="154.94" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="40.64" x2="157.48" y2="40.64" width="0.1524" layer="91"/>
 <label x="127" y="40.64" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="POWER_ENABLE_IN"/>
 <pinref part="CON4" gate="G$1" pin="1"/>
+<pinref part="MODULE2" gate="G$1" pin="POWER_ENABLE_IN"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -7138,8 +7129,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="132.08" y1="78.74" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="76.2" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
 <label x="127" y="78.74" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="USB_VBUS"/>
 <pinref part="CON3" gate="G$1" pin="2"/>
+<pinref part="MODULE2" gate="G$1" pin="USB_VBUS"/>
 </segment>
 </net>
 <net name="USB-" class="0">
@@ -7148,18 +7139,18 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="134.62" y1="81.28" x2="134.62" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="78.74" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
 <label x="127" y="81.28" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="USB-"/>
 <pinref part="CON3" gate="G$1" pin="3"/>
+<pinref part="MODULE2" gate="G$1" pin="USB-"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <wire x1="53.34" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <label x="27.94" y="96.52" size="1.016" layer="95"/>
-<wire x1="53.34" y1="96.52" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="MODULE1" gate="G$1" pin="GND"/>
-<wire x1="53.34" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="8"/>
+<wire x1="53.34" y1="96.52" x2="53.34" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="GND"/>
+<wire x1="53.34" y1="104.14" x2="58.42" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND23" gate="1" pin="GND"/>
@@ -7184,88 +7175,86 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <segment>
 <wire x1="25.4" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <label x="27.94" y="83.82" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_A_GND"/>
 <pinref part="CON1" gate="G$1" pin="3"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_A_GND"/>
 </segment>
 </net>
 <net name="PHASE_A" class="1">
 <segment>
 <wire x1="25.4" y1="88.9" x2="58.42" y2="88.9" width="0.1524" layer="91"/>
 <label x="27.94" y="88.9" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_A"/>
 <pinref part="CON1" gate="G$1" pin="5"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_A"/>
 </segment>
 </net>
 <net name="PHASE_A_CURRENT_SHUNT_N" class="0">
 <segment>
-<wire x1="58.42" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
 <label x="27.94" y="55.88" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_A_CURRENT_SHUNT_N"/>
 <pinref part="CON2" gate="G$1" pin="5"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_A_CURRENT_SHUNT_N"/>
 </segment>
 </net>
 <net name="PHASE_A_CURRENT_SHUNT_P" class="0">
 <segment>
-<wire x1="53.34" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 <label x="27.94" y="53.34" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_A_CURRENT_SHUNT_P"/>
 <pinref part="CON2" gate="G$1" pin="4"/>
-<wire x1="58.42" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_A_CURRENT_SHUNT_P"/>
 </segment>
 </net>
 <net name="PHASE_C_GND" class="0">
 <segment>
 <label x="27.94" y="58.42" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_C_GND"/>
 <pinref part="CON2" gate="G$1" pin="6"/>
 <wire x1="25.4" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="58.42" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_C_GND"/>
 </segment>
 </net>
 <net name="PHASE_A_GATE_HIGH" class="1">
 <segment>
 <wire x1="25.4" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
 <label x="27.94" y="91.44" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_A_GATE_HIGH"/>
 <pinref part="CON1" gate="G$1" pin="6"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_A_GATE_HIGH"/>
 </segment>
 </net>
 <net name="PHASE_A_GATE_LOW" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
 <label x="27.94" y="86.36" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_A_GATE_LOW"/>
 <pinref part="CON1" gate="G$1" pin="4"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_A_GATE_LOW"/>
 </segment>
 </net>
 <net name="PHASE_B_GATE_HIGH" class="1">
 <segment>
 <wire x1="25.4" y1="81.28" x2="58.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="27.94" y="81.28" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_B_GATE_HIGH"/>
 <pinref part="CON1" gate="G$1" pin="2"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_B_GATE_HIGH"/>
 </segment>
 </net>
 <net name="PHASE_B_GATE_LOW" class="0">
 <segment>
 <label x="27.94" y="71.12" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_B_GATE_LOW"/>
 <pinref part="CON2" gate="G$1" pin="11"/>
 <wire x1="25.4" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="71.12" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="76.2" x2="58.42" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_B_GATE_LOW"/>
 </segment>
 </net>
 <net name="PHASE_B_GND" class="0">
 <segment>
 <label x="27.94" y="68.58" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_B_GND"/>
 <pinref part="CON2" gate="G$1" pin="10"/>
 <wire x1="25.4" y1="68.58" x2="45.72" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="68.58" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_B_GND"/>
 </segment>
 </net>
 <net name="PHASE_B_CURRENT_SHUNT_N" class="0">
@@ -7274,8 +7263,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="50.8" y1="48.26" x2="50.8" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <label x="27.94" y="50.8" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_B_CURRENT_SHUNT_N"/>
 <pinref part="CON2" gate="G$1" pin="3"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_B_CURRENT_SHUNT_N"/>
 </segment>
 </net>
 <net name="PHASE_B_CURRENT_SHUNT_P" class="0">
@@ -7284,46 +7273,46 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="48.26" y1="45.72" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <label x="27.94" y="48.26" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_B_CURRENT_SHUNT_P"/>
 <pinref part="CON2" gate="G$1" pin="2"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_B_CURRENT_SHUNT_P"/>
 </segment>
 </net>
 <net name="PHASE_C" class="0">
 <segment>
 <label x="27.94" y="63.5" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_C"/>
 <pinref part="CON2" gate="G$1" pin="8"/>
 <wire x1="25.4" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="63.5" x2="50.8" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="68.58" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_C"/>
 </segment>
 </net>
 <net name="PHASE_C_GATE_LOW" class="0">
 <segment>
 <label x="27.94" y="60.96" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_C_GATE_LOW"/>
 <pinref part="CON2" gate="G$1" pin="7"/>
 <wire x1="25.4" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="60.96" x2="53.34" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_C_GATE_LOW"/>
 </segment>
 </net>
 <net name="PHASE_C_GATE_HIGH" class="1">
 <segment>
 <label x="27.94" y="66.04" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_C_GATE_HIGH"/>
 <pinref part="CON2" gate="G$1" pin="9"/>
 <wire x1="25.4" y1="66.04" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="66.04" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="71.12" x2="58.42" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_C_GATE_HIGH"/>
 </segment>
 </net>
 <net name="PHASE_B" class="1">
 <segment>
 <wire x1="25.4" y1="78.74" x2="58.42" y2="78.74" width="0.1524" layer="91"/>
 <label x="27.94" y="78.74" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="PHASE_B"/>
 <pinref part="CON1" gate="G$1" pin="1"/>
+<pinref part="MODULE2" gate="G$1" pin="PHASE_B"/>
 </segment>
 </net>
 <net name="CAN2_TX" class="0">
@@ -7332,8 +7321,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="149.86" y1="101.6" x2="149.86" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="93.98" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
 <label x="127" y="101.6" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="CAN2_TX"/>
 <pinref part="CON3" gate="G$1" pin="9"/>
+<pinref part="MODULE2" gate="G$1" pin="CAN2_TX"/>
 </segment>
 </net>
 <net name="CAN2_RX" class="0">
@@ -7342,8 +7331,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="147.32" y1="99.06" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
 <label x="127" y="99.06" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="CAN2_RX"/>
 <pinref part="CON3" gate="G$1" pin="8"/>
+<pinref part="MODULE2" gate="G$1" pin="CAN2_RX"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
@@ -7352,28 +7341,28 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="154.94" y1="106.68" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="99.06" x2="157.48" y2="99.06" width="0.1524" layer="91"/>
 <label x="127" y="106.68" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="CAN1_TX"/>
 <pinref part="CON3" gate="G$1" pin="11"/>
+<pinref part="MODULE2" gate="G$1" pin="CAN1_TX"/>
 </segment>
 </net>
 <net name="LED_RED" class="0">
 <segment>
 <label x="127" y="68.58" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="RGB_LED_R"/>
 <pinref part="CON4" gate="G$1" pin="10"/>
 <wire x1="157.48" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="63.5" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="68.58" x2="124.46" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="RGB_LED_R"/>
 </segment>
 </net>
 <net name="LED_GREEN" class="0">
 <segment>
 <label x="127" y="71.12" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="RGB_LED_G"/>
 <pinref part="CON4" gate="G$1" pin="11"/>
 <wire x1="124.46" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="71.12" x2="154.94" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="66.04" x2="157.48" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="RGB_LED_G"/>
 </segment>
 </net>
 <net name="CAN1_RX" class="0">
@@ -7382,24 +7371,21 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="152.4" y1="104.14" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="152.4" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
 <label x="127" y="104.14" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="CAN1_RX"/>
 <pinref part="CON3" gate="G$1" pin="10"/>
+<pinref part="MODULE2" gate="G$1" pin="CAN1_RX"/>
 </segment>
 </net>
 <net name="VDD_5V" class="0">
 <segment>
 <pinref part="+P1" gate="G$1" pin="VDD_5V"/>
-<wire x1="50.8" y1="114.3" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="106.68" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="101.6" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="99.06" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <label x="27.94" y="99.06" size="1.016" layer="95"/>
-<wire x1="50.8" y1="111.76" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="MODULE1" gate="G$1" pin="5V_OUT"/>
-<wire x1="58.42" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="101.6" x2="50.8" y2="101.6" width="0.1524" layer="91"/>
-<junction x="50.8" y="101.6"/>
+<wire x1="50.8" y1="114.3" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="9"/>
+<pinref part="MODULE2" gate="G$1" pin="5V_OUT"/>
+<wire x1="50.8" y1="106.68" x2="50.8" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<junction x="50.8" y="106.68"/>
 </segment>
 </net>
 <net name="CAN1_LED" class="0">
@@ -7408,17 +7394,16 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="139.7" y1="88.9" x2="139.7" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <label x="127" y="88.9" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="CAN1_LED"/>
 <pinref part="CON3" gate="G$1" pin="5"/>
+<pinref part="MODULE2" gate="G$1" pin="CAN1_LED"/>
 </segment>
 </net>
 <net name="BEC_ENABLE_OUT" class="0">
 <segment>
-<wire x1="124.46" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="48.26" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 <label x="127" y="48.26" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="BEC_ENABLE_OUT"/>
 <pinref part="CON4" gate="G$1" pin="4"/>
+<pinref part="MODULE2" gate="G$1" pin="BEC_ENABLE_OUT"/>
 </segment>
 </net>
 <net name="USB+" class="0">
@@ -7427,8 +7412,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="137.16" y1="83.82" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="81.28" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
 <label x="127" y="83.82" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="USB+"/>
 <pinref part="CON3" gate="G$1" pin="4"/>
+<pinref part="MODULE2" gate="G$1" pin="USB+"/>
 </segment>
 </net>
 <net name="CAN2_LED" class="0">
@@ -7437,16 +7422,16 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="142.24" y1="91.44" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <label x="127" y="91.44" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="CAN2_LED"/>
 <pinref part="CON3" gate="G$1" pin="6"/>
+<pinref part="MODULE2" gate="G$1" pin="CAN2_LED"/>
 </segment>
 </net>
 <net name="LED_BLUE" class="0">
 <segment>
 <wire x1="124.46" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
 <label x="127" y="73.66" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="RGB_LED_B"/>
 <pinref part="CON3" gate="G$1" pin="1"/>
+<pinref part="MODULE2" gate="G$1" pin="RGB_LED_B"/>
 </segment>
 </net>
 <net name="TEMPERATURE_SENSOR" class="0">
@@ -7455,18 +7440,18 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="45.72" y1="40.64" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
 <label x="27.94" y="45.72" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="TEMPERATURE_SENSOR"/>
 <pinref part="CON2" gate="G$1" pin="1"/>
+<pinref part="MODULE2" gate="G$1" pin="TEMPERATURE_SENSOR"/>
 </segment>
 </net>
 <net name="VDC" class="1">
 <segment>
 <wire x1="55.88" y1="93.98" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <label x="27.94" y="93.98" size="1.016" layer="95"/>
-<wire x1="55.88" y1="93.98" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="MODULE1" gate="G$1" pin="VDC"/>
-<wire x1="55.88" y1="96.52" x2="58.42" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="7"/>
+<wire x1="55.88" y1="93.98" x2="55.88" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="VDC"/>
+<wire x1="55.88" y1="101.6" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OCP_ADJ" class="0">
@@ -7475,28 +7460,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="149.86" y1="63.5" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="60.96" x2="157.48" y2="60.96" width="0.1524" layer="91"/>
 <label x="127" y="63.5" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="OVERCURRENT_PROTECT_ADJ"/>
 <pinref part="CON4" gate="G$1" pin="9"/>
-</segment>
-</net>
-<net name="GPIO2" class="0">
-<segment>
-<wire x1="147.32" y1="60.96" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="147.32" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="60.96" x2="147.32" y2="60.96" width="0.1524" layer="91"/>
-<label x="127" y="60.96" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="GPIO2"/>
-<pinref part="CON4" gate="G$1" pin="8"/>
-</segment>
-</net>
-<net name="GPIO1" class="0">
-<segment>
-<wire x1="144.78" y1="58.42" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="55.88" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
-<label x="127" y="58.42" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="GPIO1"/>
-<pinref part="CON4" gate="G$1" pin="7"/>
+<pinref part="MODULE2" gate="G$1" pin="OVERCURRENT_PROTECT_ADJ"/>
 </segment>
 </net>
 <net name="GAIN_OUT" class="0">
@@ -7505,8 +7470,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="139.7" y1="53.34" x2="139.7" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="50.8" x2="157.48" y2="50.8" width="0.1524" layer="91"/>
 <label x="127" y="53.34" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="GAIN_OUT"/>
 <pinref part="CON4" gate="G$1" pin="5"/>
+<pinref part="MODULE2" gate="G$1" pin="GAIN_OUT"/>
 </segment>
 </net>
 <net name="GATE_ENABLE_OUT" class="0">
@@ -7515,64 +7480,66 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="142.24" y1="55.88" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="53.34" x2="157.48" y2="53.34" width="0.1524" layer="91"/>
 <label x="127" y="55.88" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="GATE_ENABLE_OUT"/>
 <pinref part="CON4" gate="G$1" pin="6"/>
+<pinref part="MODULE2" gate="G$1" pin="GATE_ENABLE_OUT"/>
 </segment>
 </net>
 <net name="UART_RX" class="0">
 <segment>
-<wire x1="124.46" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="45.72" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <label x="127" y="45.72" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="UART_RX"/>
 <pinref part="CON4" gate="G$1" pin="3"/>
+<pinref part="MODULE2" gate="G$1" pin="UART_RX"/>
 </segment>
 </net>
 <net name="UART_TX" class="0">
 <segment>
-<wire x1="124.46" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="43.18" x2="157.48" y2="43.18" width="0.1524" layer="91"/>
 <label x="127" y="43.18" size="1.016" layer="95"/>
-<pinref part="MODULE1" gate="G$1" pin="UART_TX"/>
 <pinref part="CON4" gate="G$1" pin="2"/>
+<pinref part="MODULE2" gate="G$1" pin="UART_TX"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<wire x1="25.4" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="104.14" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="27.94" y="106.68" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="MODULE1" gate="G$1" pin="SWDIO"/>
-<wire x1="58.42" y1="106.68" x2="45.72" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="106.68" x2="45.72" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="104.14" x2="27.94" y2="104.14" width="0.1524" layer="91"/>
-<junction x="27.94" y="104.14"/>
+<wire x1="25.4" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<label x="35.56" y="104.14" size="1.27" layer="95" xref="yes"/>
 <pinref part="CON1" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="106.68" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
-<label x="35.56" y="106.68" size="1.27" layer="95" rot="R90" xref="yes"/>
-<pinref part="MODULE1" gate="G$1" pin="SWCLK"/>
-<wire x1="58.42" y1="104.14" x2="48.26" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="104.14" x2="48.26" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
-<junction x="35.56" y="101.6"/>
+<label x="35.56" y="101.6" size="1.27" layer="95" xref="yes"/>
 <pinref part="CON1" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="MITO_PRESENCE" class="0">
 <segment>
-<pinref part="MODULE1" gate="G$1" pin="NC"/>
-<wire x1="124.46" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="CON3" gate="G$1" pin="7"/>
-<wire x1="157.48" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="88.9" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="93.98" x2="124.46" y2="93.98" width="0.1524" layer="91"/>
 <label x="132.08" y="93.98" size="1.778" layer="95" font="vector" ratio="15"/>
+<pinref part="MODULE2" gate="G$1" pin="NC"/>
+</segment>
+</net>
+<net name="GPIO1" class="0">
+<segment>
+<pinref part="MODULE2" gate="G$1" pin="GPIO1"/>
+<wire x1="124.46" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="CON4" gate="G$1" pin="8"/>
+<label x="127" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GPIO2" class="0">
+<segment>
+<pinref part="CON4" gate="G$1" pin="7"/>
+<wire x1="157.48" y1="55.88" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="55.88" x2="144.78" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="MODULE2" gate="G$1" pin="GPIO2"/>
+<wire x1="144.78" y1="60.96" x2="124.46" y2="60.96" width="0.1524" layer="91"/>
+<label x="127" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
