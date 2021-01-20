@@ -1716,8 +1716,9 @@ adapter</text>
 <signal name="PWREN_IN">
 <contactref element="MODULE1" pad="21"/>
 <contactref element="CON4" pad="1"/>
-<wire x1="11.7" y1="-28" x2="3" y2="-19.3" width="0.3" layer="1"/>
-<wire x1="3" y1="-19.3" x2="3" y2="-14" width="0.3" layer="1"/>
+<wire x1="11.7" y1="-28" x2="10" y2="-26.3" width="0.3" layer="1"/>
+<wire x1="10" y1="-21" x2="3" y2="-14" width="0.3" layer="1"/>
+<wire x1="10" y1="-21" x2="10" y2="-26.3" width="0.3" layer="1"/>
 <wire x1="17.7" y1="-28" x2="18" y2="-27.7" width="0.3" layer="1"/>
 <wire x1="11.7" y1="-28" x2="17.7" y2="-28" width="0.3" layer="1"/>
 </signal>
