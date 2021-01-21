@@ -1,37 +1,44 @@
 # MyDuck LV
+
 MyDuck LV is a dual-purpose device:
 
-1) It can be used as a development board for [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv). 
-In this scenario, Mitochondrik LV is soldered directly to the PCB and turning MyDuck LV into a debug-friendly development board/PMSM motor controller.
+1) It can be used as an evaluation board for [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv).
+In this scenario, Mitochondrik LV is soldered directly to the PCB, turning MyDuck LV into a debug-friendly
+evaluation board or a PMSM motor controller.
 
 ![](figures/Myduck-LV-standalone.png)
 
-2) It can serve as a tool for production flashing and testing Mitochondrik LV. 
-In this scenario, Mitochondrik LV is mounted on the intermediate PCB using pogo pins. This PCB is then installed into MyDuck LV.
-Mitochondrik LV can be aligned in place using 3D printed parts (red parts in the picture below). It then can be fixed either using a strip of aluminium (as suggested in the model)
-or with a generic toggle clamp. MyDuck LV is designed to accept [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly. 
+2) It can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
+In this scenario, Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
+This PCB is then installed into MyDuck LV.
+Mitochondrik LV can be aligned in place using 3D-printed parts (red parts in the picture below).
+It can then be fixed using a strip of aluminum (as suggested in the model) or with a generic toggle clamp.
+MyDuck LV is designed to accept [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
 
 ![](figures/Myduck-LV-jig.png)
 
-In both scenarios following interfaces are available:
+In both scenarios, the following interfaces are available:
 
 * USB
-* Dronecode debug port 
+* Dronecode debug port
 * Two CAN interfaces
-* AUX port 
+* Aux port
 
-Interfaces essential for production are also available on pin headers for direct Babel-Babel connection. 
+Interfaces essential for production are also exposed via the pin headers for direct Babel-Babel connection.
 
-For more details on the device's specifications please check the [design requirements](https://github.com/Zubax/MyDuck-LV/blob/master/requirements.md).
+For details on the device's specifications, please check the
+[design requirements](https://github.com/Zubax/MyDuck-LV/blob/master/requirements.md).
 
-For more details on the manufacturing process of the device check the [manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
+For details on the manufacturing process of the device, check the
+[manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
 
-To perform flashing and testing the following steps should be taken:
+To perform flashing and testing, the following steps should be taken:
 
 1) Connect any PMSM motor to the phase connectors of MyDuck LV.
 2) Install Babel-Babel on the MyDuck LV and connect it to the PC.
-3) Connect the power supply to the MyDuck LV (observe the polarity!!!).
-4) Install the Mitochondrik in place (observe the polarity, notice there is a mechanical key on the Mitochondrik PCB that should prevent incorrect placement).
-5) Start testing sequence with drwatson like for any other Telega-based device.
-6) Follow the instructions from drwatson.
+3) Connect the power supply to the MyDuck LV (observe the polarity).
+4) Install the Mitochondrik in place (observe the polarity, notice there is a mechanical key on the Mitochondrik
+that should prevent incorrect placement).
+5) Start the automated testing sequence using DrWatson like for any other Telega-based device.
+6) Follow the instructions from DrWatson.
 7) Remove the Mitochondrik.
