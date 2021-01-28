@@ -3765,27 +3765,6 @@ DIN A4, landscape with location and doc. field</description>
 <rectangle x1="-4.3" y1="-2.35" x2="-3.3" y2="-0.75" layer="51"/>
 <rectangle x1="3.3" y1="-2.35" x2="4.3" y2="-0.75" layer="51"/>
 </package>
-<package name="MICRO_USB_WITHOUT_PEGS" urn="urn:adsk.eagle:footprint:1041164/2" library_version="1" library_locally_modified="yes">
-<wire x1="-4.3" y1="-0.21" x2="-4.3" y2="1.59" width="0.254" layer="21"/>
-<wire x1="-4.3" y1="1.59" x2="-1.8" y2="1.59" width="0.254" layer="21"/>
-<wire x1="1.8" y1="1.59" x2="4.3" y2="1.59" width="0.254" layer="21"/>
-<wire x1="4.3" y1="1.59" x2="4.3" y2="-0.11" width="0.254" layer="21"/>
-<wire x1="4.1" y1="-2.61" x2="4.1" y2="-3.31" width="0.254" layer="21"/>
-<wire x1="-4.1" y1="-2.61" x2="-4.1" y2="-3.31" width="0.254" layer="21"/>
-<wire x1="4.2" y1="-2.69" x2="-4.1" y2="-2.69" width="0.01" layer="51"/>
-<smd name="D+" x="0" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="D-" x="-0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND" x="1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND1" x="-1.2" y="-1.25" dx="1.9" dy="1.9" layer="1"/>
-<smd name="GND2" x="1.2" y="-1.25" dx="1.9" dy="1.9" layer="1"/>
-<smd name="GND3" x="-3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND4" x="3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND5" x="-3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
-<smd name="GND6" x="3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
-<smd name="ID" x="0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
-<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="JST_GH-4P-RA" urn="urn:adsk.eagle:footprint:1040040/4" library_version="95">
 <description>http://www.molex.com/pdm_docs/sd/5023860270_sd.pdf</description>
 <smd name="M$1" x="3.825" y="0.19" dx="2.8" dy="1" layer="1" roundness="50" rot="R270"/>
@@ -3963,7 +3942,7 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="G1" x="-5.575" y="-0.53" dx="2.2" dy="1.6" layer="1" rot="R90"/>
 <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="MICRO_USB_PEGS" urn="urn:adsk.eagle:footprint:1041163/6" library_version="95">
+<package name="-10118193-0001LF" urn="urn:adsk.eagle:footprint:1041163/7" library_version="112">
 <description>http://www.digikey.com/product-detail/en/10118193-0001LF/609-4616-1-ND/2785380
 &lt;br&gt;
 Slots are made slightly wider for compatibility with JLPCB.</description>
@@ -4008,7 +3987,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <rectangle x1="0.55" y1="2.2" x2="0.75" y2="3.2" layer="51"/>
 <rectangle x1="1.2" y1="2.2" x2="1.4" y2="3.2" layer="51"/>
 </package>
-<package name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:footprint:9941914/1" library_version="95">
+<package name="10118192-0001LF" urn="urn:adsk.eagle:footprint:1041164/3" library_version="112">
 <wire x1="-4.3" y1="-0.21" x2="-4.3" y2="1.59" width="0.254" layer="21"/>
 <wire x1="-4.3" y1="1.59" x2="-1.8" y2="1.59" width="0.254" layer="21"/>
 <wire x1="1.8" y1="1.59" x2="4.3" y2="1.59" width="0.254" layer="21"/>
@@ -4019,6 +3998,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <smd name="D+" x="0" y="1.44" dx="0.4" dy="1.35" layer="1"/>
 <smd name="D-" x="-0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
 <smd name="GND" x="1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
+<smd name="GND1" x="-1.2" y="-1.25" dx="1.9" dy="1.9" layer="1"/>
+<smd name="GND2" x="1.2" y="-1.25" dx="1.9" dy="1.9" layer="1"/>
 <smd name="GND3" x="-3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
 <smd name="GND4" x="3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
 <smd name="GND5" x="-3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
@@ -4027,7 +4008,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
 <text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/4" library_version="99">
+<package name="1051330011" urn="urn:adsk.eagle:footprint:4410717/4" library_version="112">
 <wire x1="-3.15" y1="0.25" x2="-2.45" y2="0.25" width="0.01" layer="20"/>
 <wire x1="-3.15" y1="-0.25" x2="-2.45" y2="-0.25" width="0.01" layer="20"/>
 <wire x1="-3.15" y1="-0.25" x2="-3.15" y2="0.25" width="0.01" layer="20" curve="-180"/>
@@ -4060,16 +4041,30 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <smd name="P$6" x="0" y="-2.15" dx="2" dy="0.9" layer="16" roundness="100" rot="R180" cream="no"/>
 <text x="0" y="-0.8" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
+<package name="SMD-REDUCED" urn="urn:adsk.eagle:footprint:9941914/2" library_version="112">
+<wire x1="-4.3" y1="-0.21" x2="-4.3" y2="1.59" width="0.254" layer="21"/>
+<wire x1="-4.3" y1="1.59" x2="-1.8" y2="1.59" width="0.254" layer="21"/>
+<wire x1="1.8" y1="1.59" x2="4.3" y2="1.59" width="0.254" layer="21"/>
+<wire x1="4.3" y1="1.59" x2="4.3" y2="-0.11" width="0.254" layer="21"/>
+<wire x1="4.1" y1="-2.61" x2="4.1" y2="-3.31" width="0.254" layer="21"/>
+<wire x1="-4.1" y1="-2.61" x2="-4.1" y2="-3.31" width="0.254" layer="21"/>
+<wire x1="4.2" y1="-2.69" x2="-4.1" y2="-2.69" width="0.01" layer="51"/>
+<smd name="D+" x="0" y="1.44" dx="0.4" dy="1.35" layer="1"/>
+<smd name="D-" x="-0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
+<smd name="GND" x="1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
+<smd name="GND3" x="-3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
+<smd name="GND4" x="3.1" y="1.325" dx="2.1" dy="1.6" layer="1"/>
+<smd name="GND5" x="-3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
+<smd name="GND6" x="3.8" y="-1.25" dx="1.8" dy="1.9" layer="1"/>
+<smd name="ID" x="0.65" y="1.44" dx="0.4" dy="1.35" layer="1"/>
+<smd name="VBUS" x="-1.3" y="1.44" dx="0.4" dy="1.35" layer="1"/>
+<text x="0" y="0" size="0.7" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SM06B" urn="urn:adsk.eagle:package:1041174/4" type="model" library_version="16">
 <packageinstances>
 <packageinstance name="SM06B"/>
-</packageinstances>
-</package3d>
-<package3d name="MICRO_USB_WITHOUT_PEGS" urn="urn:adsk.eagle:package:1041166/3" type="model" library_version="1" library_locally_modified="yes">
-<packageinstances>
-<packageinstance name="MICRO_USB_WITHOUT_PEGS"/>
 </packageinstances>
 </package3d>
 <package3d name="JST_GH-4P-RA" urn="urn:adsk.eagle:package:1040150/6" type="model" library_version="95">
@@ -4089,22 +4084,27 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="DF13C-6P-1.25V"/>
 </packageinstances>
 </package3d>
-<package3d name="MICRO_USB_WITH_PEGS" urn="urn:adsk.eagle:package:1041165/8" type="model" library_version="95">
+<package3d name="MICRO_USB_WITH_PEGS" urn="urn:adsk.eagle:package:1041165/9" type="model" library_version="112">
 <description>http://www.digikey.com/product-detail/en/10118193-0001LF/609-4616-1-ND/2785380
 &lt;br&gt;
 Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstances>
-<packageinstance name="MICRO_USB_PEGS"/>
+<packageinstance name="-10118193-0001LF"/>
 </packageinstances>
 </package3d>
-<package3d name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:package:9941917/1" type="box" library_version="95">
+<package3d name="MICRO_USB_WITHOUT_PEGS" urn="urn:adsk.eagle:package:1041166/4" type="model" library_version="112">
 <packageinstances>
-<packageinstance name="MICRO_USB_WITHOUT_PEGS_MODIFIED"/>
+<packageinstance name="10118192-0001LF"/>
 </packageinstances>
 </package3d>
-<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/5" type="model" library_version="99">
+<package3d name="1051330011" urn="urn:adsk.eagle:package:4410721/5" type="model" library_version="112">
 <packageinstances>
 <packageinstance name="1051330011"/>
+</packageinstances>
+</package3d>
+<package3d name="MICRO_USB_WITHOUT_PEGS_MODIFIED" urn="urn:adsk.eagle:package:9941917/2" type="box" library_version="112">
+<packageinstances>
+<packageinstance name="SMD-REDUCED"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4140,17 +4140,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pin name="G2" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 <text x="2.54" y="18.796" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 </symbol>
-<symbol name="USB" urn="urn:adsk.eagle:symbol:4410719/2" library_version="9">
-<wire x1="5.08" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
-<wire x1="0" y1="8.89" x2="0" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
-<pin name="D+" x="-2.54" y="7.62" visible="pad" length="short"/>
-<pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
-<pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
-<pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
-<text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
-<text x="2.54" y="10.16" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-</symbol>
 <symbol name="CON-4P-TAB" urn="urn:adsk.eagle:symbol:4707148/2" library_version="95">
 <pin name="1" x="2.54" y="-2.54" visible="pad" length="short" rot="R90"/>
 <pin name="2" x="5.08" y="-2.54" visible="pad" length="short" rot="R90"/>
@@ -4162,6 +4151,17 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="12.7" y1="5.08" x2="12.7" y2="0" width="0.254" layer="94"/>
 <wire x1="12.7" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <text x="6.35" y="6.35" size="1.778" layer="95" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="USB" urn="urn:adsk.eagle:symbol:4410719/2" library_version="112">
+<wire x1="5.08" y1="8.89" x2="0" y2="8.89" width="0.254" layer="94"/>
+<wire x1="0" y1="8.89" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<pin name="D+" x="-2.54" y="7.62" visible="pad" length="short"/>
+<pin name="D-" x="-2.54" y="5.08" visible="pad" length="short"/>
+<pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
+<pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
+<text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
+<text x="2.54" y="10.16" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4217,82 +4217,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/16" prefix="CON" library_version="99">
-<description>Connector Receptacle USB - micro B 2.0 5 Position</description>
-<gates>
-<gate name="G$1" symbol="USB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-1" package="MICRO_USB_PEGS">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND GND1 GND2 GND3 GND4 P$1 P$2 P$3 P$4"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1041165/8"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="609-4616-1-ND" constant="no"/>
-<attribute name="MANF" value="FCI" constant="no"/>
-<attribute name="MANF#" value="10118193-0001LF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-2" package="MICRO_USB_WITHOUT_PEGS">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND GND1 GND2 GND3 GND4 GND5 GND6"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:1041166/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="609-4613-1-ND" constant="no"/>
-<attribute name="MANF" value="FCI" constant="no"/>
-<attribute name="MANF#" value="10118192-0001LF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-VERTICAL" package="1051330011">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5 P$1 P$2 P$3 P$4 P$5 P$6"/>
-<connect gate="G$1" pin="VBUS" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/5"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="WM10134TR-ND" constant="no"/>
-<attribute name="MANF" value="Molex LLC" constant="no"/>
-<attribute name="MANF#" value="1051330011" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-MODIFIED" package="MICRO_USB_WITHOUT_PEGS_MODIFIED">
-<connects>
-<connect gate="G$1" pin="D+" pad="D+"/>
-<connect gate="G$1" pin="D-" pad="D-"/>
-<connect gate="G$1" pin="GND" pad="GND GND3 GND4 GND5 GND6"/>
-<connect gate="G$1" pin="VBUS" pad="VBUS"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9941917/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CON-4P-TABS" urn="urn:adsk.eagle:component:4707152/7" prefix="CON" library_version="95">
 <description>Connector Receptacle 4 Position 0.049" (1.25mm) Tin Surface Mount</description>
 <gates>
@@ -4342,6 +4266,82 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF" value="JST Sales America Inc" constant="no"/>
 <attribute name="MANF#" value="BM04B-GHS-TBT(LF)(SN)(N)" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB" urn="urn:adsk.eagle:component:4410723/17" prefix="CON" library_version="112">
+<description>Connector Receptacle USB - micro B 2.0 5 Position</description>
+<gates>
+<gate name="G$1" symbol="USB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1" package="-10118193-0001LF">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND GND1 GND2 GND3 GND4 P$1 P$2 P$3 P$4"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1041165/9"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="609-4616-1-ND" constant="no"/>
+<attribute name="MANF" value="FCI" constant="no"/>
+<attribute name="MANF#" value="10118193-0001LF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-2" package="10118192-0001LF">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND GND1 GND2 GND3 GND4 GND5 GND6"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1041166/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="609-4613-1-ND" constant="no"/>
+<attribute name="MANF" value="FCI" constant="no"/>
+<attribute name="MANF#" value="10118192-0001LF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-VERTICAL" package="1051330011">
+<connects>
+<connect gate="G$1" pin="D+" pad="3"/>
+<connect gate="G$1" pin="D-" pad="2"/>
+<connect gate="G$1" pin="GND" pad="5 P$1 P$2 P$3 P$4 P$5 P$6"/>
+<connect gate="G$1" pin="VBUS" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4410721/5"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="WM10134TR-ND" constant="no"/>
+<attribute name="MANF" value="Molex LLC" constant="no"/>
+<attribute name="MANF#" value="1051330011" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-MODIFIED" package="SMD-REDUCED">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND GND3 GND4 GND5 GND6"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:9941917/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6899,7 +6899,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="GND2" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="D2" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="MBR0520L" device="-SOD123" package3d_urn="urn:adsk.eagle:package:2473271/2"/>
 <part name="+P2" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="5V" device=""/>
-<part name="CON8" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-2" package3d_urn="urn:adsk.eagle:package:1041166/3" value="USB-2"/>
+<part name="CON8" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="USB" device="-1" package3d_urn="urn:adsk.eagle:package:1041165/9" value="USB-1"/>
 <part name="D1" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="PRTR5V0U2X" device="" package3d_urn="urn:adsk.eagle:package:3333649/6"/>
 <part name="GND1" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="IC2" library="serial_interfaces" library_urn="urn:adsk.eagle:library:4770999" deviceset="TJA1051" device="-SO8" package3d_urn="urn:adsk.eagle:package:4771007/5"/>
@@ -7030,9 +7030,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="GND16" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="D8" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="SM712" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
 <part name="GND17" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="CON6" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15321847/2"/>
-<part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-PBS3" package3d_urn="urn:adsk.eagle:package:25449734/2" value="PINHEAD_1X03-PBS3"/>
-<part name="CON16" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-PBS3" package3d_urn="urn:adsk.eagle:package:25449734/2" value="PINHEAD_1X03-PBS3"/>
+<part name="CON6" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X06" device="-2.54-FEMALE" package3d_urn="urn:adsk.eagle:package:15321847/2">
+<variant name="BASIC" populate="no"/>
+</part>
+<part name="CON7" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-PBS3" package3d_urn="urn:adsk.eagle:package:25449734/2" value="PINHEAD_1X03-PBS3">
+<variant name="BASIC" populate="no"/>
+</part>
+<part name="CON16" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X03" device="-PBS3" package3d_urn="urn:adsk.eagle:package:25449734/2" value="PINHEAD_1X03-PBS3">
+<variant name="BASIC" populate="no"/>
+</part>
 <part name="D9" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="MBR0520L" device="-SOD123" package3d_urn="urn:adsk.eagle:package:2473271/2"/>
 <part name="D10" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="MBR0520L" device="-SOD123" package3d_urn="urn:adsk.eagle:package:2473271/2"/>
 <part name="R31" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="4R3">
@@ -7057,16 +7063,24 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF"/>
 <part name="R34" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K5"/>
 <part name="R33" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
-<part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
+<part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1">
+<variant name="BASIC" populate="no"/>
+</part>
 <part name="R35" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
-<part name="SJ2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
+<part name="SJ2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1">
+<variant name="BASIC" populate="no"/>
+</part>
 <part name="D11" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="PRTR5V0U2X" device="" package3d_urn="urn:adsk.eagle:package:3333649/6"/>
 <part name="GND21" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P3" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="CON15" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
-<part name="CON17" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
+<part name="CON17" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2">
+<variant name="BASIC" populate="no"/>
+</part>
 <part name="GND23" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="CON18" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
+<part name="CON18" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2">
+<variant name="BASIC" populate="no"/>
+</part>
 <part name="CON19" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X02" device="-2.54" package3d_urn="urn:adsk.eagle:package:2540385/2"/>
 <part name="+P13" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="GND25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
