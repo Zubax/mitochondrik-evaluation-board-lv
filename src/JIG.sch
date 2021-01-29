@@ -4892,68 +4892,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="1.4" y1="0" x2="2.5" y2="0" width="0.1" layer="51"/>
 <text x="0" y="1.2" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="LED2020" urn="urn:adsk.eagle:footprint:24467157/2" library_version="69">
-<description>https://datasheet.lcsc.com/szlcsc/1810231210_Foshan-NationStar-Optoelectronics-FM-B2020RGBA-HG_C108793.pdf</description>
-<smd name="+" x="0.85" y="-0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<smd name="B" x="0.85" y="0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<smd name="R" x="-0.85" y="0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<smd name="G" x="-0.85" y="-0.55" dx="0.8" dy="0.7" layer="1" rot="R180"/>
-<wire x1="-1.05" y1="-1.05" x2="1.05" y2="-1.05" width="0.1" layer="51"/>
-<wire x1="1.05" y1="-1.05" x2="1.05" y2="1.05" width="0.1" layer="51"/>
-<wire x1="1.05" y1="1.05" x2="-0.6" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="1.05" x2="-1.05" y2="1.05" width="0.1" layer="51"/>
-<wire x1="-1.05" y1="1.05" x2="-1.05" y2="0.6" width="0.1" layer="51"/>
-<wire x1="-1.05" y1="0.6" x2="-1.05" y2="-1.05" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="1.05" x2="-1.05" y2="0.6" width="0.1" layer="51"/>
-<wire x1="1.05" y1="1.05" x2="-1.05" y2="1.05" width="0.1" layer="21"/>
-<wire x1="-1.05" y1="0.05" x2="-1.05" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="1.05" y1="0.05" x2="1.05" y2="-0.05" width="0.1" layer="21"/>
-<wire x1="1.05" y1="-1.05" x2="-1.05" y2="-1.05" width="0.1" layer="21"/>
-<text x="0" y="0" size="1" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
-</package>
-<package name="LED3528" urn="urn:adsk.eagle:footprint:24609405/2" library_version="69">
-<smd name="4" x="1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="3" x="-1.5" y="0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="2" x="-1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<smd name="1" x="1.5" y="-0.7" dx="1" dy="1.5" layer="1" rot="R90"/>
-<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="51"/>
-<wire x1="1.6" y1="1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-0.6" x2="1.6" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="1.6" y1="-1.4" x2="0.8" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.4" x2="-1.6" y2="-1.4" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="-1.4" x2="-1.6" y2="1.4" width="0.127" layer="51"/>
-<wire x1="0.8" y1="-1.4" x2="1.6" y2="-0.6" width="0.127" layer="51"/>
-<wire x1="-1.6" y1="1.4" x2="1.6" y2="1.4" width="0.127" layer="21"/>
-<wire x1="1.6" y1="0.05" x2="1.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.05" x2="-1.6" y2="-0.05" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.35" x2="-1.6" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.127" layer="21"/>
-<wire x1="1.6" y1="-1.4" x2="1.6" y2="-1.35" width="0.127" layer="21"/>
-<wire x1="1.6" y1="1.4" x2="1.6" y2="1.35" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="1.4" x2="-1.6" y2="1.35" width="0.127" layer="21"/>
-<text x="0" y="2.1" size="1" layer="25" font="vector" ratio="12" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1" width="0.1" layer="51"/>
-</package>
-<package name="LED3528-HOLE" urn="urn:adsk.eagle:footprint:24609406/4" library_version="69">
-<smd name="4" x="-2.35" y="0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="2.35" y="0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="2.35" y="-0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<smd name="1" x="-2.35" y="-0.7" dx="1" dy="1" layer="1" rot="R90"/>
-<wire x1="1.65" y1="-1.15" x2="1.65" y2="1.15" width="0.000253125" layer="20"/>
-<wire x1="1.65" y1="1.15" x2="1.15" y2="1.65" width="0.000253125" layer="20" curve="90"/>
-<wire x1="1.15" y1="1.65" x2="-1.15" y2="1.65" width="0.000253125" layer="20"/>
-<wire x1="-1.15" y1="1.65" x2="-1.65" y2="1.15" width="0.000253125" layer="20" curve="90"/>
-<wire x1="-1.65" y1="1.15" x2="-1.65" y2="-1.15" width="0.000253125" layer="20"/>
-<wire x1="-1.65" y1="-1.15" x2="-1.15" y2="-1.65" width="0.000253125" layer="20" curve="90"/>
-<wire x1="-1.15" y1="-1.65" x2="1.15" y2="-1.65" width="0.000253125" layer="20"/>
-<wire x1="1.15" y1="-1.65" x2="1.65" y2="-1.15" width="0.000253125" layer="20" curve="90"/>
-<wire x1="1.6" y1="1.4" x2="-1.6" y2="1.4" width="0.1" layer="52"/>
-<wire x1="-1.6" y1="1.4" x2="-1.6" y2="-1.4" width="0.1" layer="52"/>
-<wire x1="-1.6" y1="-1.4" x2="1.6" y2="-1.4" width="0.1" layer="52"/>
-<wire x1="1.6" y1="-1.4" x2="1.6" y2="1.4" width="0.1" layer="52"/>
-<text x="0" y="2.2" size="1" layer="22" font="vector" ratio="12" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1" width="0.1" layer="52"/>
-</package>
 </packages>
 <packages3d>
 <package3d name="R0805" urn="urn:adsk.eagle:package:2539455/2" type="model" library_version="19" library_locally_modified="yes">
@@ -5091,22 +5029,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="MF-R010"/>
 </packageinstances>
 </package3d>
-<package3d name="LED2020" urn="urn:adsk.eagle:package:24467158/3" type="model" library_version="69">
-<description>https://datasheet.lcsc.com/szlcsc/1810231210_Foshan-NationStar-Optoelectronics-FM-B2020RGBA-HG_C108793.pdf</description>
-<packageinstances>
-<packageinstance name="LED2020"/>
-</packageinstances>
-</package3d>
-<package3d name="LED3528" urn="urn:adsk.eagle:package:24609407/3" type="model" library_version="69">
-<packageinstances>
-<packageinstance name="LED3528"/>
-</packageinstances>
-</package3d>
-<package3d name="LED3528-HOLE" urn="urn:adsk.eagle:package:24609408/7" type="model" library_version="69">
-<packageinstances>
-<packageinstance name="LED3528-HOLE"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="R" urn="urn:adsk.eagle:symbol:2539432/3" library_version="68">
@@ -5164,52 +5086,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pin name="C" x="2.54" y="0" visible="off" length="short" rot="R180"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
 <text x="-4.318" y="0.508" size="0.635" layer="96" font="vector" align="center">&gt;COLOR</text>
-</symbol>
-<symbol name="RGB_LED" urn="urn:adsk.eagle:symbol:24467155/2" library_version="69">
-<wire x1="5.08" y1="8.89" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="5.08" y2="6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="6.35" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="5.08" y2="8.89" width="0.254" layer="94"/>
-<wire x1="7.62" y1="8.89" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="11.43" width="0.254" layer="94"/>
-<wire x1="5.08" y1="11.43" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="5.08" y2="13.97" width="0.254" layer="94"/>
-<wire x1="7.62" y1="13.97" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="12.7" x2="7.62" y2="11.43" width="0.254" layer="94"/>
-<wire x1="5.08" y1="3.81" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.254" layer="94"/>
-<wire x1="5.08" y1="1.27" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="5.08" y2="3.81" width="0.254" layer="94"/>
-<wire x1="7.62" y1="3.81" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="1.27" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.254" layer="94"/>
-<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="9.144" y2="19.304" width="0.254" layer="94"/>
-<wire x1="9.144" y1="19.304" x2="8.128" y2="18.796" width="0.254" layer="94"/>
-<wire x1="8.636" y1="18.288" x2="9.144" y2="19.304" width="0.254" layer="94"/>
-<wire x1="6.096" y1="17.78" x2="7.62" y2="19.304" width="0.254" layer="94"/>
-<wire x1="7.62" y1="19.304" x2="6.604" y2="18.796" width="0.254" layer="94"/>
-<wire x1="7.112" y1="18.288" x2="7.62" y2="19.304" width="0.254" layer="94"/>
-<pin name="A" x="-2.54" y="7.62" visible="off" length="short"/>
-<pin name="B" x="12.7" y="2.54" visible="off" length="middle" rot="R180"/>
-<pin name="G" x="12.7" y="7.62" visible="off" length="middle" rot="R180"/>
-<pin name="R" x="12.7" y="12.7" visible="off" length="middle" rot="R180"/>
-<text x="5.08" y="16.51" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="10.922" y="12.954" size="1.27" layer="97">R</text>
-<text x="10.922" y="7.874" size="1.27" layer="97">G</text>
-<text x="10.922" y="2.794" size="1.27" layer="97">B</text>
-<text x="5.08" y="-1.27" size="0.889" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5476,7 +5352,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C" urn="urn:adsk.eagle:component:2539479/22" prefix="C" uservalue="yes" library_version="69">
+<deviceset name="C" urn="urn:adsk.eagle:component:2539479/19" prefix="C" uservalue="yes" library_version="52">
 <gates>
 <gate name="G$1" symbol="C" x="0" y="0"/>
 </gates>
@@ -5493,10 +5369,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0402" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5514,10 +5388,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0805" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5535,10 +5407,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="1206" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5554,9 +5424,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
 <attribute name="OPERATING_TEMP" value="" constant="no"/>
@@ -5577,10 +5445,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technology name="">
 <attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="LCSC#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0603" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5624,11 +5490,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="AEC-Q" value="" constant="no"/>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-<attribute name="OPERATING_TEMP" value="" constant="no"/>
 <attribute name="PACKAGE" value="0201" constant="no"/>
 <attribute name="VOLTAGE" value="" constant="no"/>
 </technology>
@@ -5756,65 +5620,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="DIGIKEY#" value="" constant="no"/>
 <attribute name="MANF" value="" constant="no"/>
 <attribute name="MANF#" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED_RGB" urn="urn:adsk.eagle:component:24467159/10" prefix="LED" library_version="69">
-<gates>
-<gate name="G$1" symbol="RGB_LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-2020" package="LED2020">
-<connects>
-<connect gate="G$1" pin="A" pad="+"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="G" pad="G"/>
-<connect gate="G$1" pin="R" pad="R"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24467158/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="LCSC#" value="C108793" constant="no"/>
-<attribute name="MANF" value="Foshan NationStar Optoelectronics" constant="no"/>
-<attribute name="MANF#" value="FM-B2020RGBA-HG " constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-3528" package="LED3528">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="R" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24609407/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="Foryard" constant="no"/>
-<attribute name="MANF#" value="FYLS-3528RGBC-CA" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-3528-HOLE" package="LED3528-HOLE">
-<connects>
-<connect gate="G$1" pin="A" pad="2"/>
-<connect gate="G$1" pin="B" pad="3"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="R" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24609408/7"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MANF" value="Foryard" constant="no"/>
-<attribute name="MANF#" value="FYLS-3528RGBC-CA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6082,6 +5887,18 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <smd name="IN" x="0" y="0" dx="0.1" dy="0.1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 <pad name="SHELL" x="0" y="0" drill="0.3" diameter="0.6" stop="no" thermals="no"/>
 </package>
+<package name="0606" urn="urn:adsk.eagle:footprint:20072924/1" library_version="159">
+<circle x="-1.25" y="1.25" radius="0.1" width="0.1524" layer="21"/>
+<wire x1="-0.95" y1="1.35" x2="0.95" y2="1.35" width="0.1524" layer="21"/>
+<wire x1="0.95" y1="1.35" x2="0.95" y2="-1.35" width="0.1524" layer="21"/>
+<wire x1="0.95" y1="-1.35" x2="-0.95" y2="-1.35" width="0.1524" layer="21"/>
+<wire x1="-0.95" y1="-1.35" x2="-0.95" y2="1.35" width="0.1524" layer="21"/>
+<smd name="+" x="-0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="B" x="0.425" y="-0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="G" x="0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<smd name="R" x="-0.425" y="0.725" dx="0.65" dy="0.85" layer="1"/>
+<text x="0" y="1.75" size="0.6" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="CONNECTION" urn="urn:adsk.eagle:package:7439847/1" type="box" library_version="159">
@@ -6118,6 +5935,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <package3d name="SENSE-0.6" urn="urn:adsk.eagle:package:7365871/1" type="box" library_version="159">
 <packageinstances>
 <packageinstance name="SENSE-0.6"/>
+</packageinstances>
+</package3d>
+<package3d name="0606" urn="urn:adsk.eagle:package:20072926/2" type="model" library_version="159">
+<packageinstances>
+<packageinstance name="0606"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -6165,6 +5987,52 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="2.54" y1="2.54" x2="0.508" y2="0.508" width="0.254" layer="94"/>
 <pin name="IN" x="0" y="-2.54" visible="off" length="middle" rot="R90"/>
 <pin name="SHELLL" x="-5.08" y="2.54" visible="off" length="short"/>
+</symbol>
+<symbol name="RGB_LED" urn="urn:adsk.eagle:symbol:20072922/2" library_version="159">
+<wire x1="5.08" y1="8.89" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="5.08" y2="8.89" width="0.254" layer="94"/>
+<wire x1="7.62" y1="8.89" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="13.97" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="11.43" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="5.08" y2="13.97" width="0.254" layer="94"/>
+<wire x1="7.62" y1="13.97" x2="7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="12.7" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="9.144" y2="19.304" width="0.254" layer="94"/>
+<wire x1="9.144" y1="19.304" x2="8.128" y2="18.796" width="0.254" layer="94"/>
+<wire x1="8.636" y1="18.288" x2="9.144" y2="19.304" width="0.254" layer="94"/>
+<wire x1="6.096" y1="17.78" x2="7.62" y2="19.304" width="0.254" layer="94"/>
+<wire x1="7.62" y1="19.304" x2="6.604" y2="18.796" width="0.254" layer="94"/>
+<wire x1="7.112" y1="18.288" x2="7.62" y2="19.304" width="0.254" layer="94"/>
+<pin name="A" x="-2.54" y="7.62" visible="off" length="short"/>
+<pin name="B" x="12.7" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="G" x="12.7" y="7.62" visible="off" length="middle" rot="R180"/>
+<pin name="R" x="12.7" y="12.7" visible="off" length="middle" rot="R180"/>
+<text x="5.08" y="16.51" size="1.27" layer="95" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="10.922" y="12.954" size="1.27" layer="97">R</text>
+<text x="10.922" y="7.874" size="1.27" layer="97">G</text>
+<text x="10.922" y="2.794" size="1.27" layer="97">B</text>
+<text x="5.08" y="-1.27" size="0.889" layer="97" font="vector" ratio="15" align="center">&gt;MANF#</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6324,6 +6192,32 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <technologies>
 <technology name="">
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LTST-C19HE1WT" urn="urn:adsk.eagle:component:20072928/3" prefix="LED" library_version="159">
+<description>LED RGB DIFFUSED CHIP SMD</description>
+<gates>
+<gate name="G$1" symbol="RGB_LED" x="-2.54" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="0606">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="R" pad="R"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:20072926/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY#" value="160-2162-1-ND" constant="no"/>
+<attribute name="MANF" value="Lite-On Inc" constant="no"/>
+<attribute name="MANF#" value="LTST-C19HE1WT" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6779,7 +6673,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC" current="yes"/>
+<variantdef name="BASIC"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -6833,23 +6727,53 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="S1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SENSE" device="" package3d_urn="urn:adsk.eagle:package:7365871/1">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
-<attribute name="VOLTAGE" value="50V"/>
+<part name="C11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="490-14484-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32DC72A475KE02L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
-<attribute name="VOLTAGE" value="50V"/>
+<part name="C12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="490-14484-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32DC72A475KE02L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="C13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
-<attribute name="VOLTAGE" value="50V"/>
+<part name="C13" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="490-14484-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32DC72A475KE02L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
-<attribute name="VOLTAGE" value="50V"/>
+<part name="C15" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="490-14484-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32DC72A475KE02L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="C17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
-<attribute name="VOLTAGE" value="50V"/>
+<part name="C17" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="490-14484-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32DC72A475KE02L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="100V"/>
 </part>
-<part name="C19" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="10uF">
-<attribute name="VOLTAGE" value="50V"/>
+<part name="C19" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-1210" package3d_urn="urn:adsk.eagle:package:2539458/2" value="4.7uF">
+<attribute name="AEC-Q" value="AEC-Q200"/>
+<attribute name="DIGIKEY#" value="490-14484-1-ND"/>
+<attribute name="MANF" value="Murata Electronics"/>
+<attribute name="MANF#" value="GCM32DC72A475KE02L"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 125°C"/>
+<attribute name="VOLTAGE" value="100V"/>
 </part>
 <part name="GND37" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="GND33" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
@@ -6952,9 +6876,17 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="CON12" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X04" device="-PBS4" package3d_urn="urn:adsk.eagle:package:25449733/2" value="PINHEAD_1X04-PBS4">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF"/>
-<part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF"/>
-<part name="LED5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED_RGB" device="-2020" package3d_urn="urn:adsk.eagle:package:24467158/3"/>
+<part name="C1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
+<attribute name="DIGIKEY#" value="1276-1938-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL10B104KO8NFNC"/>
+</part>
+<part name="C2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
+<attribute name="DIGIKEY#" value="1276-1938-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL10B104KO8NFNC"/>
+</part>
+<part name="LED5" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="LTST-C19HE1WT" device="" package3d_urn="urn:adsk.eagle:package:20072926/2"/>
 <part name="LED4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="GREEN">
 <attribute name="COLOR" value="GREEN"/>
 <attribute name="DIGIKEY#" value="754-1116-1-ND"/>
@@ -6987,12 +6919,46 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE07200RL"/>
 </part>
-<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
-<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
-<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
-<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
-<part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
-<part name="C16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF"/>
+<part name="R9" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="R8" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="R10" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="R11" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="R12" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
+<part name="C16" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
+<attribute name="DIGIKEY#" value="1276-1938-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL10B104KO8NFNC"/>
+</part>
 <part name="C14" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="4.7uF">
 <attribute name="DIGIKEY#" value="1276-2415-1-ND"/>
 </part>
@@ -7024,12 +6990,36 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF" value="Kingbright"/>
 <attribute name="MANF#" value="APT1608SECK"/>
 </part>
-<part name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
-<part name="R22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
-<part name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
-<part name="R25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
-<part name="R26" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
-<part name="R27" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
+<part name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
+<part name="R22" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
+<part name="R24" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
+<part name="R25" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
+<part name="R26" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
+<part name="R27" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
 <part name="+P22" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BZX84C" device="" package3d_urn="urn:adsk.eagle:package:2640533/9" technology="12"/>
 <part name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="4K7">
@@ -7045,7 +7035,11 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:2640533/9">
 <attribute name="DIGIKEY#" value="2N7002NCT-ND"/>
 </part>
-<part name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K"/>
+<part name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
+<attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE0710KL"/>
+</part>
 <part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="SQJ459EP-T1_GE3" device="" package3d_urn="urn:adsk.eagle:package:10182380/2">
 <attribute name="LCSC#" value="C141555"/>
 </part>
@@ -7059,7 +7053,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE074K7L"/>
 </part>
-<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
+<part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="LED6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE">
 <attribute name="COLOR" value="ORANGE"/>
 <attribute name="DIGIKEY#" value="754-1120-1-ND"/>
@@ -7068,7 +7068,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="APT1608SECK"/>
 </part>
 <part name="GND49" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="R30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K"/>
+<part name="R30" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF">
 <attribute name="DIGIKEY#" value=""/>
@@ -7111,15 +7117,31 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="GND44" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="GND" device="" value="GND"/>
 <part name="+P24" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="+P25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
-<part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF"/>
+<part name="C5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0603" package3d_urn="urn:adsk.eagle:package:2539457/2" value="0.1uF">
+<attribute name="DIGIKEY#" value="1276-1938-1-ND"/>
+<attribute name="MANF" value="Samsung Electro-Mechanics"/>
+<attribute name="MANF#" value="CL10B104KO8NFNC"/>
+</part>
 <part name="R34" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K5">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="R33" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
+<part name="R33" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="311-120CRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0805FR-07120RL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1">
 <variant name="BASIC" populate="no"/>
 </part>
-<part name="R35" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R"/>
+<part name="R35" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="311-120CRCT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RC0805FR-07120RL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 <part name="SJ2" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1">
 <variant name="BASIC" populate="no"/>
 </part>
@@ -7145,7 +7167,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="+P13" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
 <part name="GND25" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="MODULE2" library="mitochondrik" library_urn="urn:adsk.eagle:library:26226632" deviceset="MITOCHONDRIK" device="" package3d_urn="urn:adsk.eagle:package:4410646/17"/>
-<part name="R36" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K5"/>
+<part name="R36" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
+<attribute name="AEC-Q" value="---"/>
+<attribute name="DIGIKEY#" value="YAG1240CT-ND"/>
+<attribute name="MANF" value="Yageo"/>
+<attribute name="MANF#" value="RT0805FRE071KL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -8830,6 +8858,7 @@ which then turns on Q11 allowing VDC to power the device</text>
 <text x="187.96" y="134.62" size="1.778" layer="97">CON18, CON19 may be used 
 for connecting additional capacitor PCB if needed</text>
 <text x="187.96" y="129.54" size="1.778" layer="97">Connect 1189-1510-ND (digikey#) to CON18, CON19</text>
+<text x="185.928" y="92.456" size="1.524" layer="97" font="vector">C3 may be tweaked if needed to slow down voltage rise pace</text>
 </plain>
 <instances>
 <instance part="Q6" gate="G$1" x="106.68" y="121.92" smashed="yes">
@@ -8909,36 +8938,42 @@ for connecting additional capacitor PCB if needed</text>
 <attribute name="VALUE" x="134.366" y="115.57" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="135.128" y="114.808" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="134.112" y="117.856" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="AEC-Q" x="134.62" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C12" gate="G$1" x="139.7" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="140.589" y="118.11" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="139.446" y="115.57" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="140.208" y="114.808" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="139.192" y="117.856" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="AEC-Q" x="139.7" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C13" gate="G$1" x="144.78" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.669" y="118.11" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="144.526" y="115.57" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="145.288" y="114.808" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="144.272" y="117.856" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="AEC-Q" x="144.78" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="149.86" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="150.749" y="118.11" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="149.606" y="115.57" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="150.368" y="114.808" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="149.352" y="117.856" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="AEC-Q" x="149.86" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="154.94" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="155.829" y="118.11" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="154.686" y="115.57" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="155.448" y="114.808" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="154.432" y="117.856" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="AEC-Q" x="154.94" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C19" gate="G$1" x="160.02" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="160.909" y="118.11" size="1.27" layer="95" font="vector" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="159.766" y="115.57" size="0.762" layer="96" font="vector" rot="R90" align="bottom-right"/>
 <attribute name="PACKAGE" x="160.528" y="114.808" size="0.508" layer="97" font="vector" rot="R270" align="center"/>
 <attribute name="VOLTAGE" x="159.512" y="117.856" size="0.508" layer="97" font="vector" rot="R90" align="center-left"/>
+<attribute name="AEC-Q" x="160.02" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND37" gate="G$1" x="149.86" y="106.68" smashed="yes">
 <attribute name="VALUE" x="149.86" y="105.41" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
