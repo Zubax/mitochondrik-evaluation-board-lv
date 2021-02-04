@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -24,13 +24,13 @@
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -90,7 +90,7 @@
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
 <layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
 <layer number="112" name="tSilk" color="14" fill="1" visible="no" active="yes"/>
 <layer number="113" name="bSilk" color="13" fill="1" visible="no" active="yes"/>
@@ -952,7 +952,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-1.65" y1="-0.85" x2="-1.65" y2="0.85" width="0.127" layer="21"/>
 <text x="0" y="0" size="0.635" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="LED0603" urn="urn:adsk.eagle:footprint:2539448/2" library_version="68">
+<package name="LED0603" urn="urn:adsk.eagle:footprint:2539448/3" library_version="71">
 <smd name="A" x="0.725" y="0" dx="0.6" dy="0.9" layer="1" rot="R180"/>
 <smd name="C" x="-0.725" y="0" dx="0.6" dy="0.9" layer="1" rot="R180"/>
 <wire x1="1.125" y1="-0.55" x2="-0.25" y2="-0.55" width="0.1" layer="21"/>
@@ -962,6 +962,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-0.25" y1="0.55" x2="1.125" y2="0.55" width="0.1" layer="21"/>
 <wire x1="1.125" y1="0.55" x2="1.125" y2="-0.55" width="0.1" layer="21"/>
 <wire x1="-0.25" y1="-0.55" x2="-0.25" y2="0.55" width="0.1" layer="21"/>
+<wire x1="-0.25" y1="0" x2="0.3" y2="0.55" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0.55" x2="0.3" y2="-0.55" width="0.1" layer="51"/>
+<wire x1="0.3" y1="-0.55" x2="-0.25" y2="0" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="0.55" x2="-0.25" y2="-0.55" width="0.1" layer="51"/>
 <text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" rot="R180" align="center">&gt;NAME</text>
 <text x="0" y="1" size="0.5" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
 </package>
@@ -1001,7 +1005,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="C0805"/>
 </packageinstances>
 </package3d>
-<package3d name="LED0603" urn="urn:adsk.eagle:package:2539471/3" type="model" library_version="68">
+<package3d name="LED0603" urn="urn:adsk.eagle:package:2539471/4" type="model" library_version="71">
 <packageinstances>
 <packageinstance name="LED0603"/>
 </packageinstances>
@@ -10882,29 +10886,29 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="LTST-C19HE1WT" x="63.325" y="13.625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.225" y="17.35" size="0.6" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="LED4" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="GREEN" x="41" y="-11" smashed="yes">
+<element name="LED4" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/4" value="GREEN" x="41" y="-11" smashed="yes">
 <attribute name="COLOR" value="GREEN" x="41" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="754-1116-1-ND" x="41" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="LCSC#" value="C72043" x="41" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Kingbright" x="41" y="-11" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="APT1608CGCK" x="41" y="-11" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41" y="-11" size="0.635" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="43.25" y="-11" size="0.635" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LED3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="GREEN" x="41" y="-19" smashed="yes">
+<element name="LED3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/4" value="GREEN" x="41" y="-19" smashed="yes">
 <attribute name="COLOR" value="GREEN" x="41" y="-19" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="754-1116-1-ND" x="41" y="-19" size="1.778" layer="27" display="off"/>
 <attribute name="LCSC#" value="C72043" x="41" y="-19" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Kingbright" x="41" y="-19" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="APT1608CGCK" x="41" y="-19" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41" y="-19" size="0.5" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="43.25" y="-19" size="0.5" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE" x="41" y="-13" smashed="yes" rot="R180">
+<element name="LED2" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/4" value="ORANGE" x="41" y="-13" smashed="yes" rot="R180">
 <attribute name="COLOR" value="ORANGE" x="41" y="-13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="754-1120-1-ND" x="41" y="-13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="C375450" x="41" y="-13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Kingbright" x="41" y="-13" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="APT1608SECK" x="41" y="-13" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41" y="-13" size="0.6" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="43.25" y="-13" size="0.6" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="200R" x="36.6" y="-0.6" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11036,13 +11040,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="PREC011SABN-RC" x="18" y="-15" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.46" y="-15" locked="yes" size="1" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE" x="41" y="-15" smashed="yes">
+<element name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/4" value="ORANGE" x="41" y="-15" smashed="yes">
 <attribute name="COLOR" value="ORANGE" x="41" y="-15" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="754-1120-1-ND" x="41" y="-15" size="1.778" layer="27" display="off"/>
 <attribute name="LCSC#" value="C375450" x="41" y="-15" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Kingbright" x="41" y="-15" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="APT1608SECK" x="41" y="-15" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41" y="-15" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="43.25" y="-15" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="R23" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="10K" x="-14.4" y="9" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="" x="-14.4" y="9" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11115,7 +11119,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C82475" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="BZX84C12LT1G" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-25.3" y="14.4" size="0.508" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="-25.3" y="14.4" size="0.508" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-25.4" y="17.1" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="" x="-25.4" y="17.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11144,7 +11148,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C8545" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Changjiang Electronics Tech (CJ)" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANF#" value="2N7002" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-27.2" y="10.8" size="0.508" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="-27.2" y="10.8" size="0.508" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT23" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="10K" x="-22" y="7.3" smashed="yes" rot="R90">
@@ -11171,7 +11175,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C8545" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Changjiang Electronics Tech (CJ)" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="2N7002" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-24.7" y="7.2" size="0.508" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="-24.7" y="7.2" size="0.508" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="SOT23" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-26.475" y="4.5" smashed="yes" rot="R180">
@@ -11196,13 +11200,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED6" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/3" value="ORANGE" x="41" y="-17" smashed="yes" rot="R180">
+<element name="LED6" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="LED0603" package3d_urn="urn:adsk.eagle:package:2539471/4" value="ORANGE" x="41" y="-17" smashed="yes" rot="R180">
 <attribute name="COLOR" value="ORANGE" x="41" y="-17.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="754-1120-1-ND" x="41" y="-17.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="C375450" x="41" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="Kingbright" x="41" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="APT1608SECK" x="41" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="41" y="-17" size="0.635" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="43.25" y="-17" size="0.635" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="R30" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="1K" x="37.8" y="-17" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="---" x="37.8" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11268,14 +11272,14 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="LCSC#" value="C23848" x="50.3" y="-20" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="50.3" y="-20" size="1.5" layer="27" font="vector" ratio="12" rot="R180" display="off"/>
 <attribute name="MANF#" value="MBR0520LT1G" x="50.3" y="-20" size="1.5" layer="27" font="vector" ratio="12" rot="R180" display="off"/>
-<attribute name="NAME" x="50.3" y="-20" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="50.3" y="-18.65" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="D10" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOD123" package3d_urn="urn:adsk.eagle:package:2473271/2" value="MBR0520L-SOD123" x="49.6" y="-2" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="MBR0520LT1GOSTR-ND" x="49.6" y="-2" size="1.5" layer="27" font="vector" ratio="12" rot="R180" display="off"/>
 <attribute name="LCSC#" value="C23848" x="49.6" y="-2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="49.6" y="-2" size="1.5" layer="27" font="vector" ratio="12" rot="R180" display="off"/>
 <attribute name="MANF#" value="MBR0520LT1G" x="49.6" y="-2" size="1.5" layer="27" font="vector" ratio="12" rot="R180" display="off"/>
-<attribute name="NAME" x="49.6" y="-2" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
+<attribute name="NAME" x="49.6" y="-0.6" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
 </element>
 <element name="R31" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4R3" x="-22" y="4.5" smashed="yes">
 <attribute name="AEC-Q" value="" x="-22" y="4.5" size="1.5" layer="27" font="vector" ratio="12" display="off"/>
