@@ -943,7 +943,7 @@
 <attributes>
 </attributes>
 <variantdefs>
-<variantdef name="BASIC"/>
+<variantdef name="BASIC" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -962,15 +962,23 @@
 </part>
 <part name="CON1" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/5" value="PINHEAD_1X11-2.54_STRAIGHT_FEMALE">
 <attribute name="DIGIKEY#" value="S7009-ND"/>
+<attribute name="MANF" value="Sullins Connector Solutions"/>
+<attribute name="MANF#" value="PPTC111LFBN-RC"/>
 </part>
 <part name="CON2" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/5" value="PINHEAD_1X11-2.54_STRAIGHT_FEMALE">
 <attribute name="DIGIKEY#" value="S7009-ND"/>
+<attribute name="MANF" value="Sullins Connector Solutions"/>
+<attribute name="MANF#" value="PPTC111LFBN-RC"/>
 </part>
 <part name="CON3" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/5" value="PINHEAD_1X11-2.54_STRAIGHT_FEMALE">
 <attribute name="DIGIKEY#" value="S7009-ND"/>
+<attribute name="MANF" value="Sullins Connector Solutions"/>
+<attribute name="MANF#" value="PPTC111LFBN-RC"/>
 </part>
 <part name="CON4" library="pinhead" library_urn="urn:adsk.eagle:library:2540341" deviceset="PINHEAD_1X11" device="-2.54_STRAIGHT_FEMALE" package3d_urn="urn:adsk.eagle:package:6470393/5" value="PINHEAD_1X11-2.54_STRAIGHT_FEMALE">
 <attribute name="DIGIKEY#" value="S7009-ND"/>
+<attribute name="MANF" value="Sullins Connector Solutions"/>
+<attribute name="MANF#" value="PPTC111LFBN-RC"/>
 </part>
 </parts>
 <sheets>
@@ -994,18 +1002,26 @@
 <instance part="CON1" gate="G$1" x="17.78" y="76.2" smashed="yes">
 <attribute name="NAME" x="20.32" y="107.95" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="DIGIKEY#" x="17.78" y="76.2" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="17.78" y="76.2" size="1.778" layer="96" font="vector" display="off"/>
+<attribute name="MANF#" x="17.78" y="76.2" size="1.778" layer="96" font="vector" display="off"/>
 </instance>
 <instance part="CON2" gate="G$1" x="17.78" y="43.18" smashed="yes">
 <attribute name="NAME" x="20.32" y="74.93" size="1.778" layer="95" font="vector" ratio="15" align="center"/>
 <attribute name="DIGIKEY#" x="17.78" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="17.78" y="43.18" size="1.778" layer="96" font="vector" display="off"/>
+<attribute name="MANF#" x="17.78" y="43.18" size="1.778" layer="96" font="vector" display="off"/>
 </instance>
 <instance part="CON3" gate="G$1" x="165.1" y="71.12" smashed="yes" rot="MR0">
 <attribute name="NAME" x="162.56" y="102.87" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="DIGIKEY#" x="165.1" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="165.1" y="71.12" size="1.778" layer="96" font="vector" display="off"/>
+<attribute name="MANF#" x="165.1" y="71.12" size="1.778" layer="96" font="vector" display="off"/>
 </instance>
 <instance part="CON4" gate="G$1" x="165.1" y="38.1" smashed="yes" rot="MR0">
 <attribute name="NAME" x="162.56" y="69.85" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 <attribute name="DIGIKEY#" x="165.1" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="165.1" y="38.1" size="1.778" layer="96" font="vector" display="off"/>
+<attribute name="MANF#" x="165.1" y="38.1" size="1.778" layer="96" font="vector" display="off"/>
 </instance>
 </instances>
 <busses>
