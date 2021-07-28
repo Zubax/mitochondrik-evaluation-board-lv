@@ -11580,7 +11580,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <via x="60.325" y="8.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="56.4" y="13.6" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="57.2" y="13.6" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="58.4" y="12.6" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="56.9" y="16.05" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="45.425" y="-4.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="42.025" y="-4.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="47.575" y="-4.35" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -12346,7 +12346,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="27.05" y1="22.85" x2="20.65" y2="29.25" width="0.5" layer="1"/>
 <wire x1="-16.54" y1="6.76" x2="-16.54" y2="21.16" width="0.3" layer="16"/>
 <wire x1="51.7" y1="21.9" x2="51.3" y2="21.9" width="0.5" layer="1"/>
-<wire x1="54.2" y1="19.4" x2="60.1" y2="19.4" width="0.5" layer="1"/>
+<wire x1="54.2" y1="19.4" x2="58.4" y2="19.4" width="0.5" layer="1"/>
+<wire x1="58.4" y1="19.4" x2="60.1" y2="19.4" width="0.5" layer="1"/>
 <wire x1="54.2" y1="19.4" x2="51.7" y2="21.9" width="0.5" layer="1"/>
 <wire x1="40.2" y1="0.4" x2="39" y2="1.6" width="0.4" layer="1"/>
 <wire x1="39" y1="1.6" x2="39" y2="2.65" width="0.4" layer="1"/>
@@ -12404,6 +12405,15 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="33.45" y1="20.9" x2="33.45" y2="22.85" width="0.2" layer="1"/>
 <wire x1="60.1" y1="19.4" x2="60.7" y2="18.8" width="0.5" layer="1"/>
 <wire x1="60.7" y1="18.8" x2="60.7" y2="18.1" width="0.5" layer="1"/>
+<contactref element="CON5" pad="1"/>
+<contactref element="CON6" pad="1"/>
+<wire x1="56.25" y1="5.55" x2="54.4" y2="3.7" width="0.2" layer="1"/>
+<wire x1="56.25" y1="5.55" x2="56.25" y2="7.5" width="0.2" layer="1"/>
+<wire x1="56.25" y1="7.5" x2="56.925" y2="7.5" width="0.2" layer="1"/>
+<wire x1="58.4" y1="7" x2="55.1" y2="3.7" width="0.2" layer="16"/>
+<wire x1="54.4" y1="3.7" x2="55.1" y2="3.7" width="0.2" layer="16"/>
+<wire x1="58.4" y1="7" x2="58.4" y2="19.4" width="0.2" layer="16"/>
+<via x="58.4" y="19.4" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="CAN1_LED">
 <contactref element="R9" pad="1"/>
@@ -13309,13 +13319,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="56.725" y1="8.3" x2="56.05" y2="8.3" width="0.2" layer="1"/>
 <wire x1="54.4" y1="6.24" x2="53.99" y2="6.65" width="0.2" layer="1"/>
 <wire x1="53.99" y1="6.65" x2="50.8" y2="6.65" width="0.2" layer="1"/>
-</signal>
-<signal name="N$15">
-<contactref element="CON5" pad="1"/>
-<contactref element="CON6" pad="1"/>
-<wire x1="56.25" y1="5.55" x2="54.4" y2="3.7" width="0.2" layer="1"/>
-<wire x1="56.25" y1="5.55" x2="56.25" y2="7.5" width="0.2" layer="1"/>
-<wire x1="56.25" y1="7.5" x2="56.925" y2="7.5" width="0.2" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D9" pad="A"/>

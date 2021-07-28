@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8373,6 +8373,19 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pinref part="+P3" gate="G$1" pin="VDD_5V"/>
 <wire x1="106.68" y1="121.92" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="CON5" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="CON6" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="73.66" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="50.8" x2="43.2" y2="50.8" width="0.1524" layer="91"/>
+<junction x="58.42" y="50.8"/>
+<wire x1="43.2" y1="50.8" x2="43.2" y2="58.3" width="0.1524" layer="91"/>
+<wire x1="43.2" y1="58.3" x2="37.3" y2="58.3" width="0.1524" layer="91"/>
+<wire x1="37.3" y1="58.3" x2="37.3" y2="58.5" width="0.1524" layer="91"/>
+<label x="37.4" y="58.2" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BEC_ENABLE_OUT" class="0">
 <segment>
@@ -8736,15 +8749,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="60.96" y1="71.12" x2="45.72" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="71.12" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
 <junction x="45.72" y="48.26"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="CON5" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="CON6" gate="G$1" pin="1"/>
-<wire x1="60.96" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="73.66" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN_VDD" class="0">
