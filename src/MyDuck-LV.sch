@@ -8489,10 +8489,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </net>
 <net name="USB_VBUS" class="0">
 <segment>
-<wire x1="58.42" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <junction x="38.1" y="142.24"/>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="53.34" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="142.24" x2="38.1" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="142.24" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="CON8" gate="G$1" pin="VBUS"/>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -8500,10 +8500,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="38.1" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="142.24" x2="22.86" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="CON9" gate="G$1" pin="3"/>
-<wire x1="58.42" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="160.02" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
-<junction x="53.34" y="142.24"/>
+<pinref part="CON9" gate="G$1" pin="1"/>
+<wire x1="58.42" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="165.1" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<junction x="48.26" y="142.24"/>
 </segment>
 </net>
 <net name="USB+" class="0">
@@ -8514,12 +8514,12 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="33.02" y1="137.16" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 <junction x="33.02" y="147.32"/>
 <pinref part="CON8" gate="G$1" pin="D+"/>
-<pinref part="CON9" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="147.32" x2="58.42" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="165.1" x2="48.26" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="165.1" x2="48.26" y2="147.32" width="0.1524" layer="91"/>
-<junction x="48.26" y="147.32"/>
-<wire x1="48.26" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="147.32" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="CON9" gate="G$1" pin="3"/>
+<wire x1="53.34" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="160.02" x2="53.34" y2="147.32" width="0.1524" layer="91"/>
+<junction x="53.34" y="147.32"/>
 </segment>
 </net>
 <net name="CAN1H" class="0">
