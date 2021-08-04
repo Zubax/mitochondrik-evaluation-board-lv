@@ -1,44 +1,51 @@
-# MyDuck LV
+# Requirements for MyDuck LV
 
-MyDuck LV is a dual-purpose device:
+## Device purpose
 
-1) It can be used as an evaluation board for [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv).
-In this scenario, Mitochondrik LV is soldered directly to the PCB, turning MyDuck LV into a debug-friendly
-evaluation board or a PMSM motor controller.
+MyDuck LV is a device designed for the production of [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv).
+It can be considered as a specialized jig that allows easy flashing and testing of all functions of Mitochondrik LV.
+A possibility to use MyDuck LV as an evaluation board for Mitochondrik LV should also be considered.
+MyDuck LV combined with Mitochondrik LV makes for a complete PMSM motor controller.
 
-![](figures/Myduck-LV-standalone.png)
+## Technical requirements
 
-2) It can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
-In this scenario, Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
-This PCB is then installed into MyDuck LV.
-Mitochondrik LV can be aligned in place using 3D-printed parts (red parts in the picture below).
-It can then be fixed using a strip of aluminum (as suggested in the model) or with a generic toggle clamp.
-MyDuck LV is designed to accept [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
+* Mitochondrik LV flashing capability.
+* Mitochondrik LV mounting should be possible without adding any components to the module in any way.
+* Capability to test all the functions of Mitochondrik LV.
+* A mechanical key should prevent incorrect insertion of Mitochondrik LV.
+* An electronic switch should prevent powering the device if Mitochondrik LV is not installed or installed incorrectly.
+* All external signals of Mitochondrik LV should be easily accessible when the device is used as an evaluation board.
 
-![](figures/Myduck-LV-jig.png)
+## Power stage requirements
 
-In both scenarios, the following interfaces are available:
+* Supply voltage range: 13 - 51 V.
+* Max continuous current/peak current: 10/20 A.
+* Repairability.
+* Some means for easy heat sink mounting should be considered.
 
-* USB
-* Dronecode debug port
-* Two CAN interfaces
-* Aux port
+## Logic part requirements
 
-Interfaces essential for production are also exposed via the pin headers for direct Babel-Babel connection.
+* Repairability.
+* CAN interface ICs should be protected with TVS diodes.
+* 5V supply line should be protected with TVS diode.
 
-For details on the device's specifications, please check the
-[design requirements](https://github.com/Zubax/MyDuck-LV/blob/master/requirements.md).
+## Design requirements for using the device as a production jig
 
-For details on the manufacturing process of the device, check the
-[manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
+Due to the low reliability of pogo pins, Mitochondrik LV should be installed on a separate adapter PCB
+which in turn should be installed on the main MyDuck LV PCB.
+This allows for the replacement of only the adapter PCB in case of a single pogo pin failure.
+The adapter PCB (and all the parts fastened to it) should allow for easy,
+reliable and repeatable positioning and fixing of Mitochondrik LV in place.
+Also, some means of correct pogo pins mounting
+(perpendicularity to the PCB surface and correct height above the PCB surface are critical) should be introduced.
 
-To perform flashing and testing, the following steps should be taken:
+It should be possible to install [Babel-Babel production tool](https://zubax.com/products/mitochondrik-lv)
+directly to the MyDuck LV PCB without the need for an external adapter PCB.
 
-1) Connect any PMSM motor to the phase connectors of MyDuck LV.
-2) Install Babel-Babel on the MyDuck LV and connect it to the PC.
-3) Connect the power supply to the MyDuck LV (observe the polarity).
-4) Install the Mitochondrik in place (observe the polarity, notice there is a mechanical key on the Mitochondrik
-that should prevent incorrect placement).
-5) Start the automated testing sequence using DrWatson like for any other Telega-based device.
-6) Follow the instructions from DrWatson.
-7) Remove the Mitochondrik.
+## Environmental conditions
+
+* Indoor use
+* Operating temperature range - 0...+40С.
+* Humidity - up to 100%
+
+Usage of non-AEC-Q grade components, as well as deviations from the hardware development policies, are allowed.
