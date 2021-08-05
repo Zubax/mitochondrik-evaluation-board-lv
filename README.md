@@ -43,6 +43,18 @@ directly to the MyDuck LV PCB without the need for an external adapter PCB.
 For details on the manufacturing process of the device, check the
 [manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
 
+## Flashing instructions
+
+MyDuck LV can be used as flashing tool for Mitochondrik LV. To perform flashing and testing, the following steps should be taken:
+
+* Connect any PMSM motor to the phase connectors of MyDuck LV.
+* Install Babel-Babel on the MyDuck LV and connect it to the PC. 
+* Connect the power supply to the MyDuck LV (observe the polarity).
+* Install the Mitochondrik in place (observe the polarity, notice there is a mechanical key on the Mitochondrik that should prevent incorrect placement).
+* Start the automated testing sequence using DrWatson like for any other Telega-based device.
+* Follow the instructions from DrWatson.
+* Remove the Mitochondrik.
+
 ## Release notes
 
 Newest entries at the top.
