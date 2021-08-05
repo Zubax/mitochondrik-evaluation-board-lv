@@ -10,7 +10,9 @@ the module installed on the PCB should be equipped with appropriate mating conne
 
 The blow scheme for this usage scenario can be seen below.
 
-![](../figures/standalone_blow_scheme.svg)
+<p align="center">
+<img src="../figures/standalone_blow_scheme.svg" alt="" width="800"/>
+</p>
 
 ## Production tool
 
@@ -19,19 +21,26 @@ The Jig PCB should be manufactured using the "JIG" assembly variant to generate 
 
 The blow scheme for this usage scenario can be seen below.
 
-![](../figures/jig_blow_scheme.svg)
+<p align="center">
+<img src="../figures/jig_blow_scheme.svg" alt="" width="800"/>
+</p>
 
 Besides that, the adapter PCB should also be manufactured.
 A fully assembled adapter PCB can be seen in the picture below.
 
-![](../figures/adapter_assembly.png)
+<p align="center">
+<img src="../figures/adapter_assembly.png" alt="" width="500"/>
+</p>
+
 
 Besides the 4x PBS11 connectors, the PCB also contains 44 pogo pins and a 3D-printed holder for the Mitochondrik module.
 The pogo pins should be installed perpendicular to the surface of the PCB at the correct height.
 As it may be tricky to do it by hand, it is recommended to use a special 3D-printed tool.
 It can be seen in the picture below.
 
-![](../figures/pogo_tool.png)
+<p align="center">
+<img src="../figures/pogo_tool.png" alt="" width="500"/>
+</p>
 
 The tool should be placed UNDER the PCB and aligned with all the holes on the PCB.
 It can be temporarily fixed in place using M3 screws.
@@ -45,4 +54,6 @@ and 4x M3 nuts.
 
 The adapter blow scheme can be seen below.
 
-![](../figures/adapter_blow_scheme.svg)
+<p align="center">
+<img src="../figures/adapter_blow_scheme.svg" alt="" width="800"/>
+</p>
