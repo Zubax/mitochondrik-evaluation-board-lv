@@ -25,7 +25,7 @@ In this scenario, Mitochondrik LV is mounted on an intermediate PCB using pogo p
 This PCB is then installed into MyDuck LV.
 Mitochondrik LV can be aligned in place using 3D-printed parts (red parts in the picture below).
 It can then be fixed using a strip of aluminum (as suggested in the model) or with a generic toggle clamp.
-MyDuck LV is designed to accept [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
+MyDuck LV is designed to accept the [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
 
 <p align="center">
 <img src="../figures/Myduck-LV-jig.png" alt="" width="600"/>
