@@ -1,6 +1,6 @@
 # MyDuck LV
 
-MyDuck LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. MyDuck LV is a device when combined with Mitochondrik LV makes a complete PMSM motor controller. It is designed for the production of Mitochondrik LV. It is a specialized jig that allows easy flashing and testing of all functions of Mitochondrik LV. MyDuck LV can also be used as an evaluation board for Mitochondrik LV.
+MyDuck LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. When combined with Mitochondrik LV, it makes a complete PMSM motor controller. It is also a specialized jig (fixture) that allows easy flashing and testing of all functions of Mitochondrik LV during manufacturing.
 
 **Note:** This design is not compatible with **Mitochondrik MV**.
 <p align="center">
