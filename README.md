@@ -31,7 +31,7 @@ A mechanical key is introduced to prevent incorrect insertion of Mitochondrik LV
 <img src="figures/4.png" alt="" width="800"/>
 </p>
 
-Headers are availabe to install [Babel-Babel production tool](https://zubax.com/products/mitochondrik-lv)
+Headers are available to install the [Babel-Babel production tool](https://github.com/Zubax/Babel-Babel)
 directly to the MyDuck LV PCB without the need for an external adapter PCB.
 
 | Stacked Babel-Babel | Babel-Babel headers |
