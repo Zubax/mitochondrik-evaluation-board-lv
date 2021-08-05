@@ -1,6 +1,10 @@
 # Manufacturing instructions
 
 ## Evaluation board
+MyDuck-LV can be used as an evaluation board for Mitochondrik LV. In this scenario, Mitochondrik LV is soldered directly to the PCB, turning MyDuck LV into a debug-friendly evaluation board or a PMSM motor controller.
+<p align="center">
+<img src="../figures/Myduck-LV-standalone.png" alt="" width="600"/>
+</p>
 
 To manufacture the device as an evaluation board, only the Jig PCB should be assembled.
 No special instruction is needed; the assembly variant "STANDALONE" from the Jig project
@@ -15,6 +19,17 @@ The blow scheme for this usage scenario can be seen below.
 </p>
 
 ## Production tool
+
+MyDuck-LV can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
+In this scenario, Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
+This PCB is then installed into MyDuck LV.
+Mitochondrik LV can be aligned in place using 3D-printed parts (red parts in the picture below).
+It can then be fixed using a strip of aluminum (as suggested in the model) or with a generic toggle clamp.
+MyDuck LV is designed to accept [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
+
+<p align="center">
+<img src="../figures/Myduck-LV-jig.png" alt="" width="600"/>
+</p>
 
 To use the device as a production tool, two PCBs should be manufactured.
 The Jig PCB should be manufactured using the "JIG" assembly variant to generate BOM and PnP files.
