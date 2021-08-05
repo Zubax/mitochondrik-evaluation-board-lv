@@ -1,51 +1,60 @@
-# Requirements for MyDuck LV
+# MyDuck LV
 
-## Device purpose
+MyDuck LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. MyDuck LV is a device when combined with Mitochondrik LV makes a complete PMSM motor controller. It is designed for the production of Mitochondrik LV. It is a specialized jig that allows easy flashing and testing of all functions of Mitochondrik LV. MyDuck LV can also be used as an evaluation board for Mitochondrik LV.
 
-MyDuck LV is a device designed for the production of [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv).
-It can be considered as a specialized jig that allows easy flashing and testing of all functions of Mitochondrik LV.
-A possibility to use MyDuck LV as an evaluation board for Mitochondrik LV should also be considered.
-MyDuck LV combined with Mitochondrik LV makes for a complete PMSM motor controller.
+**Note:** This design is not compatible with **Mitochondrik MV**.
+<p align="center">
+<img src="figures/1.png" alt="" width="700"/>
+</p>
 
-## Technical requirements
+## Features
 
-* Mitochondrik LV flashing capability.
-* Mitochondrik LV mounting should be possible without adding any components to the module in any way.
-* Capability to test all the functions of Mitochondrik LV.
-* A mechanical key should prevent incorrect insertion of Mitochondrik LV.
-* An electronic switch should prevent powering the device if Mitochondrik LV is not installed or installed incorrectly.
-* All external signals of Mitochondrik LV should be easily accessible when the device is used as an evaluation board.
+All external signals of Mitochondrik LV are accessible when the Mitochondrik LV is installed on MyDuck LV. MyDuck LV can fanout 2 UAVCAN-compatible CAN interfaces, a USB interface, a Dronecode debug port and one AUX connector for GPIO and RCPWM. Check out the picture below:
 
-## Power stage requirements
+<p align="center">
+<img src="figures/2.png" alt="" width="400"/>
+</p>
+
+A switch has been implemented which prevents powering the device if Mitochondrik LV is not installed or installed incorrectly. Due to this feature, it is not required to remove the power supply every time before insertion of Mitochondrik LV. 
+Mito presence goes low when mitochondrik is inserted. Then CAN_VDD should be set to 1, which turns on Q9,
+which then turns on Q11 allowing VDC to power the device. The CAN_VDD is connected to the GPIO of babel. Babel 
+would turned on power supply during the execution of production scripts Dr. Watson. Check out the hardware schematic below:
+
+<p align="center">
+<img src="figures/3.png" alt="" width="650"/>
+</p>
+
+
+A mechanical key is introduced to prevent incorrect insertion of Mitochondrik LV.
+
+<p align="center">
+<img src="figures/4.png" alt="" width="650"/>
+</p>
+
+Headers are availabe to install [Babel-Babel production tool](https://zubax.com/products/mitochondrik-lv)
+directly to the MyDuck LV PCB without the need for an external adapter PCB.
+
+| Stacked Babel-Babel | Babel-Babel headers |
+| ------------------- | ------------------- |
+| ![](figures/5.png)  | ![](figures/6.png)  |
+
+## Manufacturing instructions
+
+For details on the manufacturing process of the device, check the
+[manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
+
+## Release notes
+
+Newest entries at the top.
+
+### MyDuck LV v1.0 (2021)
+
+The original version.
+
+## Specifications
 
 * Supply voltage range: 13 - 51 V.
 * Max continuous current/peak current: 10/20 A.
-* Repairability.
-* Some means for easy heat sink mounting should be considered.
-
-## Logic part requirements
-
-* Repairability.
-* CAN interface ICs should be protected with TVS diodes.
-* 5V supply line should be protected with TVS diode.
-
-## Design requirements for using the device as a production jig
-
-Due to the low reliability of pogo pins, Mitochondrik LV should be installed on a separate adapter PCB
-which in turn should be installed on the main MyDuck LV PCB.
-This allows for the replacement of only the adapter PCB in case of a single pogo pin failure.
-The adapter PCB (and all the parts fastened to it) should allow for easy,
-reliable and repeatable positioning and fixing of Mitochondrik LV in place.
-Also, some means of correct pogo pins mounting
-(perpendicularity to the PCB surface and correct height above the PCB surface are critical) should be introduced.
-
-It should be possible to install [Babel-Babel production tool](https://zubax.com/products/mitochondrik-lv)
-directly to the MyDuck LV PCB without the need for an external adapter PCB.
-
-## Environmental conditions
-
-* Indoor use
 * Operating temperature range - 0...+40С.
 * Humidity - up to 100%
 
-Usage of non-AEC-Q grade components, as well as deviations from the hardware development policies, are allowed.
