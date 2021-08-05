@@ -16,7 +16,7 @@ All external signals of Mitochondrik LV are accessible when the Mitochondrik LV 
 </p>
 
 A switch has been implemented which prevents powering the device if Mitochondrik LV is not installed or installed incorrectly. Due to this feature, it is not required to remove the power supply every time before insertion of Mitochondrik LV. 
-Mito presence goes low when mitochondrik is inserted. Then CAN_VDD should be set to 1, which turns on Q9,
+The Mitochondrik presence pin is low when Mitochondrik is inserted. Then, CAN_VDD should be set to 1, which turns on Q9,
 which then turns on Q11 allowing VDC to power the device. The CAN_VDD is connected to the GPIO of babel. Babel 
 would turn on the power supply during testing. Check out the hardware schematic below:
 
