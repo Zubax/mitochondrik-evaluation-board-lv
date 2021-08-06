@@ -73,3 +73,24 @@ The adapter blow scheme can be seen below.
 <p align="center">
 <img src="figures/adapter_blow_scheme.svg" alt="" width="800"/>
 </p>
+
+## BOM for final assembly of MyDuck-LV as production tool
+
+| Name                     | Quantity |
+| ------------------------ | -------- |
+| Adapter assembly         | 1 |
+| MyDuck-LV PCB            | 1 |       
+| Babel-Babel              | 1 |      
+
+BOM required for the manufacturing of Adapter assembly.
+
+| Name                     | Quantity |
+| ------------------------ | -------- |
+| Adapter PCB              | 1 |
+| PBS11 female connectors  | 4 |
+| Pogo pins                | 44 |
+| Pogo pins soldering rail | 1 |  
+| M3 x 12mm screw          | 4 |   
+| M3 nut                   | 4 |
+| Mitochondrik holder      | 1 |
+| Aluminium lock           | 1 |
