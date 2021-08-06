@@ -1,34 +1,38 @@
 # MyDuck LV
 
-MyDuck LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. When combined with Mitochondrik LV, it makes a complete PMSM motor controller. It is also a specialized jig (fixture) that allows easy flashing and testing of all functions of Mitochondrik LV during manufacturing.
+MyDuck LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. When 
+combined with Mitochondrik LV, it makes a complete PMSM motor controller. It is also a specialized jig (fixture) that 
+allows easy flashing and testing of all functions of Mitochondrik LV during manufacturing.
 
 **Note:** This design is not compatible with **Mitochondrik MV**.
 <p align="center">
-<img src="figures/1.png" alt="" width="800"/>
+<img src="docs/figures/1.png" alt="" width="800"/>
 </p>
 
 ## Features
 
-All external signals of Mitochondrik LV are accessible when the Mitochondrik LV is installed on MyDuck LV. MyDuck LV can fanout 2 UAVCAN-compatible CAN interfaces, a USB interface, a Dronecode debug port and one AUX connector for GPIO and RCPWM. Check out the picture below:
+All external signals of Mitochondrik LV are accessible when the Mitochondrik LV is installed on MyDuck LV. MyDuck LV 
+can fanout 2 UAVCAN-compatible CAN interfaces, a USB interface, a Dronecode debug port and one AUX connector for GPIO
+and RCPWM. Check out the picture below:
 
 <p align="center">
-<img src="figures/2.png" alt="" width="450"/>
+<img src="docs/figures/2.png" alt="" width="450"/>
 </p>
 
-A switch has been implemented which prevents powering the device if Mitochondrik LV is not installed or installed incorrectly. Due to this feature, it is not required to remove the power supply every time before insertion of Mitochondrik LV. 
-The Mitochondrik presence pin is low when Mitochondrik is inserted. Then, CAN_VDD should be set to 1, which turns on Q9,
-which then turns on Q11 allowing VDC to power the device. The CAN_VDD is connected to the GPIO of babel. Babel 
-would turn on the power supply during testing. Check out the hardware schematic below:
+A switch has been implemented which prevents powering the device if Mitochondrik LV is not installed or installed 
+incorrectly. Due to this feature, it is not required to remove the power supply every time before insertion of 
+Mitochondrik LV. The Mitochondrik presence pin is low when Mitochondrik is inserted. Then, CAN_VDD should be set to 1, 
+which turns on Q9, which then turns on Q11 allowing VDC to power the device. The CAN_VDD is connected to the GPIO of 
+babel. Babel would turn on the power supply during testing. Check out the hardware schematic below:
 
 <p align="center">
-<img src="figures/3.png" alt="" width="800"/>
+<img src="docs/figures/3.png" alt="" width="800"/>
 </p>
-
 
 A mechanical key is introduced to prevent incorrect insertion of Mitochondrik LV.
 
 <p align="center">
-<img src="figures/4.png" alt="" width="800"/>
+<img src="docs/figures/4.png" alt="" width="800"/>
 </p>
 
 Headers are available to install the [Babel-Babel production tool](https://github.com/Zubax/Babel-Babel)
@@ -36,24 +40,19 @@ directly to the MyDuck LV PCB without the need for an external adapter PCB.
 
 | Stacked Babel-Babel | Babel-Babel headers |
 | ------------------- | ------------------- |
-| ![](figures/5.png)  | ![](figures/6.png)  |
+| ![](docs/figures/5.png)  | ![](docs/figures/6.png)  |
+
+## Specifications
+
+* Supply voltage range: 13 - 51 V.
+* Max continuous current/peak current: 10/20 A.
+* Operating temperature range - 0...+40С.
+* Humidity - up to 100%
 
 ## Manufacturing instructions
 
 For details on the manufacturing process of the device, check the
 [manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
-
-## Flashing instructions
-
-MyDuck LV can be used as flashing tool for Mitochondrik LV. To perform flashing and testing, the following steps should be taken:
-
-* Connect any PMSM motor to the phase connectors of MyDuck LV.
-* Install Babel-Babel on the MyDuck LV and connect it to the PC. 
-* Connect the power supply to the MyDuck LV (observe the polarity).
-* Install the Mitochondrik in place (observe the polarity, notice there is a mechanical key on the Mitochondrik that should prevent incorrect placement).
-* Start the automated testing sequence using DrWatson like for any other Telega-based device.
-* Follow the instructions from DrWatson.
-* Remove the Mitochondrik.
 
 ## Release notes
 
@@ -63,9 +62,6 @@ Newest entries at the top.
 
 The original version.
 
-## Specifications
+### License
 
-* Supply voltage range: 13 - 51 V.
-* Max continuous current/peak current: 10/20 A.
-* Operating temperature range - 0...+40С.
-* Humidity - up to 100%
+This project is licensed under the terms of [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
