@@ -93,4 +93,4 @@ BOM required for the manufacturing of Adapter assembly.
 | M3 x 12mm screw          | 4 |   
 | M3 nut                   | 4 |
 | Mitochondrik holder      | 1 |
-| Aluminium lock           | 1 |
+| Aluminium/Plastic lock   | 1 |
