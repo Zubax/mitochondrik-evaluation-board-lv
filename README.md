@@ -23,7 +23,9 @@ A switch has been implemented which prevents powering the device if Mitochondrik
 incorrectly. Due to this feature, it is not required to remove the power supply every time before insertion of 
 Mitochondrik LV. The Mitochondrik presence pin is low when Mitochondrik is inserted. Then, CAN_VDD should be set to 1, 
 which turns on Q9, which then turns on Q11 allowing VDC to power the device. The CAN_VDD is connected to the GPIO PA4 
-of babel. Babel would turn on the power supply during testing. Check out the hardware schematic below:
+of babel. Babel would turn on the power supply during testing. The power supply switch is arranged in logic OR 
+configuration, which means it,s enable pin is attached to both of Babels and either one of them can turn it on.
+Check out the hardware schematic below:
 
 <p align="center">
 <img src="docs/figures/3.png" alt="" width="800"/>
