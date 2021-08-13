@@ -8,8 +8,7 @@ directly to the PCB, turning MyDuck LV into a debug-friendly evaluation board or
 </p>
 
 To manufacture the device as an evaluation board, only the main PCB should be assembled.
-No special instruction is needed; the assembly variant "STANDALONE" from the Jig project
-should be used to generate BOM and PnP files.
+No special instruction is needed, the main PCB should be used to generate BOM and PnP files.
 As the mitochondrik footprint is populated using PLS2 male connectors,
 the module installed on the PCB should be equipped with appropriate mating connectors.
 
@@ -47,7 +46,6 @@ A fully assembled adapter PCB can be seen in the picture below.
 <p align="center">
 <img src="figures/adapter_assembly.png" alt="" width="500"/>
 </p>
-
 
 Besides the 4x PBS11 connectors, the PCB also contains 44 pogo pins and a 3D-printed holder for the Mitochondrik module.
 The pogo pins should be installed perpendicular to the surface of the PCB at the correct height.
