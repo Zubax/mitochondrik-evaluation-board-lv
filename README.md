@@ -54,7 +54,7 @@ directly to the MyDuck LV PCB without the need for an external adapter PCB.
 ## Manufacturing instructions
 
 For details on the manufacturing process of the device, check the
-[manufacturing instructions](https://github.com/Zubax/MyDuck-LV/blob/master/manufacturing.md).
+instructions at `/docs/manufacturing.md`.
 
 ## Release notes
 
