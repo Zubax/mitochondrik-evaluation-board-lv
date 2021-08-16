@@ -31,8 +31,8 @@ MyDuck LV is designed to accept the [Babel-Babel debugging tool](https://github.
 <img src="figures/Myduck-LV-jig.png" alt="" width="600"/>
 </p>
 
-To use the device as a production tool, two PCBs should be manufactured.
-The main PCB should be manufactured using the "JIG" assembly variant to generate BOM and PnP files.
+To use the device as a production tool, two PCBs should be manufactured. The main PCB should be used to generate
+BOM and PnP files.
 
 The blow scheme for this usage scenario can be seen below.
 
