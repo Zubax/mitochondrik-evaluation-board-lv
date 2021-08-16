@@ -72,7 +72,7 @@ The adapter blow scheme can be seen below.
 <img src="figures/adapter_blow_scheme.svg" alt="" width="800"/>
 </p>
 
-## BOM for final assembly of MyDuck-LV as production tool
+### BOM for final assembly of MyDuck-LV as production tool
 
 | Name                     | Quantity |
 | ------------------------ | -------- |
