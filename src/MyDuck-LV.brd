@@ -10317,11 +10317,68 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </package3d>
 </packages3d>
 </library>
+<library name="PMR18EZPJ000">
+<description>&lt;Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC3216X42N">
+<description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0" dx="1.8" dy="1.55" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="0" dx="1.8" dy="1.55" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.275" y1="1.15" x2="2.275" y2="1.15" width="0.05" layer="51"/>
+<wire x1="2.275" y1="1.15" x2="2.275" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="2.275" y1="-1.15" x2="-2.275" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-2.275" y1="-1.15" x2="-2.275" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="TPD3S014DBVR">
+<description>&lt;Current Limit Load Sw &amp; TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X145-6N">
+<description>&lt;b&gt;TPD3S014DBVR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 <variantdef name="BASIC"/>
+<variantdef name="Manufacturing" current="yes"/>
+<variantdef name="Customer"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -11414,6 +11471,29 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="31.45" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="31.45" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="R37" library="PMR18EZPJ000" package="RESC3216X42N" value="PMR18EZPJ000" x="-25.5" y="27.65" populate="no" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.42mm" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="ROHM Semiconductor" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="PMR18EZPJ000" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMR18EZPJ000" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-PMR18EZPJ000" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJ000?qs=F3nc1lPKfV7xjhm%252BR6Umvg%3D%3D" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-26.05" y="28.8" size="1" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1206" x="-25.5" y="27.65" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-25.5" y="27.65" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="IC3" library="TPD3S014DBVR" package="SOT95P280X145-6N" value="TPD3S014DBVR" x="34.35" y="5" populate="no" smashed="yes">
+<attribute name="DESCRIPTION" value="Current Limit Load Sw &amp; TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23" x="34.35" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1.45mm" x="34.35" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" x="34.35" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPD3S014DBVR" x="34.35" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPD3S014DBVR" x="34.35" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD3S014DBVR?qs=1CfNGUMoiQ%252BDmiZShdlX0g%3D%3D" x="34.35" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="35" y="3.55" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="34.35" y="5" size="1.27" layer="27" align="center"/>
+</element>
 </elements>
 <signals>
 <signal name="PWREN_IN">
@@ -11552,7 +11632,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <via x="47.525" y="-6.3" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="47.425" y="-9.45" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="34.325" y="-0.45" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="31.725" y="-3.25" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="32.275" y="-3.95" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="34.425" y="-6.25" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="36.525" y="-5.45" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="32.025" y="-6.25" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -11583,7 +11663,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <via x="42.025" y="-4.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="47.575" y="-4.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="29.225" y="8.35" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="33.175" y="3.1" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="32.525" y="1.2" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="36.925" y="13.15" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="44.275" y="18.3" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="35.375" y="-12.35" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -11656,6 +11736,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="CON8" pad="P$4"/>
 <wire x1="60.55" y1="20.65" x2="60.55" y2="29.45" width="0.5" layer="1"/>
 <wire x1="60.55" y1="20.65" x2="60.55" y2="29.45" width="0.5" layer="16"/>
+<contactref element="IC3" pad="2"/>
 <wire x1="60.55" y1="28.2" x2="60.55" y2="28.2" width="0" layer="19" extent="1-16"/>
 <wire x1="60.55" y1="29.45" x2="60.55" y2="28.2" width="0" layer="19" extent="1-16"/>
 <wire x1="60.55" y1="21.6" x2="60.55" y2="20.65" width="0" layer="19" extent="1-16"/>
@@ -11772,6 +11853,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="Q3" pad="P$1"/>
 <contactref element="Q1" pad="P$1"/>
 <contactref element="MODULE2" pad="3"/>
+<contactref element="R37" pad="1"/>
 </signal>
 <signal name="PHASE_A_GND">
 <contactref element="Q4" pad="3"/>
@@ -12349,7 +12431,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="54.2" y1="19.4" x2="51.7" y2="21.9" width="0.5" layer="1"/>
 <wire x1="40.2" y1="0.4" x2="39" y2="1.6" width="0.4" layer="1"/>
 <wire x1="39" y1="1.6" x2="39" y2="2.65" width="0.4" layer="1"/>
-<wire x1="39" y1="2.65" x2="38.3" y2="3.35" width="0.5" layer="1"/>
+<wire x1="39" y1="2.65" x2="38.85" y2="2.8" width="0.5" layer="1"/>
+<wire x1="38.85" y1="2.8" x2="38.3" y2="3.35" width="0.5" layer="1"/>
 <wire x1="33.4" y1="-3.25" x2="33.4" y2="-4.1" width="0.4" layer="1"/>
 <wire x1="33.4" y1="-1.35" x2="33.4" y2="-0.5" width="0.4" layer="1"/>
 <wire x1="33.4" y1="-0.5" x2="33.4" y2="-0.2" width="0.4" layer="1"/>
@@ -12411,6 +12494,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="58.4" y1="19.4" x2="58.4" y2="7.7" width="0.4064" layer="16"/>
 <wire x1="56.25" y1="5.55" x2="54.4" y2="3.7" width="0.2" layer="1"/>
 <wire x1="58.4" y1="7.7" x2="54.4" y2="3.7" width="0.4064" layer="16"/>
+<contactref element="IC3" pad="3"/>
+<wire x1="33.1" y1="4.05" x2="34.35" y2="2.8" width="0.4064" layer="1"/>
+<wire x1="34.35" y1="2.8" x2="38.85" y2="2.8" width="0.4064" layer="1"/>
 </signal>
 <signal name="CAN1_LED">
 <contactref element="R9" pad="1"/>
@@ -12462,6 +12548,17 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="29.3" y1="-17.6" x2="32.5" y2="-17.6" width="0.2" layer="16"/>
 <contactref element="MODULE2" pad="24"/>
 <wire x1="9" y1="-14" x2="9.8" y2="-14" width="0.3" layer="1"/>
+<contactref element="IC3" pad="1"/>
+<wire x1="31.25" y1="-12.10146875" x2="31.25" y2="3.7" width="0.2" layer="16"/>
+<wire x1="31.25" y1="3.7" x2="31.25" y2="3.75" width="0.2" layer="16"/>
+<wire x1="26.95" y1="-16.40146875" x2="31.25" y2="-12.10146875" width="0.2" layer="16"/>
+<wire x1="27.9" y1="-18.3" x2="27.40146875" y2="-18.3" width="0.2" layer="16"/>
+<wire x1="27.40146875" y1="-18.3" x2="26.95" y2="-17.84853125" width="0.2" layer="16"/>
+<wire x1="26.95" y1="-17.84853125" x2="26.95" y2="-16.40146875" width="0.2" layer="16"/>
+<via x="31.25" y="3.7" extent="1-16" drill="0.3"/>
+<wire x1="32.0257375" y1="5.95" x2="33.1" y2="5.95" width="0.2" layer="1"/>
+<wire x1="31.25" y1="3.7" x2="31.25" y2="5.1742625" width="0.2" layer="1"/>
+<wire x1="31.25" y1="5.1742625" x2="32.0257375" y2="5.95" width="0.2" layer="1"/>
 </signal>
 <signal name="USB+">
 <contactref element="D1" pad="3"/>
@@ -13199,6 +13296,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-24.2" y1="14.4" x2="-22.9" y2="13.1" width="0.3" layer="1"/>
 <wire x1="-22.9" y1="13.1" x2="-22.9" y2="11.9" width="0.3" layer="1"/>
 <wire x1="-22.9" y1="11.9" x2="-22.6" y2="11.6" width="0.3" layer="1"/>
+<contactref element="R37" pad="2"/>
 </signal>
 <signal name="SFGKDLS">
 <contactref element="R28" pad="2"/>
@@ -13241,12 +13339,14 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="47.2" y1="-0.35" x2="47.2" y2="-2" width="0.2" layer="1"/>
 <via x="46.9" y="-0.05" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="46.9" y1="-0.05" x2="45.85" y2="1" width="0.2" layer="16"/>
-<wire x1="45.85" y1="1" x2="38.5" y2="1" width="0.2" layer="16"/>
-<wire x1="38.5" y1="1" x2="37.45" y2="2.05" width="0.2" layer="16"/>
-<via x="37.45" y="2.05" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="37.7" y1="2.3" x2="37.45" y2="2.05" width="0.2" layer="1"/>
+<wire x1="45.85" y1="1" x2="38.15" y2="1" width="0.2" layer="16"/>
+<wire x1="38.15" y1="1" x2="37.35" y2="1.8" width="0.2" layer="16"/>
+<wire x1="37.35" y1="1.8" x2="37.35" y2="7.7" width="0.2" layer="16"/>
+<via x="37.35" y="7.7" extent="1-16" drill="0.3" diameter="0.6"/>
+<wire x1="37.7" y1="8.4" x2="37.35" y2="8.05" width="0.2" layer="1"/>
+<wire x1="37.35" y1="8.05" x2="37.35" y2="7.7" width="0.2" layer="1"/>
 <via x="45.35" y="-8.15" extent="1-16" drill="0.3" diameter="0.6"/>
-<wire x1="37.7" y1="2.3" x2="37.7" y2="15.15" width="0.2" layer="1"/>
+<wire x1="37.7" y1="8.4" x2="37.7" y2="15.15" width="0.2" layer="1"/>
 <wire x1="45.35" y1="-8.15" x2="47.15" y2="-8.15" width="0.2" layer="16"/>
 <via x="49.25" y="-2" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="49.25" y1="-6.05" x2="49.25" y2="-2" width="0.2" layer="16"/>
@@ -13285,6 +13385,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="47.9" y1="-14.95" x2="47.35" y2="-15.5" width="0.2" layer="16"/>
 <wire x1="47.35" y1="-15.5" x2="47.35" y2="-21.31" width="0.2" layer="16"/>
 <wire x1="47.35" y1="-21.31" x2="54.1" y2="-28.06" width="0.2" layer="16"/>
+<contactref element="IC3" pad="4"/>
+<wire x1="35.6" y1="4.05" x2="36.8242625" y2="4.05" width="0.2" layer="1"/>
+<wire x1="36.8242625" y1="4.05" x2="37.35" y2="4.5757375" width="0.2" layer="1"/>
+<wire x1="37.35" y1="4.5757375" x2="37.35" y2="7.7" width="0.2" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="Q9" pad="3"/>
@@ -13451,6 +13555,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <approved hash="4,16,7f03c9baf44e3810"/>
 <approved hash="4,16,ccbc105856950a09"/>
 <approved hash="21,19,78817a837a837881"/>
+<approved hash="23,16,7f9e436240e27c1e"/>
 </errors>
 </board>
 </drawing>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6677,11 +6677,154 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="PMR18EZPJ000">
+<description>&lt;Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="RESC3216X42N">
+<description>&lt;b&gt;1206 (3216 Metric)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0" dx="1.8" dy="1.55" layer="1" rot="R90"/>
+<smd name="2" x="1.25" y="0" dx="1.8" dy="1.55" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.275" y1="1.15" x2="2.275" y2="1.15" width="0.05" layer="51"/>
+<wire x1="2.275" y1="1.15" x2="2.275" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="2.275" y1="-1.15" x2="-2.275" y2="-1.15" width="0.05" layer="51"/>
+<wire x1="-2.275" y1="-1.15" x2="-2.275" y2="1.15" width="0.05" layer="51"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="51"/>
+<wire x1="0" y1="0.7" x2="0" y2="-0.7" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PMR18EZPJ000">
+<wire x1="5.08" y1="1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="1.27" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.254" layer="94"/>
+<text x="13.97" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="13.97" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="17.78" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PMR18EZPJ000" prefix="R">
+<description>&lt;b&gt;Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/pmr-jpw-e.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PMR18EZPJ000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC3216X42N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200" constant="no"/>
+<attribute name="HEIGHT" value="0.42mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMR18EZPJ000" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-PMR18EZPJ000" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJ000?qs=F3nc1lPKfV7xjhm%252BR6Umvg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="TPD3S014DBVR">
+<description>&lt;Current Limit Load Sw &amp; TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT95P280X145-6N">
+<description>&lt;b&gt;TPD3S014DBVR&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="2" x="-1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="3" x="-1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="4" x="1.25" y="-0.95" dx="1.2" dy="0.6" layer="1"/>
+<smd name="5" x="1.25" y="0" dx="1.2" dy="0.6" layer="1"/>
+<smd name="6" x="1.25" y="0.95" dx="1.2" dy="0.6" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.775" x2="2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.775" x2="2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.775" x2="-2.1" y2="-1.775" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.775" x2="-2.1" y2="1.775" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="1.45" x2="0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="1.45" x2="0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-1.45" x2="-0.8" y2="-1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-1.45" x2="-0.8" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.5" x2="0.15" y2="1.45" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="1.45" x2="0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="1.45" x2="0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-1.45" x2="-0.3" y2="-1.45" width="0.2" layer="21"/>
+<wire x1="-0.3" y1="-1.45" x2="-0.3" y2="1.45" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="1.6" x2="-0.65" y2="1.6" width="0.2" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TPD3S014DBVR">
+<wire x1="5.08" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="21.59" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="21.59" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="EN" x="0" y="0" length="middle"/>
+<pin name="GND" x="0" y="-2.54" length="middle"/>
+<pin name="IN" x="0" y="-5.08" length="middle"/>
+<pin name="D2" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="D1" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT" x="25.4" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TPD3S014DBVR" prefix="IC">
+<description>&lt;b&gt;Current Limit Load Sw &amp; TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPD3S014DBVR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT95P280X145-6N">
+<connects>
+<connect gate="G$1" pin="D1" pad="5"/>
+<connect gate="G$1" pin="D2" pad="6"/>
+<connect gate="G$1" pin="EN" pad="1"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Current Limit Load Sw &amp; TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPD3S014DBVR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-TPD3S014DBVR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD3S014DBVR?qs=1CfNGUMoiQ%252BDmiZShdlX0g%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 <variantdef name="BASIC"/>
+<variantdef name="Manufacturing" current="yes"/>
+<variantdef name="Customer"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -7029,37 +7172,46 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="RT0805FRE0710KL"/>
 </part>
 <part name="+P22" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="VDC" device=""/>
-<part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BZX84C" device="" package3d_urn="urn:adsk.eagle:package:2640533/9" technology="12"/>
+<part name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BZX84C" device="" package3d_urn="urn:adsk.eagle:package:2640533/9" technology="12">
+<variant name="Customer" populate="no"/>
+</part>
 <part name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="4K7">
 <attribute name="DIGIKEY#" value="YAG3364CT-ND"/>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE074K7L"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="R29" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="4K7">
 <attribute name="DIGIKEY#" value="YAG3364CT-ND"/>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE074K7L"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:2640533/9">
 <attribute name="DIGIKEY#" value="2N7002NCT-ND"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="10K">
 <attribute name="DIGIKEY#" value="YAG1239CT-ND"/>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE0710KL"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="SQJ459EP-T1_GE3" device="" package3d_urn="urn:adsk.eagle:package:10182380/2">
 <attribute name="LCSC#" value="C141555"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="GND47" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" deviceset="2N7002" device="" package3d_urn="urn:adsk.eagle:package:2640533/9">
 <attribute name="DIGIKEY#" value="2N7002NCT-ND"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="GND48" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-5%" value="4K7">
 <attribute name="DIGIKEY#" value="YAG3364CT-ND"/>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE074K7L"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K">
 <attribute name="AEC-Q" value="---"/>
@@ -7067,6 +7219,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RT0805FRE071KL"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="LED6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/4" value="ORANGE">
 <attribute name="COLOR" value="ORANGE"/>
@@ -7086,6 +7239,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF">
 <attribute name="DIGIKEY#" value=""/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="ESDA6V1L" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
 <part name="GND14" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
@@ -7111,6 +7265,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RC0805JR-074R3L"/>
 <variant name="BASIC" populate="no"/>
+<variant name="Customer" populate="no"/>
 </part>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>
@@ -7183,6 +7338,17 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="RT0805FRE071KL"/>
 <attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
 </part>
+<part name="R37" library="PMR18EZPJ000" deviceset="PMR18EZPJ000" device="">
+<attribute name="MANF" value="ROHM Semiconductor"/>
+<attribute name="MANF#" value="PMR18EZPJ000"/>
+<attribute name="PACKAGE" value="1206"/>
+<variant name="Manufacturing" populate="no"/>
+</part>
+<part name="IC3" library="TPD3S014DBVR" deviceset="TPD3S014DBVR" device="">
+<variant name="Manufacturing" populate="no"/>
+</part>
+<part name="GND26" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
+<part name="+P14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8080,6 +8246,16 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="TOLERANCE" x="40.386" y="96.012" size="0.762" layer="96" rot="R180"/>
 <attribute name="DIGIKEY#" x="40.64" y="93.98" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
+<instance part="IC3" gate="G$1" x="120.6" y="116.8" smashed="yes">
+<attribute name="NAME" x="142.19" y="124.42" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="142.19" y="121.88" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="GND26" gate="1" x="117.5" y="114.35" smashed="yes">
+<attribute name="VALUE" x="117.5" y="112.318" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="+P14" gate="G$1" x="118.29" y="107.23" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="118.29" y="110.786" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8255,6 +8431,12 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pinref part="D11" gate="G$1" pin="C"/>
 <wire x1="84.6" y1="103.76" x2="84.6" y2="106.3" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND26" gate="1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="117.5" y1="114.35" x2="120.6" y2="114.35" width="0.1524" layer="91"/>
+<wire x1="120.6" y1="114.35" x2="120.6" y2="114.26" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CAN1_TX" class="0">
 <segment>
@@ -8386,12 +8568,23 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="37.3" y1="58.3" x2="37.3" y2="58.5" width="0.1524" layer="91"/>
 <label x="37.4" y="58.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="IN"/>
+<pinref part="+P14" gate="G$1" pin="VDD_5V"/>
+<wire x1="120.6" y1="111.72" x2="120.6" y2="107.23" width="0.1524" layer="91"/>
+<wire x1="120.6" y1="107.23" x2="118.29" y2="107.23" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BEC_ENABLE_OUT" class="0">
 <segment>
 <wire x1="93.98" y1="66.04" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
 <label x="93.98" y="68.58" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="R30" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="66.04" x2="97.6" y2="66.04" width="0.1524" layer="91"/>
+<junction x="93.98" y="66.04"/>
+<pinref part="IC3" gate="G$1" pin="EN"/>
+<wire x1="97.6" y1="66.04" x2="97.6" y2="116.8" width="0.1524" layer="91"/>
+<wire x1="97.6" y1="116.8" x2="120.6" y2="116.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO1" class="0">
@@ -8764,6 +8957,16 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="243.84" y1="169" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
 <junction x="243.84" y="165.1"/>
 </segment>
+<segment>
+<label x="151.3" y="166.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="146.2" y1="111.72" x2="146.87" y2="111.72" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
+<wire x1="146.87" y1="111.72" x2="148.74" y2="111.72" width="0.1524" layer="91"/>
+<wire x1="146" y1="111.72" x2="146.2" y2="111.72" width="0.1524" layer="91"/>
+<label x="148.81" y="111.68" size="1" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -8841,7 +9044,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="5.08" y1="162.56" x2="60.96" y2="162.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="5.08" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="97" style="shortdash"/>
 <text x="124.46" y="124.46" size="1.778" layer="97" font="vector">Capacitor battery</text>
-<text x="121.92" y="101.6" size="1.27" layer="97" font="vector">These capacitors
+<text x="120.92" y="104.6" size="1.27" layer="97" font="vector">These capacitors
 should be placed 
 as close as possible 
 to the power transistors.</text>
@@ -8860,19 +9063,19 @@ to the power transistors.</text>
 <wire x1="177.8" y1="162.56" x2="177.8" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="177.8" y1="132.08" x2="119.38" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
 <text x="55.88" y="167.64" size="3.81" layer="97" font="vector" rot="MR0">POWERSTAGE</text>
-<wire x1="254" y1="96.52" x2="139.7" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="139.7" y1="96.52" x2="139.7" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="254" y1="102.52" x2="139.7" y2="102.52" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="139.7" y1="102.52" x2="139.7" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="139.7" y1="25.4" x2="254" y2="25.4" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="254" y1="25.4" x2="254" y2="96.52" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="254" y1="25.4" x2="254" y2="102.52" width="0.1524" layer="97" style="shortdash"/>
 <text x="159.766" y="90.17" size="2.54" layer="97" font="vector" ratio="15" align="center">Invalid insertion
 protection</text>
 <text x="154.94" y="27.94" size="1.27" layer="97" font="vector">R31 should be mounted if mito_presence signal is not used</text>
 <text x="200.66" y="53.34" size="1.27" layer="97" font="vector">Mito presence goes low when mitochondrik is inserted.
 Then CAN_VDD should be set to 1, which turns on Q9,
 which then turns on Q11 allowing VDC to power the device</text>
-<text x="187.96" y="134.62" size="1.778" layer="97" font="vector">CON18, CON19 may be used 
+<text x="190.06" y="165.82" size="1.778" layer="97" font="vector">CON18, CON19 may be used 
 for connecting additional capacitor PCB if needed</text>
-<text x="187.96" y="129.54" size="1.778" layer="97" font="vector">Connect 1189-1510-ND (digikey#) to CON18, CON19</text>
+<text x="190.06" y="160.74" size="1.778" layer="97" font="vector">Connect 1189-1510-ND (digikey#) to CON18, CON19</text>
 <text x="185.928" y="92.456" size="1.524" layer="97" font="vector">C3 may be tweaked if needed to slow down voltage rise pace</text>
 </plain>
 <instances>
@@ -9222,17 +9425,24 @@ for connecting additional capacitor PCB if needed</text>
 <instance part="GND8" gate="G$1" x="149.86" y="30.48" smashed="yes">
 <attribute name="VALUE" x="149.86" y="29.21" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="CON18" gate="G$1" x="205.74" y="116.84" smashed="yes" rot="MR0">
-<attribute name="NAME" x="203.2" y="125.73" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON18" gate="G$1" x="207.84" y="148.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="205.3" y="156.93" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="CON19" gate="G$1" x="205.74" y="104.14" smashed="yes" rot="MR0">
-<attribute name="NAME" x="203.2" y="113.03" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="CON19" gate="G$1" x="207.84" y="135.34" smashed="yes" rot="MR0">
+<attribute name="NAME" x="205.3" y="144.23" size="1.778" layer="95" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
-<instance part="+P13" gate="G$1" x="195.58" y="124.46" smashed="yes">
-<attribute name="VALUE" x="195.58" y="128.016" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="+P13" gate="G$1" x="197.68" y="155.66" smashed="yes">
+<attribute name="VALUE" x="197.68" y="159.216" size="1.27" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="GND25" gate="G$1" x="195.58" y="101.6" smashed="yes">
-<attribute name="VALUE" x="195.58" y="100.33" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
+<instance part="GND25" gate="G$1" x="197.68" y="132.8" smashed="yes">
+<attribute name="VALUE" x="197.68" y="131.53" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
+</instance>
+<instance part="R37" gate="G$1" x="195.4" y="97.1" smashed="yes">
+<attribute name="NAME" x="209.37" y="103.45" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="209.37" y="100.91" size="1.778" layer="96" align="center-left"/>
+<attribute name="MANF#" x="195.4" y="97.1" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="195.4" y="97.1" size="1.778" layer="96" display="off"/>
+<attribute name="PACKAGE" x="195.4" y="97.1" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9554,13 +9764,13 @@ for connecting additional capacitor PCB if needed</text>
 </segment>
 <segment>
 <pinref part="GND25" gate="G$1" pin="PGND"/>
-<wire x1="195.58" y1="104.14" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="197.68" y1="135.34" x2="197.68" y2="137.88" width="0.1524" layer="91"/>
 <pinref part="CON19" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="106.68" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="197.68" y1="137.88" x2="200.22" y2="137.88" width="0.1524" layer="91"/>
 <pinref part="CON19" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="109.22" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
-<junction x="195.58" y="106.68"/>
+<wire x1="200.22" y1="140.42" x2="197.68" y2="140.42" width="0.1524" layer="91"/>
+<wire x1="197.68" y1="140.42" x2="197.68" y2="137.88" width="0.1524" layer="91"/>
+<junction x="197.68" y="137.88"/>
 </segment>
 </net>
 <net name="VDC" class="1">
@@ -9609,16 +9819,20 @@ for connecting additional capacitor PCB if needed</text>
 <wire x1="182.88" y1="88.9" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="+P22" gate="G$1" pin="VDC"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
+<pinref part="R37" gate="G$1" pin="1"/>
+<wire x1="195.4" y1="97.1" x2="195.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="195.4" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
+<junction x="182.88" y="91.44"/>
 </segment>
 <segment>
 <pinref part="+P13" gate="G$1" pin="VDC"/>
-<wire x1="195.58" y1="124.46" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="197.68" y1="155.66" x2="197.68" y2="153.12" width="0.1524" layer="91"/>
 <pinref part="CON18" gate="G$1" pin="1"/>
-<wire x1="195.58" y1="121.92" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="119.38" x2="198.12" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="197.68" y1="153.12" x2="197.68" y2="150.58" width="0.1524" layer="91"/>
+<wire x1="197.68" y1="150.58" x2="200.22" y2="150.58" width="0.1524" layer="91"/>
 <pinref part="CON18" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
-<junction x="195.58" y="121.92"/>
+<wire x1="200.22" y1="153.12" x2="197.68" y2="153.12" width="0.1524" layer="91"/>
+<junction x="197.68" y="153.12"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9682,7 +9896,8 @@ for connecting additional capacitor PCB if needed</text>
 <wire x1="198.12" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="88.9" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="88.9" x2="213.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="213.2" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="86.36" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="198.12" y1="83.82" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
@@ -9691,6 +9906,9 @@ for connecting additional capacitor PCB if needed</text>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="83.82" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
 <junction x="205.74" y="88.9"/>
+<pinref part="R37" gate="G$1" pin="2"/>
+<wire x1="213.18" y1="97.1" x2="213.18" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="213.18" y1="88.9" x2="213.2" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SFGKDLS" class="0">
