@@ -60,9 +60,14 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
+### MyDuck LV v1.1 (2023)
+
+* Bug fix for CANVDD not connected to protection circuit
+* Added CANVDD supply for consumer version
+
 ### MyDuck LV v1.0 (2021)
 
-The original version.
+* The original version.
 
 ### License
 
