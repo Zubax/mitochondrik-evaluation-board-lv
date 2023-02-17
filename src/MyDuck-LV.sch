@@ -8064,14 +8064,14 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <instance part="SJ2" gate="G$1" x="210.82" y="83.82" smashed="yes">
 <attribute name="NAME" x="210.82" y="83.82" size="1.524" layer="95" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="D11" gate="G$1" x="91.44" y="104.14" smashed="yes">
-<attribute name="NAME" x="89.916" y="111.76" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
+<instance part="D11" gate="G$1" x="74.44" y="108.84" smashed="yes">
+<attribute name="NAME" x="72.916" y="116.46" size="2.54" layer="95" font="vector" ratio="15" rot="R90" align="center"/>
 </instance>
-<instance part="GND21" gate="1" x="101.6" y="99.06" smashed="yes">
-<attribute name="VALUE" x="101.6" y="97.028" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
+<instance part="GND21" gate="1" x="84.6" y="103.76" smashed="yes">
+<attribute name="VALUE" x="84.6" y="101.728" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="+P3" gate="G$1" x="106.68" y="124.46" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="106.68" y="128.016" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
+<instance part="+P3" gate="G$1" x="89.68" y="129.16" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="89.68" y="132.716" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="R36" gate="G$1" x="40.64" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="40.64" y="93.98" size="1.27" layer="95" rot="R180" align="center"/>
@@ -8253,7 +8253,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <segment>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="D11" gate="G$1" pin="C"/>
-<wire x1="101.6" y1="99.06" x2="101.6" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="84.6" y1="103.76" x2="84.6" y2="106.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_TX" class="0">
@@ -8371,7 +8371,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <segment>
 <pinref part="D11" gate="G$1" pin="A"/>
 <pinref part="+P3" gate="G$1" pin="VDD_5V"/>
-<wire x1="106.68" y1="121.92" x2="106.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="89.68" y1="126.62" x2="89.68" y2="129.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON5" gate="G$1" pin="1"/>
@@ -8475,15 +8475,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <junction x="53.34" y="40.64"/>
 </segment>
 </net>
-<net name="CAN2_VDD" class="0">
-<segment>
-<pinref part="CON12" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="71.12" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="88.9" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="CON14" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="USB-" class="0">
 <segment>
 <wire x1="50.8" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
@@ -8553,15 +8544,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="203.2" y1="160.02" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="162.56" x2="233.68" y2="162.56" width="0.1524" layer="91"/>
 <junction x="233.68" y="162.56"/>
-</segment>
-</net>
-<net name="CAN1_VDD" class="0">
-<segment>
-<pinref part="CON13" gate="G$1" pin="1"/>
-<wire x1="243.84" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="165.1" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="CON11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CAN1L" class="0">
@@ -8756,11 +8738,31 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="180.34" y1="93.98" x2="177.8" y2="93.98" width="0.1524" layer="91"/>
 <label x="177.8" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="93.98" x2="180.34" y2="100" width="0.1524" layer="91"/>
+<junction x="180.34" y="93.98"/>
+<pinref part="CON12" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="71.12" x2="231.14" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="71.12" x2="231.14" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="88.9" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="CON14" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="100" x2="243.84" y2="100" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="100" x2="243.84" y2="88.9" width="0.1524" layer="91"/>
+<junction x="243.84" y="88.9"/>
 </segment>
 <segment>
 <pinref part="D9" gate="G$1" pin="C"/>
 <wire x1="180.34" y1="162.56" x2="177.8" y2="162.56" width="0.1524" layer="91"/>
 <label x="177.8" y="162.56" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<wire x1="180.34" y1="162.56" x2="180.34" y2="169" width="0.1524" layer="91"/>
+<junction x="180.34" y="162.56"/>
+<pinref part="CON13" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="165.1" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="CON11" gate="G$1" pin="1"/>
+<wire x1="180.34" y1="169" x2="243.84" y2="169" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="169" x2="243.84" y2="165.1" width="0.1524" layer="91"/>
+<junction x="243.84" y="165.1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
