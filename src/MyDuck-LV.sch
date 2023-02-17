@@ -4640,37 +4640,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-4.05" y1="-1.75" x2="-4.05" y2="1.75" width="0.1" layer="21"/>
 <text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="F1812" urn="urn:adsk.eagle:footprint:4852858/1" library_version="16">
-<smd name="P$1" x="-2" y="0" dx="3.45" dy="1.9" layer="1" rot="R90"/>
-<smd name="P$2" x="2" y="0" dx="3.45" dy="1.9" layer="1" rot="R90"/>
-<wire x1="-3.15" y1="1.9" x2="3.15" y2="1.9" width="0.1" layer="21"/>
-<wire x1="3.15" y1="1.9" x2="3.15" y2="-1.9" width="0.1" layer="21"/>
-<wire x1="3.15" y1="-1.9" x2="-3.15" y2="-1.9" width="0.1" layer="21"/>
-<wire x1="-3.15" y1="-1.9" x2="-3.15" y2="1.9" width="0.1" layer="21"/>
-<text x="0" y="0" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="0679H-FUSE" urn="urn:adsk.eagle:footprint:4855513/2" library_version="16">
-<smd name="P$1" x="-2.49" y="0" dx="3.15" dy="2" layer="1" rot="R90"/>
-<smd name="P$2" x="2.49" y="0" dx="3.15" dy="2" layer="1" rot="R90"/>
-<wire x1="-3.65" y1="1.3" x2="-3.65" y2="1.75" width="0.1" layer="21"/>
-<wire x1="-3.65" y1="1.75" x2="-2.35" y2="1.75" width="0.1" layer="21"/>
-<wire x1="-2.35" y1="1.75" x2="3.65" y2="1.75" width="0.1" layer="21"/>
-<wire x1="3.65" y1="1.75" x2="3.65" y2="1.2" width="0.1" layer="21"/>
-<wire x1="3.65" y1="1.2" x2="3.65" y2="-1.75" width="0.1" layer="21"/>
-<wire x1="3.65" y1="-1.75" x2="1.5" y2="-1.75" width="0.1" layer="21"/>
-<wire x1="1.5" y1="-1.75" x2="-3.65" y2="-1.75" width="0.1" layer="21"/>
-<wire x1="-3.65" y1="-1.75" x2="-3.65" y2="1.3" width="0.1" layer="21"/>
-<text x="0" y="0" size="1" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="F1210" urn="urn:adsk.eagle:footprint:5347941/2" library_version="20">
-<smd name="1" x="-1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<smd name="2" x="1.55" y="0" dx="0.9" dy="2.5" layer="1"/>
-<text x="0" y="0" size="0.6" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<wire x1="-2.2" y1="1.45" x2="-2.2" y2="-1.45" width="0.15" layer="21"/>
-<wire x1="-2.2" y1="-1.45" x2="2.2" y2="-1.45" width="0.15" layer="21"/>
-<wire x1="2.2" y1="-1.45" x2="2.2" y2="1.45" width="0.15" layer="21"/>
-<wire x1="2.2" y1="1.45" x2="-2.2" y2="1.45" width="0.15" layer="21"/>
-</package>
 <package name="C0402" urn="urn:adsk.eagle:footprint:2539428/1" library_version="20">
 <smd name="1" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
@@ -4841,45 +4810,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-3.4" y1="-2.8" x2="-3.4" y2="2.8" width="0.1" layer="21"/>
 <text x="0" y="0" size="1" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="F0603" urn="urn:adsk.eagle:footprint:7694998/1" library_version="69">
-<smd name="1" x="-0.725" y="0" dx="0.6" dy="0.9" layer="1"/>
-<smd name="2" x="0.725" y="0" dx="0.6" dy="0.9" layer="1"/>
-<wire x1="-1.125" y1="0.55" x2="1.125" y2="0.55" width="0.1" layer="21"/>
-<wire x1="1.125" y1="0.55" x2="1.125" y2="-0.55" width="0.1" layer="21"/>
-<wire x1="1.125" y1="-0.55" x2="-1.125" y2="-0.55" width="0.1" layer="21"/>
-<wire x1="-1.125" y1="-0.55" x2="-1.125" y2="0.55" width="0.1" layer="21"/>
-<text x="0" y="0" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-<text x="0" y="1" size="0.5" layer="27" font="vector" ratio="15" align="center">&gt;VALUE</text>
-</package>
-<package name="FH-101" urn="urn:adsk.eagle:footprint:8577975/1" library_version="69">
-<wire x1="12" y1="4.9" x2="-12" y2="4.9" width="0.127" layer="51"/>
-<wire x1="-12" y1="4.9" x2="-12" y2="-4.9" width="0.127" layer="51"/>
-<wire x1="-12" y1="-4.9" x2="12" y2="-4.9" width="0.127" layer="51"/>
-<wire x1="12" y1="-4.9" x2="12" y2="4.9" width="0.127" layer="51"/>
-<wire x1="-12" y1="4.9" x2="12" y2="4.9" width="0.127" layer="21"/>
-<wire x1="12" y1="4.9" x2="12" y2="1" width="0.127" layer="21"/>
-<wire x1="-12" y1="1" x2="-12" y2="4.9" width="0.127" layer="21"/>
-<wire x1="-12" y1="-1" x2="-12" y2="-4.9" width="0.127" layer="21"/>
-<wire x1="-12" y1="-4.9" x2="12" y2="-4.9" width="0.127" layer="21"/>
-<wire x1="12" y1="-4.9" x2="12" y2="-1" width="0.127" layer="21"/>
-<pad name="1" x="-10.5" y="0" drill="2"/>
-<pad name="2" x="10.5" y="0" drill="2"/>
-<text x="0" y="0" size="1.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
-<package name="MF-R010" urn="urn:adsk.eagle:footprint:19787655/1" library_version="46" library_locally_modified="yes">
-<pad name="P$1" x="-2.55" y="0" drill="1"/>
-<pad name="P$2" x="2.55" y="0" drill="1"/>
-<wire x1="-1.4" y1="0.8" x2="-1.4" y2="0" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="0" x2="-1.4" y2="-0.8" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="-0.8" x2="1.4" y2="-0.8" width="0.1" layer="21"/>
-<wire x1="1.4" y1="-0.8" x2="1.4" y2="0" width="0.1" layer="21"/>
-<wire x1="1.4" y1="0" x2="1.4" y2="0.8" width="0.1" layer="21"/>
-<wire x1="1.4" y1="0.8" x2="-1.4" y2="0.8" width="0.1" layer="21"/>
-<wire x1="-1.4" y1="0" x2="1.4" y2="0" width="0.1" layer="21"/>
-<wire x1="-2.5" y1="0" x2="-1.4" y2="0" width="0.1" layer="51"/>
-<wire x1="1.4" y1="0" x2="2.5" y2="0" width="0.1" layer="51"/>
-<text x="0" y="1.2" size="0.5" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
-</package>
 <package name="LED0402" urn="urn:adsk.eagle:footprint:2539447/2" library_version="71">
 <smd name="A" x="-0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
 <smd name="C" x="0.5" y="0" dx="0.5" dy="0.6" layer="1"/>
@@ -4920,21 +4850,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <package3d name="R1206" urn="urn:adsk.eagle:package:2539464/2" type="model" library_version="19" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="R1206"/>
-</packageinstances>
-</package3d>
-<package3d name="F1812" urn="urn:adsk.eagle:package:4852859/2" type="model" library_version="16">
-<packageinstances>
-<packageinstance name="F1812"/>
-</packageinstances>
-</package3d>
-<package3d name="FUSE2410" urn="urn:adsk.eagle:package:4855514/2" type="box" library_version="16">
-<packageinstances>
-<packageinstance name="0679H-FUSE"/>
-</packageinstances>
-</package3d>
-<package3d name="FUSE1210" urn="urn:adsk.eagle:package:5347944/3" type="model" library_version="20">
-<packageinstances>
-<packageinstance name="F1210"/>
 </packageinstances>
 </package3d>
 <package3d name="C0402" urn="urn:adsk.eagle:package:2539461/2" type="model" library_version="20">
@@ -5017,21 +4932,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <packageinstance name="C2220-STACKED"/>
 </packageinstances>
 </package3d>
-<package3d name="F0603" urn="urn:adsk.eagle:package:7694999/2" type="model" library_version="69">
-<packageinstances>
-<packageinstance name="F0603"/>
-</packageinstances>
-</package3d>
-<package3d name="FH-101" urn="urn:adsk.eagle:package:8577976/2" type="model" library_version="69">
-<packageinstances>
-<packageinstance name="FH-101"/>
-</packageinstances>
-</package3d>
-<package3d name="MF-R010" urn="urn:adsk.eagle:package:19787656/2" type="model" library_version="69">
-<packageinstances>
-<packageinstance name="MF-R010"/>
-</packageinstances>
-</package3d>
 <package3d name="LED0402" urn="urn:adsk.eagle:package:2539470/3" type="model" library_version="71">
 <packageinstances>
 <packageinstance name="LED0402"/>
@@ -5048,21 +4948,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <text x="-0.254" y="-2.032" size="0.762" layer="96" font="vector" align="bottom-right">&gt;VALUE</text>
 <text x="-3.81" y="0.508" size="0.508" layer="95" font="vector" align="center">&gt;PACKAGE</text>
 <text x="0.254" y="-2.032" size="0.762" layer="96" font="vector">&gt;TOLERANCE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:4852857/1" library_version="16">
-<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-0.889" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<text x="0" y="1.778" size="1.27" layer="95" align="center">&gt;NAME</text>
-<text x="-3.81" y="0.508" size="0.508" layer="95" align="center">&gt;PACKAGE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -5255,107 +5140,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="2512" constant="no"/>
 <attribute name="TOLERANCE" value="5%" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="FUSE" urn="urn:adsk.eagle:component:4852860/14" prefix="F" library_version="69">
-<gates>
-<gate name="G$1" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-1812" package="F1812">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4852859/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="1812" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0679H" package="0679H-FUSE">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4855514/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PACKAGE" value="0679H" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-1210" package="F1210">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:5347944/3"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603" package="F0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:7694999/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="0603" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-FH-101" package="FH-101">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:8577976/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DIGIKEY#" value="" constant="no"/>
-<attribute name="MANF" value="" constant="no"/>
-<attribute name="MANF#" value="" constant="no"/>
-<attribute name="PACKAGE" value="FH-101" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-MF-R010" package="MF-R010">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:19787656/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -6823,7 +6607,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 </attributes>
 <variantdefs>
 <variantdef name="BASIC"/>
-<variantdef name="Manufacturing" current="yes"/>
+<variantdef name="Manufacturing"/>
 <variantdef name="Customer"/>
 </variantdefs>
 <classes>
@@ -7000,19 +6784,12 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 </part>
 <part name="GND32" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="GND7" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="F1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="FUSE" device="-1812" package3d_urn="urn:adsk.eagle:package:4852859/2">
-<attribute name="DIGIKEY#" value="507-1754-2-ND"/>
-<attribute name="LCSC#" value="C12430"/>
-<attribute name="MANF" value="Bel Fuse Inc"/>
-<attribute name="MANF#" value="0ZCG0010FF2C"/>
-</part>
 <part name="GND10" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P10" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="D3" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="BAV99DW" device="" package3d_urn="urn:adsk.eagle:package:1040203/3"/>
 <part name="GND9" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND5" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="+P6" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
 <part name="GND29" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="4R3">
 <variant name="BASIC" populate="no"/>
@@ -7349,6 +7126,15 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 </part>
 <part name="GND26" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
 <part name="+P14" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="5V" device=""/>
+<part name="R38" library="PMR18EZPJ000" deviceset="PMR18EZPJ000" device="">
+<attribute name="MANF" value="ROHM Semiconductor"/>
+<attribute name="MANF#" value="PMR18EZPJ000"/>
+<attribute name="PACKAGE" value="1206"/>
+<variant name="Manufacturing" populate="no"/>
+</part>
+<part name="D12" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" deviceset="MBR0520L" device="-SOD123" package3d_urn="urn:adsk.eagle:package:2473271/2">
+<variant name="Manufacturing" populate="no"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -7953,14 +7739,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 <instance part="GND7" gate="1" x="109.22" y="139.7" smashed="yes">
 <attribute name="VALUE" x="109.22" y="137.668" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
-<instance part="F1" gate="G$1" x="119.38" y="157.48" smashed="yes">
-<attribute name="DIGIKEY#" x="119.38" y="157.48" size="1.778" layer="96" display="off"/>
-<attribute name="MANF" x="119.38" y="157.48" size="1.778" layer="96" display="off"/>
-<attribute name="MANF#" x="119.38" y="157.48" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="119.38" y="159.258" size="1.27" layer="95" align="center"/>
-<attribute name="PACKAGE" x="115.57" y="157.988" size="0.508" layer="95" align="center"/>
-<attribute name="LCSC#" x="119.38" y="157.48" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="GND10" gate="1" x="137.16" y="139.7" smashed="yes">
 <attribute name="VALUE" x="137.16" y="137.668" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
 </instance>
@@ -7983,9 +7761,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 </instance>
 <instance part="GND5" gate="1" x="99.06" y="139.7" smashed="yes">
 <attribute name="VALUE" x="99.06" y="137.668" size="1.016" layer="96" font="vector" ratio="15" align="center"/>
-</instance>
-<instance part="+P6" gate="G$1" x="127" y="160.02" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="127" y="163.576" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
 <instance part="GND29" gate="1" x="248.92" y="50.8" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="248.92" y="48.768" size="1.016" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
@@ -8256,6 +8031,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 <instance part="+P14" gate="G$1" x="118.29" y="107.23" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="118.29" y="110.786" size="1.27" layer="96" font="vector" ratio="15" rot="MR0" align="center"/>
 </instance>
+<instance part="D12" gate="G$1" x="149.11" y="111.72" smashed="yes">
+<attribute name="NAME" x="149.11" y="114.26" size="1.27" layer="95" font="vector" ratio="15" align="center"/>
+<attribute name="MANF#" x="149.11" y="109.18" size="1.016" layer="95" font="vector" ratio="15" align="center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8509,12 +8288,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 <pinref part="+P8" gate="G$1" pin="VDD_5V"/>
 <wire x1="132.08" y1="142.24" x2="134.62" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="142.24" x2="134.62" y2="144.78" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="F1" gate="G$1" pin="2"/>
-<wire x1="124.46" y1="157.48" x2="127" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="127" y1="157.48" x2="127" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="+P6" gate="G$1" pin="VDD_5V"/>
 </segment>
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
@@ -8790,13 +8563,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="F1" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="157.48" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="CON10" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$20" class="0">
 <segment>
 <wire x1="104.14" y1="154.94" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
@@ -8961,11 +8727,15 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 <label x="151.3" y="166.86" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="146.2" y1="111.72" x2="146.87" y2="111.72" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OUT"/>
-<wire x1="146.87" y1="111.72" x2="148.74" y2="111.72" width="0.1524" layer="91"/>
-<wire x1="146" y1="111.72" x2="146.2" y2="111.72" width="0.1524" layer="91"/>
-<label x="148.81" y="111.68" size="1" layer="95" xref="yes"/>
+<pinref part="CON10" gate="G$1" pin="1"/>
+<wire x1="104.14" y1="157.48" x2="106.72" y2="157.48" width="0.1524" layer="91"/>
+<label x="106.75" y="157.48" size="1" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D12" gate="G$1" pin="C"/>
+<wire x1="151.65" y1="111.7" x2="155.67" y2="111.7" width="0.1524" layer="91"/>
+<wire x1="151.65" y1="111.72" x2="151.65" y2="111.7" width="0.1524" layer="91"/>
+<label x="155.67" y="111.74" size="1" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -9031,6 +8801,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/tpd3s044.pdf"&gt; Datasheet
 <pinref part="R34" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R36" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="OUT"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="146" y1="111.72" x2="146.57" y2="111.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -9438,11 +9215,18 @@ for connecting additional capacitor PCB if needed</text>
 <attribute name="VALUE" x="197.68" y="131.53" size="1.27" layer="97" font="vector" ratio="15" align="center"/>
 </instance>
 <instance part="R37" gate="G$1" x="195.4" y="97.1" smashed="yes">
-<attribute name="NAME" x="209.37" y="103.45" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="209.37" y="100.91" size="1.778" layer="96" align="center-left"/>
+<attribute name="NAME" x="201.92" y="97.2" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="208.52" y="95.84" size="1.778" layer="96" align="center-left" display="off"/>
 <attribute name="MANF#" x="195.4" y="97.1" size="1.778" layer="96" display="off"/>
 <attribute name="MANF" x="195.4" y="97.1" size="1.778" layer="96" display="off"/>
 <attribute name="PACKAGE" x="195.4" y="97.1" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R38" gate="G$1" x="195.3" y="100.3" smashed="yes">
+<attribute name="NAME" x="201.64" y="100.45" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="209.27" y="104.11" size="1.778" layer="96" align="center-left" display="off"/>
+<attribute name="MANF#" x="195.3" y="100.3" size="1.778" layer="96" display="off"/>
+<attribute name="MANF" x="195.3" y="100.3" size="1.778" layer="96" display="off"/>
+<attribute name="PACKAGE" x="195.3" y="100.3" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>
@@ -9823,6 +9607,10 @@ for connecting additional capacitor PCB if needed</text>
 <wire x1="195.4" y1="97.1" x2="195.4" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="195.4" y1="91.44" x2="182.88" y2="91.44" width="0.1524" layer="91"/>
 <junction x="182.88" y="91.44"/>
+<pinref part="R38" gate="G$1" pin="1"/>
+<wire x1="195.4" y1="97.1" x2="195.4" y2="100.3" width="0.1524" layer="91"/>
+<wire x1="195.4" y1="100.3" x2="195.3" y2="100.3" width="0.1524" layer="91"/>
+<junction x="195.4" y="97.1"/>
 </segment>
 <segment>
 <pinref part="+P13" gate="G$1" pin="VDC"/>
@@ -9897,7 +9685,7 @@ for connecting additional capacitor PCB if needed</text>
 <wire x1="198.12" y1="88.9" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="88.9" x2="213.18" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="213.2" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="213.18" y1="88.9" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="86.36" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="198.12" y1="83.82" x2="198.12" y2="88.9" width="0.1524" layer="91"/>
@@ -9908,7 +9696,10 @@ for connecting additional capacitor PCB if needed</text>
 <junction x="205.74" y="88.9"/>
 <pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="213.18" y1="97.1" x2="213.18" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="213.18" y1="88.9" x2="213.2" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R38" gate="G$1" pin="2"/>
+<wire x1="213.08" y1="100.3" x2="213.18" y2="100.3" width="0.1524" layer="91"/>
+<wire x1="213.18" y1="100.3" x2="213.18" y2="97.1" width="0.1524" layer="91"/>
+<junction x="213.18" y="97.1"/>
 </segment>
 </net>
 <net name="SFGKDLS" class="0">
