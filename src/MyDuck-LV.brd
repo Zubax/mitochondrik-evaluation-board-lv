@@ -11197,13 +11197,13 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="POWERPAK_SO-8" package3d_urn="urn:adsk.eagle:package:10182380/2" value="SQJ459EP-T1_GE3" x="-24.2" y="21.1" smashed="yes" rot="R270">
-<attribute name="DIGIKEY#" value="SQJ459EP-T1_GE3DKR-ND" x="-24.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="LCSC#" value="C141555" x="-24.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF" value="Vishay Siliconix" x="-24.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANF#" value="SQJ459EP-T1_GE3" x="-24.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="-24.2" y="21.1" size="1" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
-<attribute name="PACKAGE" value="POWER_SO8" x="-24.2" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="Q11" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="POWERPAK_SO-8" package3d_urn="urn:adsk.eagle:package:10182380/2" value="SQJ459EP-T1_GE3" x="-23.15" y="21.25" smashed="yes" rot="R270">
+<attribute name="DIGIKEY#" value="SQJ459EP-T1_GE3DKR-ND" x="-23.15" y="21.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="LCSC#" value="C141555" x="-23.15" y="21.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF" value="Vishay Siliconix" x="-23.15" y="21.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANF#" value="SQJ459EP-T1_GE3" x="-23.15" y="21.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="-23.8" y="21.25" size="1" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
+<attribute name="PACKAGE" value="POWER_SO8" x="-23.15" y="21.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="2N7002" x="-24.7" y="7.2" smashed="yes" rot="R270">
 <attribute name="DIGIKEY#" value="2N7002NCT-ND" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -11449,18 +11449,18 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="31.45" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TOLERANCE" value="1%" x="31.45" y="19.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R37" library="PMR18EZPJ000" package="RESC3216X42N" value="PMR18EZPJ000" x="-25.5" y="28" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.42mm" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF" value="ROHM Semiconductor" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="PMR18EZPJ000" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMR18EZPJ000" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-PMR18EZPJ000" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJ000?qs=F3nc1lPKfV7xjhm%252BR6Umvg%3D%3D" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-25.85" y="29.1" size="0.8" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1206" x="-25.5" y="28" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-25.5" y="28" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R37" library="PMR18EZPJ000" package="RESC3216X42N" value="PMR18EZPJ000" x="-24.9" y="28" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.42mm" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="ROHM Semiconductor" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="PMR18EZPJ000" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMR18EZPJ000" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-PMR18EZPJ000" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJ000?qs=F3nc1lPKfV7xjhm%252BR6Umvg%3D%3D" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-25.25" y="29.1" size="0.8" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1206" x="-24.9" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-24.9" y="28" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="IC3" library="TPD3S014DBVR" package="SOT95P280X145-6N" value="TPD3S014DBVR" x="33.65" y="4.65" smashed="yes">
 <attribute name="DESCRIPTION" value="Current Limit Load Sw &amp; TVS 0.5A SOT23-6 Texas Instruments TPD3S014DBVR Load Switch IC, Current Limit Switch, 4.5  5.5V, 6-Pin, SOT-23" x="33.65" y="4.65" size="1.778" layer="27" display="off"/>
@@ -11472,18 +11472,18 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="34.3" y="3.2" size="1.27" layer="25" rot="R90"/>
 <attribute name="VALUE" x="33.65" y="4.65" size="1.27" layer="27" align="center"/>
 </element>
-<element name="R38" library="PMR18EZPJ000" package="RESC3216X42N" value="PMR18EZPJ000" x="-25.5" y="25.85" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.42mm" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF" value="ROHM Semiconductor" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="PMR18EZPJ000" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PMR18EZPJ000" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="755-PMR18EZPJ000" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJ000?qs=F3nc1lPKfV7xjhm%252BR6Umvg%3D%3D" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="-25.9" y="26.9" size="0.8" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="1206" x="-22.2" y="25.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="-25.5" y="25.85" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="R38" library="PMR18EZPJ000" package="RESC3216X42N" value="PMR18EZPJ000" x="-24.9" y="25.75" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Current Sense Resistors - SMD 1206 0ohm Jumper 5% CS Mtl Strp AEC-Q200" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.42mm" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="ROHM Semiconductor" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="PMR18EZPJ000" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="ROHM Semiconductor" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PMR18EZPJ000" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="755-PMR18EZPJ000" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/PMR18EZPJ000?qs=F3nc1lPKfV7xjhm%252BR6Umvg%3D%3D" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-25.3" y="26.8" size="0.8" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="1206" x="-21.6" y="25.75" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="-24.9" y="25.75" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="D12" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOD123" package3d_urn="urn:adsk.eagle:package:2473271/2" value="MBR0520L-SOD123" x="36.75" y="6.1" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" value="MBR0520LT1GOSTR-ND" x="36.75" y="6.1" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11504,9 +11504,9 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="-47.99" y="1.85" size="1.016" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="-42.54" y="3.03" size="1.016" layer="28" font="vector" ratio="15" rot="MR0"/>
 </element>
-<element name="U$7" library="screw_terminal" package="NINIGI_PCB_1M4" value="PCB_SCREW_TERMINAL" x="-31.35" y="26.15" smashed="yes">
-<attribute name="NAME" x="-32.46" y="22.05" size="1.016" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="-35.16" y="31.23" size="1.016" layer="27" font="vector" ratio="15"/>
+<element name="U$7" library="screw_terminal" package="NINIGI_PCB_1M4" value="PCB_SCREW_TERMINAL" x="-30.6" y="26.15" smashed="yes">
+<attribute name="NAME" x="-31.71" y="22.05" size="1.016" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-34.41" y="31.23" size="1.016" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="U$8" library="screw_terminal" package="NINIGI_PCB_1M4" value="PCB_SCREW_TERMINAL" x="-39.65" y="26.2" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-40.49" y="21.85" size="1.016" layer="25" font="vector" ratio="15"/>
@@ -11830,10 +11830,10 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="Q11" pad="P$1"/>
 <contactref element="Q11" pad="P$2"/>
 <polygon width="0.3" layer="1" thermals="no">
-<vertex x="-25.05" y="29"/>
-<vertex x="-20.5" y="29"/>
-<vertex x="-20.5" y="13.625"/>
-<vertex x="-25.05" y="13.625"/>
+<vertex x="-23.95" y="29"/>
+<vertex x="-19.9" y="29"/>
+<vertex x="-19.9" y="13.625"/>
+<vertex x="-23.95" y="13.625"/>
 </polygon>
 <via x="-23.05" y="17.8" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="-22.25" y="17.8" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -13317,10 +13317,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="Q11" pad="1"/>
 <contactref element="Q11" pad="2"/>
 <contactref element="Q11" pad="3"/>
-<wire x1="-24.4" y1="17.1" x2="-24.4" y2="17.3" width="0.3" layer="1"/>
-<wire x1="-25.9" y1="18.8" x2="-25.9" y2="20.465" width="0.3" layer="1"/>
-<wire x1="-26.902" y1="20.465" x2="-25.9" y2="20.465" width="0.3" layer="1"/>
-<wire x1="-24.4" y1="17.3" x2="-25.9" y2="18.8" width="0.3" layer="1"/>
 <wire x1="-24.2" y1="14.4" x2="-24.2" y2="16.9" width="0.3" layer="1"/>
 <wire x1="-24.2" y1="16.9" x2="-24.4" y2="17.1" width="0.3" layer="1"/>
 <polygon width="0.3" layer="1" thermals="no">
@@ -13343,18 +13339,21 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="U$7" pad="3"/>
 <contactref element="U$7" pad="4"/>
 <contactref element="U$7" pad="1"/>
+<wire x1="-24.651" y1="19.664" x2="-25.602" y2="20.615" width="0.3" layer="1"/>
+<wire x1="-25.852" y1="20.615" x2="-25.602" y2="20.615" width="0.3" layer="1"/>
+<wire x1="-24.651" y1="19.664" x2="-24.651" y2="18.35360625" width="0.3" layer="1"/>
+<wire x1="-24.651" y1="18.35360625" x2="-24.6" y2="18.30260625" width="0.3" layer="1"/>
+<wire x1="-24.6" y1="18.30260625" x2="-24.6" y2="17.3" width="0.3" layer="1"/>
+<wire x1="-24.6" y1="17.3" x2="-24.4" y2="17.1" width="0.3" layer="1"/>
 </signal>
 <signal name="SFGKDLS">
 <contactref element="R28" pad="2"/>
 <contactref element="D4" pad="1"/>
 <contactref element="R29" pad="2"/>
 <contactref element="Q11" pad="4"/>
-<wire x1="-28.3" y1="17.3" x2="-26.7" y2="17.3" width="0.3" layer="1"/>
-<wire x1="-26.7" y1="17.3" x2="-26.6" y2="17.3" width="0.3" layer="1"/>
+<wire x1="-28.3" y1="17.3" x2="-26.6" y2="17.3" width="0.3" layer="1"/>
 <wire x1="-26.6" y1="17.3" x2="-26.4" y2="17.1" width="0.3" layer="1"/>
 <wire x1="-26.4" y1="15.35" x2="-26.4" y2="17.1" width="0.3" layer="1"/>
-<wire x1="-26.902" y1="19.195" x2="-26.7" y2="19.195" width="0.3" layer="1"/>
-<wire x1="-26.7" y1="19.195" x2="-26.7" y2="17.3" width="0.3" layer="1"/>
 <contactref element="C3" pad="1"/>
 <wire x1="-24.9" y1="13.1" x2="-24.9" y2="11.9" width="0.3" layer="1"/>
 <wire x1="-24.6" y1="11.6" x2="-24.9" y2="11.9" width="0.3" layer="1"/>
@@ -13362,6 +13361,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <wire x1="-25.3" y1="14.3" x2="-26.35" y2="15.35" width="0.3" layer="1"/>
 <wire x1="-26.35" y1="15.35" x2="-26.4" y2="15.35" width="0.3" layer="1"/>
 <wire x1="-24.9" y1="13.1" x2="-25.3" y2="13.5" width="0.3" layer="1"/>
+<wire x1="-26.4" y1="17.1" x2="-26.4" y2="18.797" width="0.254" layer="1"/>
+<wire x1="-26.4" y1="18.797" x2="-25.852" y2="19.345" width="0.254" layer="1"/>
 </signal>
 <signal name="CAN_VDD">
 <contactref element="R4" pad="2"/>
@@ -13611,7 +13612,6 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <approved hash="4,16,ccbc105856950a09"/>
 <approved hash="21,19,78817a837a837881"/>
 <approved hash="23,16,7fa1425d421c7fe0"/>
-<approved hash="23,1,6da1a843a84c6dae"/>
 <approved hash="19,1,46b164aaa5d755df"/>
 <approved hash="19,1,9caa12910ddad4dc"/>
 <approved hash="19,1,dadb7a82bc036219"/>
@@ -13622,6 +13622,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <approved hash="19,1,119cc9e8eb137721"/>
 <approved hash="19,1,e668e543d42dab73"/>
 <approved hash="5,16,122239f91f7e7388"/>
+<approved hash="23,1,62a6a644a64a62a8"/>
 </errors>
 </board>
 </drawing>
