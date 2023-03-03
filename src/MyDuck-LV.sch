@@ -5629,8 +5629,14 @@ Source: &lt;a href="https://katalog.we-online.com/em/datasheet/7461057.pdf"&gt; 
 <attribute name="MANF#" value="APT1608SECK"/>
 </part>
 <part name="GND6" library="supply_symbols" library_urn="urn:adsk.eagle:library:13097679" deviceset="GND" device="" value="GND"/>
-<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R"/>
-<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R"/>
+<part name="R7" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R">
+<attribute name="MANF" value="Panasonic"/>
+<attribute name="MANF#" value="ERJ-6ENF2000V"/>
+</part>
+<part name="R6" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R">
+<attribute name="MANF" value="Panasonic"/>
+<attribute name="MANF#" value="ERJ-6ENF2000V"/>
+</part>
 <part name="R21" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="200R">
 <attribute name="DIGIKEY#" value="13-RT0805FRE07200RLCT-ND"/>
 <attribute name="MANF" value="Yageo"/>
@@ -5805,6 +5811,8 @@ Source: &lt;a href="https://katalog.we-online.com/em/datasheet/7461057.pdf"&gt; 
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="C" device="-0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF">
 <attribute name="DIGIKEY#" value=""/>
+<attribute name="MANF" value="TAIYO YUDEN"/>
+<attribute name="MANF#" value="HMK212C7474KGHTE"/>
 <variant name="Customer" populate="no"/>
 </part>
 <part name="D5" library="TVS_diodes" library_urn="urn:adsk.eagle:library:3333632" deviceset="ESDA6V1L" device="" package3d_urn="urn:adsk.eagle:package:3333648/4"/>
@@ -5842,7 +5850,10 @@ Source: &lt;a href="https://katalog.we-online.com/em/datasheet/7461057.pdf"&gt; 
 <attribute name="MANF" value="Samsung Electro-Mechanics"/>
 <attribute name="MANF#" value="CL10B104KO8NFNC"/>
 </part>
-<part name="R34" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K5"/>
+<part name="R34" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="1K5">
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RT0805FRE071K5L"/>
+</part>
 <part name="R33" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0805" package3d_urn="urn:adsk.eagle:package:2539455/2" technology="-1%" value="120R">
 <attribute name="AEC-Q" value="---"/>
 <attribute name="DIGIKEY#" value="311-120CRCT-ND"/>
