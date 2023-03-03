@@ -64,6 +64,7 @@ Newest entries at the top.
 
 * Bug fix for CANVDD not connected to protection circuit
 * Added CANVDD supply for consumer version
+* Added connecto to adapter for ribbon to connect top part of adapter to the bottom part
 
 ### MyDuck LV v1.0 (2021)
 
