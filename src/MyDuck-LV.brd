@@ -10922,8 +10922,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="AEC-Q" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Panasonic" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="ERJ-6ENF2000V" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.6" y="-0.6" size="0.635" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0805" x="36.6" y="-0.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -10933,8 +10933,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="AEC-Q" value="" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF" value="" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANF#" value="" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Panasonic" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="ERJ-6ENF2000V" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.6" y="-2.6" size="0.635" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PACKAGE" value="0805" x="36.6" y="-2.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11231,8 +11231,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <element name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF" x="-23.6" y="11.6" smashed="yes">
 <attribute name="AEC-Q" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANF" value="TAIYO YUDEN" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANF#" value="HMK212C7474KGHTE" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-23.6" y="11.6" size="0.635" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="0805" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
 <attribute name="VOLTAGE" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
@@ -11346,8 +11346,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="AEC-Q" value="" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LCSC#" value="" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF" value="" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANF#" value="" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF" value="YAGEO" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANF#" value="RT0805FRE071K5L" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="33.45" y="19.9" size="0.635" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="OPERATING_TEMP" value="" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PACKAGE" value="0805" x="33.45" y="19.9" size="1.778" layer="27" rot="R90" display="off"/>
