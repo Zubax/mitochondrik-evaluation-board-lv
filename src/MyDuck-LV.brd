@@ -10371,7 +10371,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 </attributes>
 <variantdefs>
 <variantdef name="Manufacturing"/>
-<variantdef name="Customer"/>
+<variantdef name="Customer" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -10838,7 +10838,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="MBR0520LT1G" x="53" y="13" size="1.5" layer="27" ratio="15" rot="R180" display="off"/>
 <attribute name="NAME" x="53" y="21.9" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="CON8" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="-10118193-0001LF" package3d_urn="urn:adsk.eagle:package:1041165/9" value="USB-1" x="60.55" y="24.9" smashed="yes" rot="R90">
+<element name="CON8" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" package="-10118193-0001LF" package3d_urn="urn:adsk.eagle:package:1041165/9" value="USB-1" x="60.55" y="24.9" populate="no" smashed="yes" rot="R90">
 <attribute name="DIGIKEY#" value="609-4616-1-ND" x="82.95" y="21.9" size="1.5" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="MANF" value="FCI" x="82.95" y="21.9" size="1.5" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="MANF#" value="10118193-0001LF" x="82.95" y="21.9" size="1.5" layer="27" ratio="15" rot="R90" display="off"/>
@@ -11138,14 +11138,14 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-27.4" y="-16.3" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-27.4" y="-16.3" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="BZX84C12" x="-25.3" y="14.4" smashed="yes" rot="R180">
+<element name="D4" library="Diodes" library_urn="urn:adsk.eagle:library:2473263" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="BZX84C12" x="-25.3" y="14.4" populate="no" smashed="yes" rot="R180">
 <attribute name="DIGIKEY#" value="BZX84C12LT1GOSTR-ND" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="C82475" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF" value="ON Semiconductor" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANF#" value="BZX84C12LT1G" x="-25.3" y="14.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-25.3" y="14.4" size="0.508" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-25.4" y="17.1" smashed="yes" rot="R180">
+<element name="R28" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-25.4" y="17.1" populate="no" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="" x="-25.4" y="17.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="YAG3364CT-ND" x="-25.4" y="17.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="" x="-25.4" y="17.1" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11156,7 +11156,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-25.4" y="17.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-25.4" y="17.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R29" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-28.3" y="16.3" smashed="yes" rot="R90">
+<element name="R29" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-28.3" y="16.3" populate="no" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="" x="-28.3" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="YAG3364CT-ND" x="-28.3" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LCSC#" value="" x="-28.3" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11167,7 +11167,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-28.3" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-28.3" y="16.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="2N7002" x="-27.2" y="10.8" smashed="yes">
+<element name="Q9" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="2N7002" x="-27.2" y="10.8" populate="no" smashed="yes">
 <attribute name="DIGIKEY#" value="2N7002NCT-ND" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
 <attribute name="LCSC#" value="C8545" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="Changjiang Electronics Tech (CJ)" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
@@ -11175,7 +11175,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="-27.2" y="10.8" size="0.508" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="PACKAGE" value="SOT23" x="-27.2" y="10.8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="10K" x="-22" y="7.3" smashed="yes" rot="R90">
+<element name="R32" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="10K" x="-22" y="7.3" populate="no" smashed="yes" rot="R90">
 <attribute name="AEC-Q" value="" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY#" value="YAG1239CT-ND" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="LCSC#" value="" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
@@ -11186,7 +11186,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-22" y="7.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="2N7002" x="-24.7" y="7.2" smashed="yes" rot="R270">
+<element name="Q7" library="mosfet" library_urn="urn:adsk.eagle:library:2640523" package="SOT23" package3d_urn="urn:adsk.eagle:package:2640533/9" value="2N7002" x="-24.7" y="7.2" populate="no" smashed="yes" rot="R270">
 <attribute name="DIGIKEY#" value="2N7002NCT-ND" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LCSC#" value="C8545" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="Changjiang Electronics Tech (CJ)" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -11194,7 +11194,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="-24.7" y="7.2" size="0.508" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="PACKAGE" value="SOT23" x="-24.7" y="7.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-26.475" y="4.5" smashed="yes" rot="R180">
+<element name="R4" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4K7" x="-26.475" y="4.5" populate="no" smashed="yes" rot="R180">
 <attribute name="AEC-Q" value="" x="-26.475" y="4.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGIKEY#" value="YAG3364CT-ND" x="-26.475" y="4.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="LCSC#" value="" x="-26.475" y="4.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -11205,7 +11205,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="PACKAGE" value="0805" x="-26.475" y="4.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TOLERANCE" value="5%" x="-26.475" y="4.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="1K" x="-27.4" y="7.3" smashed="yes" rot="R270">
+<element name="R5" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="1K" x="-27.4" y="7.3" populate="no" smashed="yes" rot="R270">
 <attribute name="AEC-Q" value="---" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGIKEY#" value="YAG1240CT-ND" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="LCSC#" value="" x="-27.4" y="7.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -11236,7 +11236,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="TOLERANCE" value="1%" x="37.8" y="-17" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$1" library="logo" library_urn="urn:adsk.eagle:library:6668987" package="DRAGON-30X13" package3d_urn="urn:adsk.eagle:package:7124134/1" value="" x="45.85" y="17.75" smashed="yes" rot="MR270"/>
-<element name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF" x="-23.6" y="11.6" smashed="yes">
+<element name="C3" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="C0805" package3d_urn="urn:adsk.eagle:package:2539460/3" value="0.47uF" x="-23.6" y="11.6" populate="no" smashed="yes">
 <attribute name="AEC-Q" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY#" value="" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
 <attribute name="MANF" value="TAIYO YUDEN" x="-23.6" y="11.6" size="1.778" layer="27" display="off"/>
@@ -11297,7 +11297,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="MANF#" value="MBR0520LT1G" x="49.6" y="-2" size="1.5" layer="27" font="vector" ratio="12" rot="R180" display="off"/>
 <attribute name="NAME" x="49.6" y="-0.6" size="0.6" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="R31" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4R3" x="-22" y="4.5" smashed="yes">
+<element name="R31" library="rc" library_urn="urn:adsk.eagle:library:2539423" package="R0805" package3d_urn="urn:adsk.eagle:package:2539455/2" value="4R3" x="-22" y="4.5" populate="no" smashed="yes">
 <attribute name="AEC-Q" value="" x="-22" y="4.5" size="1.5" layer="27" font="vector" ratio="12" display="off"/>
 <attribute name="DIGIKEY#" value="311-4.3ARTR-ND" x="-22" y="4.5" size="1.5" layer="27" font="vector" ratio="12" display="off"/>
 <attribute name="LCSC#" value="" x="-22" y="4.5" size="1.778" layer="27" display="off"/>
@@ -11523,7 +11523,7 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="-41.81" y="26.36" size="1.27" layer="25" align="center"/>
 <attribute name="VALUE" x="-41.81" y="26.36" size="1.27" layer="27" align="center"/>
 </element>
-<element name="Q8" library="RQ3L070ATTB" package="RQ3L070ATTB" value="RQ3L070ATTB" x="-24.8" y="21.7" smashed="yes" rot="R270">
+<element name="Q8" library="RQ3L070ATTB" package="RQ3L070ATTB" value="RQ3L070ATTB" x="-24.8" y="21.7" populate="no" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="P-Channel 60 V 25A (Tc) 2W (Ta) Surface Mount 8-HSMT (3.2x3)" x="-24.8" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF" value="ROHM Semiconductor" x="-24.8" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANF#" value="RQ3L070ATTB" x="-24.8" y="21.7" size="1.778" layer="27" rot="R270" display="off"/>

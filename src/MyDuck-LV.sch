@@ -5422,7 +5422,7 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 </attributes>
 <variantdefs>
 <variantdef name="Manufacturing"/>
-<variantdef name="Customer"/>
+<variantdef name="Customer" current="yes"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5922,7 +5922,9 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 <part name="J4" library="7461057" deviceset="7461057" device=""/>
 <part name="J5" library="7461057" deviceset="7461057" device=""/>
 <part name="J6" library="7461057" deviceset="7461057" device=""/>
-<part name="Q8" library="RQ3L070ATTB" deviceset="RQ3L070ATTB" device=""/>
+<part name="Q8" library="RQ3L070ATTB" deviceset="RQ3L070ATTB" device="">
+<variant name="Customer" populate="no"/>
+</part>
 </parts>
 <sheets>
 <sheet>
