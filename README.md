@@ -60,6 +60,11 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
+### MyDuck LV v1.2 (2023)
+
+* P-Channel mosfet for safety insertion changed from SQJ459EP-T1_GE3 to RQ3L070ATTB due to availability issue
+* Alternative part added for FDMS86368-F085
+
 ### MyDuck LV v1.1 (2023)
 
 * Bug fix for CANVDD not connected to protection circuit
