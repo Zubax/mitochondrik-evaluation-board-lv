@@ -1,11 +1,11 @@
-# Requirements for MyDuck LV
+# Requirements for Mitochondrik Evaluation Board LV
 
 ## Device purpose
 
-MyDuck LV is a device designed for the production of [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv).
+Mitochondrik Evaluation Board LV is a device designed for the production of [Mitochondrik LV](https://zubax.com/products/mitochondrik-lv).
 It can be considered as a specialized jig that allows easy flashing and testing of all functions of Mitochondrik LV.
-A possibility to use MyDuck LV as an evaluation board for Mitochondrik LV should also be considered.
-MyDuck LV combined with Mitochondrik LV makes for a complete PMSM motor controller.
+A possibility to use Mitochondrik Evaluation Board LV as an evaluation board for Mitochondrik LV should also be considered.
+Mitochondrik Evaluation Board LV combined with Mitochondrik LV makes for a complete PMSM motor controller.
 
 ## Technical requirements
 
@@ -32,7 +32,7 @@ MyDuck LV combined with Mitochondrik LV makes for a complete PMSM motor controll
 ## Design requirements for using the device as a production jig
 
 Due to the low reliability of pogo pins, Mitochondrik LV should be installed on a separate adapter PCB
-which in turn should be installed on the main MyDuck LV PCB.
+which in turn should be installed on the main Mitochondrik Evaluation Board LV PCB.
 This allows for the replacement of only the adapter PCB in case of a single pogo pin failure.
 The adapter PCB (and all the parts fastened to it) should allow for easy,
 reliable and repeatable positioning and fixing of Mitochondrik LV in place.
@@ -40,7 +40,7 @@ Also, some means of correct pogo pins mounting
 (perpendicularity to the PCB surface and correct height above the PCB surface are critical) should be introduced.
 
 It should be possible to install [Babel-Babel production tool](https://zubax.com/products/mitochondrik-lv)
-directly to the MyDuck LV PCB without the need for an external adapter PCB.
+directly to the Mitochondrik Evaluation Board LV PCB without the need for an external adapter PCB.
 
 ## Environmental conditions
 

@@ -1,10 +1,10 @@
 # Manufacturing instructions
 
 ## Evaluation board
-MyDuck-LV can be used as an evaluation board for Mitochondrik LV. In this scenario, Mitochondrik LV is soldered 
-directly to the PCB, turning MyDuck LV into a debug-friendly evaluation board or a PMSM motor controller.
+Mitochondrik Evaluation Board LV can be used as an evaluation board for Mitochondrik LV. In this scenario, Mitochondrik LV is soldered 
+directly to the PCB, turning Mitochondrik Evaluation Board LV into a debug-friendly evaluation board or a PMSM motor controller.
 <p align="center">
-<img src="figures/Myduck-LV-standalone.png" alt="" width="600"/>
+<img src="figures/MEB-LV-standalone.png" alt="" width="600"/>
 </p>
 
 To manufacture the device as an evaluation board, only the main PCB should be assembled.
@@ -20,15 +20,15 @@ The blow scheme for this usage scenario can be seen below.
 
 ## Production tool
 
-MyDuck-LV can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
+Mitochondrik Evaluation Board LV can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
 In this scenario, Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
-This PCB is then installed into MyDuck LV.
+This PCB is then installed into Mitochondrik Evaluation Board LV.
 Mitochondrik LV can be aligned in place using 3D-printed parts (red parts in the picture below).
 It can then be fixed using a strip of aluminum (as suggested in the model) or with a generic toggle clamp.
-MyDuck LV is designed to accept the [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
+Mitochondrik Evaluation Board LV is designed to accept the [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
 
 <p align="center">
-<img src="figures/Myduck-LV-jig.png" alt="" width="600"/>
+<img src="figures/MEB-LV-jig.png" alt="" width="600"/>
 </p>
 
 To use the device as a production tool, two PCBs should be manufactured. The main PCB should be used to generate
@@ -72,13 +72,13 @@ The adapter blow scheme can be seen below.
 <img src="figures/adapter_blow_scheme.svg" alt="" width="800"/>
 </p>
 
-### BOM for final assembly of MyDuck-LV as production tool
+### BOM for final assembly of Mitochondrik Evaluation Board LV as production tool
 
-| Name                     | Quantity |
-| ------------------------ | -------- |
-| Adapter assembly         | 1 |
-| MyDuck-LV PCB            | 1 |       
-| Babel-Babel              | 1 |      
+| Name                                 | Quantity |
+| ------------------------------------ | -------- |
+| Adapter assembly                     | 1 |
+| Mitochondrik Evaluation Board LV PCB | 1 |       
+| Babel-Babel                          | 1 |      
 
 BOM required for the manufacturing of Adapter assembly.
 
@@ -92,3 +92,26 @@ BOM required for the manufacturing of Adapter assembly.
 | M3 nut                   | 4 |
 | Mitochondrik holder      | 1 |
 | Aluminium/Plastic lock   | 1 |
+
+
+
+
+
+
+
+
+
+
+Assembly notes - to fix
+2 adapters for manufacturer
+No adapter for customer
+Solder 2mm pins to adapter - follow photo: adapter-bottom.jpg
+Solder pogo pins - follow photo: adapter-top.jpg
+Solder 2mm pin header female to main board middle part - photo: v1.2.jpg
+Bolt from under M3.5 screws for 3D bottom to adapter - photo: setup.jpg
+Insert 4mm rod - any metallic material
+Get another adapter board with pogo pins facing downward
+Get 3D top and bolt from top,
+Get 2 linear bearings 6mm then super glue to 3D top board
+Connect ribbon connector to bottom and top adapters
+Gap -0.2mm pogo pins

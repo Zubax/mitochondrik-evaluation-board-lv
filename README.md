@@ -1,6 +1,6 @@
-# MyDuck LV
+# Mitochondrik Evaluation Board LV
 
-MyDuck LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. When 
+Mitochondrik Evaluation Board LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module. When 
 combined with Mitochondrik LV, it makes a complete PMSM motor controller. It is also a specialized jig (fixture) that 
 allows easy flashing and testing of all functions of Mitochondrik LV during manufacturing.
 
@@ -11,7 +11,7 @@ allows easy flashing and testing of all functions of Mitochondrik LV during manu
 
 ## Features
 
-All external signals of Mitochondrik LV are accessible when the Mitochondrik LV is installed on MyDuck LV. MyDuck LV 
+All external signals of Mitochondrik LV are accessible when the Mitochondrik LV is installed on Mitochondrik Evaluation Board LV. Mitochondrik Evaluation Board LV 
 can fanout 2 UAVCAN-compatible CAN interfaces, a USB interface, a Dronecode debug port and one AUX connector for GPIO
 and RCPWM. Check out the picture below:
 
@@ -38,7 +38,7 @@ A mechanical key is introduced to prevent incorrect insertion of Mitochondrik LV
 </p>
 
 Headers are available to install the [Babel-Babel production tool](https://github.com/Zubax/Babel-Babel)
-directly to the MyDuck LV PCB without the need for an external adapter PCB.
+directly to the Mitochondrik Evaluation Board LV PCB without the need for an external adapter PCB.
 
 | Stacked Babel-Babel | Babel-Babel headers |
 | ------------------- | ------------------- |
@@ -60,18 +60,18 @@ instructions at [manufacturing document](/docs/manufacturing.md).
 
 Newest entries at the top.
 
-### MyDuck LV v1.2 (2023)
+### Mitochondrik Evaluation Board LV v1.2 (2023)
 
 * P-Channel mosfet for safety insertion changed from SQJ459EP-T1_GE3 to RQ3L070ATTB due to availability issue
 * Alternative part added for FDMS86368-F085
 
-### MyDuck LV v1.1 (2023)
+### Mitochondrik Evaluation Board LV v1.1 (2023)
 
 * Bug fix for CANVDD not connected to protection circuit
 * Added CANVDD supply for consumer version
 * Added connecto to adapter for ribbon to connect top part of adapter to the bottom part
 
-### MyDuck LV v1.0 (2021)
+### Mitochondrik Evaluation Board LV v1.0 (2021)
 
 * The original version.
 
