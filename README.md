@@ -12,7 +12,7 @@ allows easy flashing and testing of all functions of Mitochondrik LV during manu
 ## Features
 
 All external signals of Mitochondrik LV are accessible when the Mitochondrik LV is installed on Mitochondrik Evaluation Board LV. Mitochondrik Evaluation Board LV 
-can fanout 2 UAVCAN-compatible CAN interfaces, a USB interface, a Dronecode debug port and one AUX connector for GPIO
+can fanout 2 Cyphal-compatible CAN interfaces, a USB interface, a Dronecode debug port and one AUX connector for GPIO
 and RCPWM. Check out the picture below:
 
 <p align="center">

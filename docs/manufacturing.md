@@ -3,6 +3,7 @@
 ## Evaluation board
 Mitochondrik Evaluation Board LV can be used as an evaluation board for Mitochondrik LV. In this scenario, Mitochondrik LV is soldered 
 directly to the PCB, turning Mitochondrik Evaluation Board LV into a debug-friendly evaluation board or a PMSM motor controller.
+
 <p align="center">
 <img src="figures/MEB-LV-standalone.png" alt="" width="600"/>
 </p>
@@ -11,6 +12,11 @@ To manufacture the device as an evaluation board, only the main PCB should be as
 No special instruction is needed, the main PCB should be used to generate BOM and PnP files.
 As the mitochondrik footprint is populated using PLS2 male connectors,
 the module installed on the PCB should be equipped with appropriate mating connectors.
+The reference photo can be seen below.
+
+<p align="center">
+<img src="figures/v1.2.jpg" alt="" width="600"/>
+</p>
 
 The blow scheme for this usage scenario can be seen below.
 
@@ -40,11 +46,14 @@ The blow scheme for this usage scenario can be seen below.
 <img src="figures/jig_blow_scheme.svg" alt="" width="800"/>
 </p>
 
-Besides that, the adapter PCB should also be manufactured.
-A fully assembled adapter PCB can be seen in the picture below.
+Besides that, the adapter PCB should also be manufactured. 
+Solder 2 mm header pins & pogo pins to the adapter PCB.
+A fully assembled adapter PCB can be seen in the pictures below.
 
 <p align="center">
 <img src="figures/adapter_assembly.png" alt="" width="500"/>
+<img src="figures/adapter-bottom.jpg" alt="" width="500"/>
+<img src="figures/adapter-top.jpg" alt="" width="500"/>
 </p>
 
 Besides the 4x PBS11 connectors, the PCB also contains 44 pogo pins and a 3D-printed holder for the Mitochondrik module.
@@ -72,15 +81,36 @@ The adapter blow scheme can be seen below.
 <img src="figures/adapter_blow_scheme.svg" alt="" width="800"/>
 </p>
 
-### BOM for final assembly of Mitochondrik Evaluation Board LV as production tool
+For v1.2, follow the photo below. 
+Bolt the bottom 3D part to the adapter board with M3 screws from underneath. 
+Insert 4 mm metallic rods on both sides of the bottom 3D part.
+For manufacturer variant, assemble the second adapter board with pogo pins in the opposite direction.
+Ensure that the gap between the pogo pins of both boards is -0.2 mm.
+Bolt the top 3D part to the second adapter board with M3 screws from the top.
+Attach 6 mm linear bearings to the outside holes of the top 3D board via super glue.
+Insert the top 3D part and second adapter board assembly through the 4 mm metallic rods.
+Connect the top and bottom adapter boards with a ribbon connector.
+
+<p align="center">
+<img src="figures/setup.jpg" alt="" width="500"/>
+</p>
+
+
+### BOM for final assembly of Mitochondrik Evaluation Board LV (customer variant)
 
 | Name                                 | Quantity |
 | ------------------------------------ | -------- |
-| Adapter assembly                     | 1 |
+| Mitochondrik Evaluation Board LV PCB | 1 |            
+
+### BOM for final assembly of Mitochondrik Evaluation Board LV as production tool (manufacturer variant)
+
+| Name                                 | Quantity |
+| ------------------------------------ | -------- |
+| Adapter assembly                     | 2 |
 | Mitochondrik Evaluation Board LV PCB | 1 |       
 | Babel-Babel                          | 1 |      
 
-BOM required for the manufacturing of Adapter assembly.
+### BOM required for the manufacturing of Adapter assembly.
 
 | Name                     | Quantity |
 | ------------------------ | -------- |
@@ -92,26 +122,3 @@ BOM required for the manufacturing of Adapter assembly.
 | M3 nut                   | 4 |
 | Mitochondrik holder      | 1 |
 | Aluminium/Plastic lock   | 1 |
-
-
-
-
-
-
-
-
-
-
-Assembly notes - to fix
-2 adapters for manufacturer
-No adapter for customer
-Solder 2mm pins to adapter - follow photo: adapter-bottom.jpg
-Solder pogo pins - follow photo: adapter-top.jpg
-Solder 2mm pin header female to main board middle part - photo: v1.2.jpg
-Bolt from under M3.5 screws for 3D bottom to adapter - photo: setup.jpg
-Insert 4mm rod - any metallic material
-Get another adapter board with pogo pins facing downward
-Get 3D top and bolt from top,
-Get 2 linear bearings 6mm then super glue to 3D top board
-Connect ribbon connector to bottom and top adapters
-Gap -0.2mm pogo pins
