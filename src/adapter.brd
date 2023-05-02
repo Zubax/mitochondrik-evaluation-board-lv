@@ -219,8 +219,7 @@ adapter</text>
 <text x="-1" y="-20.3" size="3" layer="22" font="vector" ratio="15" rot="MR0" align="center">V1.2</text>
 <text x="-1" y="-4.3" size="2" layer="21" font="vector" ratio="15" align="center">FACE UP IF
 ON MAIN PCB</text>
-<text x="-1" y="-6.3" size="2" layer="22" font="vector" ratio="15" rot="MR0" align="center">FACE UP IF
-WITH SLIDER</text>
+<text x="-1" y="-6.3" size="2" layer="22" font="vector" ratio="15" rot="MR0" align="center"></text>
 </plain>
 <libraries>
 <library name="pinhead" urn="urn:adsk.eagle:library:2540341">
