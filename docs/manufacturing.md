@@ -82,13 +82,13 @@ The adapter blow scheme can be seen below.
 </p>
 
 For v1.2, follow the photo below. 
-Bolt the bottom 3D part to the adapter board with M3 screws from underneath. 
-Insert 4 mm metallic rods on both sides of the bottom 3D part.
+Bolt the 3D Bottom Holder to the adapter board with 4x M3 screws from underneath. 
+Insert 4 mm metallic rods on both sides of the 3D Bottom Holder.
 For manufacturer variant, assemble the second adapter board with pogo pins in the opposite direction.
 Ensure that the gap between the pogo pins of both boards is -0.2 mm.
-Bolt the top 3D part to the second adapter board with M3 screws from the top.
-Attach 6 mm linear bearings to the outside holes of the top 3D board via super glue.
-Insert the top 3D part and second adapter board assembly through the 4 mm metallic rods.
+Bolt the 3D Top Holder to the second adapter board with 4x M3 screws from the top.
+Attach 6 mm linear bearings to the outer holes of the 3D Top Holder via super glue.
+Insert the 3D Top Holder and second adapter board assembly through the 4 mm metallic rods.
 Connect the top and bottom adapter boards with a ribbon connector.
 
 <p align="center">
@@ -118,7 +118,12 @@ Connect the top and bottom adapter boards with a ribbon connector.
 | PBS11 female connectors  | 4 |
 | Pogo pins                | 44 |
 | Pogo pins soldering rail | 1 |  
-| M3 x 12mm screw          | 4 |   
-| M3 nut                   | 4 |
+| M3 x 12mm screw          | 12 |   
+| M3 nut                   | 12 |
 | Mitochondrik holder      | 1 |
 | Aluminium/Plastic lock   | 1 |
+| 4 mm linear guide        | 2 |
+| 4 mm linear bearing      | 2 |
+| 44 pin Ribbon connector  | 1 |
+| 3D Top Holder            | 1 |
+| 3D Bottom Holder         | 1 |
