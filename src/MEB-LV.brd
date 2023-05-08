@@ -241,8 +241,8 @@ Board-LV</text>
 <text x="46.8" y="-27.5" size="1.4" layer="21" font="vector" ratio="15" rot="R180" align="center">T2</text>
 <text x="50" y="-11.2" size="1.4" layer="21" font="vector" ratio="15" rot="R180" align="center">T1</text>
 <text x="-43.8" y="14.3" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">PHASE A</text>
-<text x="-43.8" y="-2.2" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">PHASE B</text>
-<text x="-43.8" y="-18.9" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">PHASE C</text>
+<text x="-43.8" y="-2.5" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">PHASE B</text>
+<text x="-43.8" y="-17" size="1.5" layer="21" font="vector" ratio="15" rot="R90" align="center">PHASE C</text>
 <hole x="-49.5" y="27" drill="3.1"/>
 <circle x="-49.5" y="27" radius="3" width="0.2" layer="21"/>
 <circle x="-46.5" y="-27" radius="3" width="0.2" layer="41"/>
@@ -11487,25 +11487,25 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <attribute name="NAME" x="-48.04" y="13.84" size="1.27" layer="25" rot="R180" align="center"/>
 <attribute name="VALUE" x="-48.14" y="13.69" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="J3" library="7461057" package="7461057" value="7461057" x="-50.5" y="-15.45" smashed="yes">
-<attribute name="DESCRIPTION" value="PCB power element bush terminal, 6P, M3" x="-50.5" y="-15.45" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="6.2mm" x="-50.5" y="-15.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANF" value="Wurth Elektronik" x="-50.5" y="-15.45" size="1.778" layer="27" display="off"/>
-<attribute name="MANF#" value="7461057" x="-50.5" y="-15.45" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-7461057" x="-50.5" y="-15.45" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" x="-50.5" y="-15.45" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-47.96" y="-17.99" size="1.27" layer="25" align="center"/>
-<attribute name="VALUE" x="-47.96" y="-17.99" size="1.27" layer="27" align="center"/>
+<element name="J3" library="7461057" package="7461057" value="7461057" x="-45.6" y="-20.15" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="PCB power element bush terminal, 6P, M3" x="-45.6" y="-20.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="6.2mm" x="-45.6" y="-20.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Wurth Elektronik" x="-45.6" y="-20.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="7461057" x="-45.6" y="-20.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-7461057" x="-45.6" y="-20.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" x="-45.6" y="-20.15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-48.14" y="-17.61" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="-48.14" y="-17.61" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
-<element name="J4" library="7461057" package="7461057" value="7461057" x="-50.6" y="-0.7" smashed="yes" rot="MR270">
-<attribute name="DESCRIPTION" value="PCB power element bush terminal, 6P, M3" x="-50.6" y="-0.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="HEIGHT" value="6.2mm" x="-50.6" y="-0.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANF" value="Wurth Elektronik" x="-50.6" y="-0.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MANF#" value="7461057" x="-50.6" y="-0.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="710-7461057" x="-50.6" y="-0.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" x="-50.6" y="-0.7" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="-48.06" y="-3.24" size="1.27" layer="26" rot="MR270" align="center"/>
-<attribute name="VALUE" x="-48.06" y="-3.24" size="1.27" layer="28" rot="MR270" align="center"/>
+<element name="J4" library="7461057" package="7461057" value="7461057" x="-45.6" y="-4.6" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="PCB power element bush terminal, 6P, M3" x="-45.6" y="-4.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="6.2mm" x="-45.6" y="-4.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF" value="Wurth Elektronik" x="-45.6" y="-4.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANF#" value="7461057" x="-45.6" y="-4.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="710-7461057" x="-45.6" y="-4.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461057?qs=lykWx4dhCCH1DoqS0WFLUA%3D%3D" x="-45.6" y="-4.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="-48.14" y="-2.06" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="-48.14" y="-2.06" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 <element name="J5" library="7461057" package="7461057" value="7461057" x="-33.65" y="28.9" smashed="yes">
 <attribute name="DESCRIPTION" value="PCB power element bush terminal, 6P, M3" x="-33.65" y="28.9" size="1.778" layer="27" display="off"/>
@@ -12196,8 +12196,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="Q2" pad="7"/>
 <contactref element="Q2" pad="8"/>
 <polygon width="0.2" layer="1" thermals="no">
-<vertex x="-52.5" y="-11"/>
-<vertex x="-52.5" y="-23"/>
+<vertex x="-52" y="-11"/>
+<vertex x="-52" y="-23"/>
 <vertex x="-47.5" y="-23"/>
 <vertex x="-44" y="-26.5"/>
 <vertex x="-38" y="-26.5"/>
@@ -12211,8 +12211,8 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <vertex x="-44.7" y="-10.2"/>
 <vertex x="-44.7" y="-25.8"/>
 <vertex x="-47.5" y="-23"/>
-<vertex x="-52.5" y="-23"/>
-<vertex x="-52.5" y="-10.2"/>
+<vertex x="-52" y="-23"/>
+<vertex x="-52" y="-10.2"/>
 </polygon>
 <wire x1="-13.08" y1="-5" x2="-18" y2="-9.92" width="0.3" layer="1"/>
 <wire x1="-18" y1="-9.92" x2="-21" y2="-12.92" width="0.3" layer="1"/>
@@ -12235,6 +12235,19 @@ Slots are made slightly wider for compatibility with JLPCB.</description>
 <contactref element="J3" pad="4"/>
 <contactref element="J3" pad="5"/>
 <contactref element="J3" pad="6"/>
+<wire x1="-41.74" y1="-24.635" x2="-41.74" y2="-25.905" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.74" y1="-23.365" x2="-41.74" y2="-24.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.74" y1="-22.095" x2="-41.74" y2="-23.365" width="0" layer="19" extent="1-1"/>
+<wire x1="-39.65" y1="-24" x2="-41.74" y2="-24.635" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.75" y1="-18.135" x2="-41.74" y2="-22.095" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.75" y1="-16.865" x2="-41.75" y2="-18.135" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.75" y1="-15.595" x2="-41.75" y2="-16.865" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.6" y1="-20.15" x2="-41.75" y2="-15.595" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.6" y1="-17.61" x2="-45.6" y2="-20.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-45.6" y1="-15.07" x2="-45.6" y2="-17.61" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.68" y1="-20.15" x2="-45.6" y2="-20.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.68" y1="-17.61" x2="-50.68" y2="-20.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-50.68" y1="-15.07" x2="-50.68" y2="-17.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PHASE_C_GATE_LOW">
 <contactref element="R14" pad="1"/>
