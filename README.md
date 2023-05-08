@@ -1,8 +1,9 @@
 # Mitochondrik Evaluation Board LV
 
-Mitochondrik Evaluation Board LV is a basic reference design and an evaluation board for the Zubax Mitochnodrik LV motor control module.
+Mitochondrik Evaluation Board LV is a basic reference design and an evaluation board for the
+[Zubax Mitochnodrik LV](https://zubax.com/mitochondrik-lv) motor control module.
 When combined with Mitochondrik LV, it makes a complete PMSM motor controller suitable for bench testing and evaluation of the
-Telega motor control technology.
+[Telega motor control technology](https://telega.zubax.com).
 The device is also a specialized jig (fixture) that allows easy flashing and testing of all functions of Mitochondrik LV during manufacturing.
 
 <p align="center">
@@ -12,7 +13,7 @@ The device is also a specialized jig (fixture) that allows easy flashing and tes
 ## Features
 
 All external signals of Mitochondrik LV are accessible via the pin headers.
-Mitochondrik Evaluation Board LV provides dedicated wire connectors for 2 Cyphal/CAN interfaces,
+Mitochondrik Evaluation Board LV also provides dedicated connectors for 2 Cyphal/CAN interfaces,
 a Dronecode debug port, and one Aux connector for GPIO and RCPWM.
 The motor phase wires and the DC link input are connected via M3 screw terminals.
 
