@@ -10,6 +10,32 @@ The device is also a specialized jig (fixture) that allows easy flashing and tes
 <img src="docs/figures/1.png" alt="" width="800"/>
 </p>
 
+## Specifications
+
+* Supply voltage range: 13--51 V.
+* Max continuous current/peak phase current amplitude: 10/20 A.
+* Designed strictly for indoor use.
+
+### Telega configuration
+
+In order to use the Mitochondrik Evaluation Board LV, the installed Mitochondrik LV has to be informed
+of the parameters of the board.
+To achieve this, upload the following configuration:
+
+```yaml
+# Mitochondrik Evaluation Board LV has transistors with R_DSon = 4 mohms, and 3 mohm shunts on phases A and B.
+# Refer to the Mitochondrik-LV datasheet for the explanation of how the parameter values have been found.
+vsi.bridge_resistance:    [0.004, 0.007, 0.004, 0.007, 0.004, 0.004]                            # [ohm]
+vsi.phase_current_gain:   [33.333333333333, 33.333333333333, 8.333333333333, 8.333333333333]    # [ampere/volt]
+vsi.phase_current_stderr: [0.2, 0.2, 0.1, 0.1]                                                  # [ampere]
+vsi.thermistor_v2k:       [223.15, 100.0, 0.0]                                                  # for MCP9700
+
+sys.debug: false            # Turn off the in-circuit debug interfaces to enhance EMI immunity.
+sys.golden: sys. vsi.       # Retain these parameter groups across a factory reset.
+```
+
+Refer to the Telega Reference Manual for details.
+
 ## Features
 
 All external signals of Mitochondrik LV are accessible via the pin headers.
@@ -46,32 +72,6 @@ directly to the Mitochondrik Evaluation Board LV PCB without the need for an ext
 | Stacked Babel-Babel | Babel-Babel headers |
 | ------------------- | ------------------- |
 | ![](docs/figures/5.png)  | ![](docs/figures/6.png)  |
-
-## Specifications
-
-* Supply voltage range: 13--51 V.
-* Max continuous current/peak phase current amplitude: 10/20 A.
-* Designed strictly for indoor use.
-
-## Telega configuration
-
-In order to use the Mitochondrik Evaluation Board LV, the installed Mitochondrik LV has to be informed
-of the parameters of the board.
-To achieve this, upload the following configuration:
-
-```yaml
-# Mitochondrik Evaluation Board LV has transistors with R_DSon = 4 mohms, and 3 mohm shunts on phases A and B.
-# Refer to the Mitochondrik-LV datasheet for the explanation of how the parameter values have been found.
-vsi.bridge_resistance:    [0.004, 0.007, 0.004, 0.007, 0.004, 0.004]                            # [ohm]
-vsi.phase_current_gain:   [33.333333333333, 33.333333333333, 8.333333333333, 8.333333333333]    # [ampere/volt]
-vsi.phase_current_stderr: [0.2, 0.2, 0.1, 0.1]                                                  # [ampere]
-vsi.thermistor_v2k:       [223.15, 100.0, 0.0]                                                  # for MCP9700
-
-sys.debug: false            # Turn off the in-circuit debug interfaces to enhance EMI immunity.
-sys.golden: sys. vsi.       # Retain these parameter groups across a factory reset.
-```
-
-Refer to the Telega Reference Manual for details.
 
 ## Manufacturing instructions
 
