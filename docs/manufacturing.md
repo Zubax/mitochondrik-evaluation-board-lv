@@ -84,7 +84,8 @@ The adapter blow scheme can be seen below.
 Bolt the 3D Bottom Holder to the adapter board with 4x M3 screws from underneath. 
 Insert 4 mm metallic rods on both sides of the 3D Bottom Holder.
 Assemble the second adapter board with pogo pins facing the opposite direction.
-Ensure that the gap between the pogo pins of both boards is -0.2 mm.
+Ensure that the pogo pins of the top and bottom parts can make contact with each other
+when the top part is pushed all the way down.
 Bolt the 3D Top Holder to the second adapter board with 4x M3 screws from the top.
 Insert linear bearings into the outer holes of the 3D Top Holder and apply glue.
 Insert the 3D Top Holder and second adapter board assembly through the 4 mm metallic rods.
