@@ -11,12 +11,11 @@ directly to the PCB, turning Mitochondrik Evaluation Board LV into a debug-frien
 To manufacture the device as an evaluation board, only the main PCB should be assembled.
 The main PCB should be used to generate BOM and PnP files.
 In addition, the DC link capacitor 
-`[United Chemi-Con ELXZ630ELL821MK40S](https://www.digikey.ee/en/products/detail/united-chemi-con/ELXZ630ELL821MK40S/756568)` 
-should be soldered beside `CON19` on the main PCB. 
-Refer to the assembly photo in the manufacturing pack.
+[United Chemi-Con ELXZ630ELL821MK40S](https://www.digikey.ee/en/products/detail/united-chemi-con/ELXZ630ELL821MK40S/756568)
+should be soldered beside `CON19` on the main PCB.
 As the mitochondrik footprint is populated using PLS2 male connectors,
 the module installed on the PCB should be equipped with appropriate mating connectors.
-The reference photo can be seen below.
+The reference photo can be seen below (the DC link capacitor and some pin headers are missing).
 
 <p align="center">
 <img src="figures/v1.2.jpg" alt="" width="600"/>
@@ -31,10 +30,9 @@ The blow scheme for this usage scenario can be seen below.
 ## Production tool
 
 Mitochondrik Evaluation Board LV can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
-In this scenario, Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
+In this scenario, the main board is assembled identically, and Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
 This PCB is then installed into Mitochondrik Evaluation Board LV.
-Mitochondrik LV can be aligned in place using 3D-printed parts (red parts in the picture below).
-It can then be fixed using a strip of aluminum (as suggested in the model) or with a generic toggle clamp.
+Mitochondrik LV can be aligned in place using 3D-printed parts as explained below.
 Mitochondrik Evaluation Board LV is designed to accept the [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
 
 <p align="center">
