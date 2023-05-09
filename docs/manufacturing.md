@@ -88,7 +88,7 @@ Ensure that the gap between the pogo pins of both boards is -0.2 mm.
 Bolt the 3D Top Holder to the second adapter board with 4x M3 screws from the top.
 Insert linear bearings into the outer holes of the 3D Top Holder and apply glue.
 Insert the 3D Top Holder and second adapter board assembly through the 4 mm metallic rods.
-Connect the top and bottom adapter boards with a ribbon connector.
+Connect the top and bottom adapter boards with a 1.27mm ribbon cable.
 
 <p align="center">
 <img src="figures/setup.jpg" alt="" width="500"/>
