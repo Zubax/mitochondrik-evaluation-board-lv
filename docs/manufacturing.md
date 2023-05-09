@@ -81,7 +81,6 @@ The adapter blow scheme can be seen below.
 <img src="figures/adapter_blow_scheme.svg" alt="" width="800"/>
 </p>
 
-For v1.2, follow the photo below. 
 Bolt the 3D Bottom Holder to the adapter board with 4x M3 screws from underneath. 
 Insert 4 mm metallic rods on both sides of the 3D Bottom Holder.
 For manufacturer variant, assemble the second adapter board with pogo pins in the opposite direction.
