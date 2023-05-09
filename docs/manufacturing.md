@@ -110,7 +110,7 @@ Connect the top and bottom adapter boards with a 1.27mm ribbon cable.
 | Mitochondrik Evaluation Board LV PCB | 1 |       
 | Babel-Babel                          | 1 |      
 
-### BOM required for the manufacturing of Adapter assembly.
+### BOM required for the manufacturing of Adapter assembly
 
 | Name                     | Quantity |
 | ------------------------ | -------- |
