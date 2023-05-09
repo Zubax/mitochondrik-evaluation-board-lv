@@ -9,7 +9,11 @@ directly to the PCB, turning Mitochondrik Evaluation Board LV into a debug-frien
 </p>
 
 To manufacture the device as an evaluation board, only the main PCB should be assembled.
-No special instruction is needed, the main PCB should be used to generate BOM and PnP files.
+The main PCB should be used to generate BOM and PnP files.
+In addition, the DC link capacitor 
+`[United Chemi-Con ELXZ630ELL821MK40S](https://www.digikey.ee/en/products/detail/united-chemi-con/ELXZ630ELL821MK40S/756568)` 
+should be soldered beside `CON19` on the main PCB. 
+Refer to the assembly photo in the manufacturing pack.
 As the mitochondrik footprint is populated using PLS2 male connectors,
 the module installed on the PCB should be equipped with appropriate mating connectors.
 The reference photo can be seen below.
@@ -52,7 +56,6 @@ A fully assembled adapter PCB can be seen in the pictures below.
 
 <p align="center">
 <img src="figures/adapter_assembly.png" alt="" width="500"/>
-<img src="figures/adapter-bottom.jpg" alt="" width="500"/>
 <img src="figures/adapter-top.jpg" alt="" width="500"/>
 </p>
 
