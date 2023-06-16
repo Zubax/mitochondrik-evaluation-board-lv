@@ -5422,7 +5422,7 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 </attributes>
 <variantdefs>
 <variantdef name="Manufacturing"/>
-<variantdef name="Customer" current="yes"/>
+<variantdef name="Customer"/>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
@@ -5834,6 +5834,7 @@ Source: &lt;a href="https://fscdn.rohm.com/en/products/databook/datasheet/discre
 <attribute name="MANF" value="Yageo"/>
 <attribute name="MANF#" value="RC0805JR-074R3L"/>
 <variant name="Customer" populate="no"/>
+<variant name="Manufacturing" populate="no"/>
 </part>
 <part name="GND8" library="supply_symbols" library_urn="urn:adsk.eagle:library:5017758" deviceset="PGND" device="" value="PGND"/>
 <part name="CON10" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>

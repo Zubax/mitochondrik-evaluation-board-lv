@@ -49,7 +49,13 @@ The blow scheme for this usage scenario can be seen below.
 </p>
 
 Besides that, the adapter PCB should also be manufactured. 
-Solder 2 mm header pins & pogo pins to the adapter PCB.
+Solder 2 mm header pins & pogo pins to the adapter PCB using active flux.
+Do not solder top-side pogo pins above the testpoints.
+
+<p align="center">
+<img src="figures/top-side-testpoints.png" alt="" width="800"/>
+</p>
+
 A fully assembled adapter PCB can be seen in the pictures below.
 
 <p align="center">
@@ -82,7 +88,9 @@ The adapter blow scheme can be seen below.
 <img src="figures/adapter_blow_scheme.svg" alt="" width="800"/>
 </p>
 
+Insert 3x3 mm magnets into the 3D Holders. Add 2 thin steel sheets to cover the magnet and close the flux.
 Bolt the 3D Bottom Holder to the adapter board with 4x M3 screws from underneath. 
+The steel plate should be in between the 3D holders and the adapter PCB.
 Insert 4 mm metallic rods on both sides of the 3D Bottom Holder.
 Assemble the second adapter board with pogo pins facing the opposite direction.
 Ensure that the pogo pins of the top and bottom parts can make contact with each other
