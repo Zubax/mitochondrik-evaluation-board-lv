@@ -13,6 +13,14 @@ The main PCB should be used to generate BOM and PnP files.
 In addition, the DC link capacitor 
 [United Chemi-Con ELXZ630ELL821MK40S](https://www.digikey.ee/en/products/detail/united-chemi-con/ELXZ630ELL821MK40S/756568)
 should be soldered beside `CON19` on the main PCB.
+The RGB LED should be installed based on the assembly instructions: 
+[LTST-C19HE1WT.pdf](https://github.com/Zubax/mitochondrik-evaluation-board-lv/files/11779638/LTST-C19HE1WT.pdf).
+Reference photo below:
+
+<p align="center">
+<img src="figures/RGB-LED.jpg" alt="" width="600"/>
+</p>
+
 As the mitochondrik footprint is populated using PLS2 male connectors,
 the module installed on the PCB should be equipped with appropriate mating connectors.
 The reference photo can be seen below (the DC link capacitor and some pin headers are missing).
