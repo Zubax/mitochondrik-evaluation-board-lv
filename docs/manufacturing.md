@@ -57,7 +57,8 @@ The blow scheme for this usage scenario can be seen below.
 </p>
 
 Besides that, the adapter PCB should also be manufactured. 
-Solder 2 mm header pins & pogo pins to the adapter PCB using active flux.
+Solder 2 mm header pins & pogo pins to the adapter PCB.
+It is permitted to use active flux for soldering the pogo pins; the part must be cleaned afterward.
 Do not solder top-side pogo pins above the testpoints.
 
 <p align="center">
