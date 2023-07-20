@@ -1,19 +1,16 @@
 # Manufacturing instructions
 
-## Evaluation board
+## Evaluation board (customer variant)
 Mitochondrik Evaluation Board LV can be used as an evaluation board for Mitochondrik LV. In this scenario, Mitochondrik LV is soldered 
 directly to the PCB, turning Mitochondrik Evaluation Board LV into a debug-friendly evaluation board or a PMSM motor controller.
 
 <p align="center">
-<img src="figures/MEB-LV-standalone.png" alt="" width="600"/>
+<img src="figures/MEB-LV-EVAL.jpeg" alt="" width="600"/>
 </p>
 
 To manufacture the device as an evaluation board, only the main PCB should be assembled.
 The main PCB should be used to generate BOM and PnP files.
-In addition, the DC link capacitor 
-[United Chemi-Con ELXZ630ELL821MK40S](https://www.digikey.ee/en/products/detail/united-chemi-con/ELXZ630ELL821MK40S/756568)
-or [Nichicon UPW1J221MPD1TD](https://www.digikey.com/en/products/detail/nichicon/UPW1J221MPD1TD/4321112)
-should be soldered beside `CON19` on the main PCB.
+In addition, the DC link capacitor should be soldered beside `CON19` on the main PCB.
 The RGB LED should be installed in the correct orientation. The reference photo can be seen below:
 
 <p align="center">
@@ -26,10 +23,18 @@ The reference photo can be seen below.
 
 <p align="center">
 <img src="figures/MEB-LV-EVAL.jpeg" alt="" width="600"/>
+</p>
+
+## Evaluation board with Babel-Babel (customer variant)
+Same as above but with an integrated Babel-Babel. The footprint is populated using PLS 2.54 mm male connectors.
+Ensure that Babel-Babel is parallel to the evaluation board when soldering.
+The reference photo can be seen below.
+
+<p align="center">
 <img src="figures/MEB-LV-EVAL-BB.jpeg" alt="" width="600"/>
 </p>
 
-## Production tool
+## Production tool (manufacturer variant)
 
 Mitochondrik Evaluation Board LV can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
 In this scenario, the main board is assembled identically, and Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
@@ -51,7 +56,7 @@ It is permitted to use active flux for soldering the pogo pins; the part must be
 Do not solder top-side pogo pins above the testpoints.
 
 <p align="center">
-<img src="figures/top-side-testpoints.png" alt="" width="800"/>
+<img src="figures/top-side-testpoints.jpg" alt="" width="800"/>
 </p>
 
 A fully assembled adapter PCB can be seen in the pictures below.
@@ -86,7 +91,8 @@ The adapter set up can be seen below.
 <img src="figures/adapter-PCBs.jpg" alt="" width="800"/>
 </p>
 
-Insert 4x4 mm magnets into the 3D Holders. Ensure that the top and bottom magnets attract each other.
+Insert 4x4 mm magnets into the 3D Holders such that their magnetization direction alternates. 
+Ensure that the top and bottom magnets attract each other.
 Add 2 thin steel sheets to cover the magnet and close the flux.
 Bolt the 3D Bottom Holder to the adapter board with 4x M3 screws from underneath. 
 The steel plate should be in between the 3D holders and the adapter PCB.
@@ -114,33 +120,50 @@ Power cables can be assembled. The reference photos can be seen below.
 | ------------------------------------ | -------- |
 | Mitochondrik Evaluation Board LV PCB | 1 |
 | Mitochondrik LV                      | 1 |
-| DC Link Capacitor                    | 1 |
-| 2 mm pin headers                     | 44 |            
+| DC Link Capacitor: United Chemi-Con ELXZ630ELL821MK40S or Nichicon UPW1J221MPD1TD | 1 |
+| PLS 2 mm male pin headers            | 44 pins total |     
+| PLS 2.54 mm male pin headers         | 24 pins total |
+| Babel-Babel (only for BB variant)    | 1 |          
 
 ### BOM for final assembly of Mitochondrik Evaluation Board LV as production tool (manufacturer variant)
 
 | Name                                 | Quantity |
 | ------------------------------------ | -------- |
-| Adapter assembly                     | 2 |
-| Mitochondrik Evaluation Board LV PCB | 1 |       
-| Babel-Babel                          | 1 |      
+| Adapter assembly (Top & Bottom)      | 2 |
+| Mitochondrik Evaluation Board LV PCB | 1 |
+| DC Link Capacitor: United Chemi-Con ELXZ630ELL821MK40S or Nichicon UPW1J221MPD1TD | 1 |
+| PBS11 male connectors                | 4 |
+| PLS 2.54 mm male pin headers         | 24 pins total |
+| Babel-Babel                          | 1 |
+| 4 mm linear guide                    | 2 |
+| 4 mm linear bearing                  | 2 |
+| 44 pin Ribbon connector              | 1 |
 
-### BOM required for the manufacturing of Adapter assembly
+### BOM required for the manufacturing of Top Adapter assembly
 
 | Name                     | Quantity |
 | ------------------------ | -------- |
-| Adapter PCB              | 1 |
-| PBS11 female connectors  | 4 |
+| Pogo pins soldering tool | 1 |  
 | Pogo pins                | 44 |
-| Pogo pins soldering rail | 1 |  
-| M3 x 12mm screw          | 12 |   
-| M3 nut                   | 12 |
-| Mitochondrik holder      | 1 |
-| Aluminium/Plastic lock   | 1 |
-| 4 mm linear guide        | 2 |
-| 4 mm linear bearing      | 2 |
-| 44 pin Ribbon connector  | 1 |
+| Adapter PCB              | 1 |
+| 4x4 mm cylindrical axially-magnetized Neodymium magnets | 16 |
+| 18x12.5x0.5 mm steel sheets | 2 |
 | 3D Top Holder            | 1 |
+| M3 x 12mm screw          | 4 |   
+| M3 nut                   | 4 |
+
+### BOM required for the manufacturing of Bottom Adapter assembly
+
+| Name                     | Quantity |
+| ------------------------ | -------- |
 | 3D Bottom Holder         | 1 |
-| 4x4 mm magnets           | 32 |
-| Thin steel sheets        | 2 |
+| 4x4 mm cylindrical axially-magnetized Neodymium magnets | 16 |
+| 18x12.5x0.5 mm steel sheets | 2 |
+| Adapter PCB              | 1 |
+| Pogo pins                | 44 |
+| Pogo pins soldering tool | 1 |  
+| PBS11 female connectors  | 4 |
+| M3 x 12mm screw          | 4 |   
+| M3 nut                   | 4 |
+
+
