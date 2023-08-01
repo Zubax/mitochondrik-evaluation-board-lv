@@ -37,7 +37,7 @@ The reference photo can be seen below.
 ## Production tool (manufacturer variant)
 
 Mitochondrik Evaluation Board LV can serve as a tool for production flashing and testing of Mitochondrik LV (line checkout fixture).
-In this scenario, the main board is assembled identically, and Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
+In this scenario, the main board is assembled almost identically (mind the different assembly variant), and Mitochondrik LV is mounted on an intermediate PCB using pogo pins.
 This PCB is then installed into Mitochondrik Evaluation Board LV.
 Mitochondrik LV can be aligned in place using 3D-printed parts as explained below.
 Mitochondrik Evaluation Board LV is designed to accept the [Babel-Babel debugging tool](https://github.com/Zubax/Babel-Babel) directly.
