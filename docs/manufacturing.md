@@ -105,14 +105,6 @@ Insert linear bearings into the outer holes of the 3D Top Holder and apply glue.
 Insert the 3D Top Holder and second adapter board assembly through the 4 mm metallic rods.
 Connect the top and bottom adapter boards with a 1.27mm ribbon cable.
 
-Power cables can be assembled. The reference photos can be seen below.
-
-<p align="center">
-<img src="figures/power-cables.jpg" alt="" height="600"/>
-<img src="figures/connector.jpg" alt="" height="600"/>
-<img src="figures/3.5 mm bullet connectors.jpg" alt="" height="600"/>
-</p>
-
 
 ### BOM for final assembly of Mitochondrik Evaluation Board LV (customer variant)
 
